@@ -2982,14 +2982,12 @@ bool MenuCommon::RenderMenu()
                     {
                         ImGui::Text("nvngx_dlss : %s", state.NVNGX_DLSS_Path.has_value() ? "存在" : "不存在");
                         ImGui::SameLine(0.0f, 16.0f);
-                        ImGui::Text("nvngx_dlssd : %s",
-                                    state.NVNGX_DLSSD_Path.has_value() ? "存在" : "不存在");
+                        ImGui::Text("nvngx_dlssd : %s", state.NVNGX_DLSSD_Path.has_value() ? "存在" : "不存在");
                     }
                     else
                     {
                         ImGui::SameLine(0.0f, 16.0f);
-                        ImGui::Text("nvngx 替代模块: %s",
-                                    state.nvngxReplacement.has_value() ? "存在" : "不存在");
+                        ImGui::Text("nvngx 替代模块: %s", state.nvngxReplacement.has_value() ? "存在" : "不存在");
                     }
 
                     ImGui::Text("libxess: %s",
@@ -3008,8 +3006,7 @@ bool MenuCommon::RenderMenu()
                 else
                 {
                     ImGui::Spacing();
-                    ImGui::Text(
-                        "找不到 nvngx.dll、libxess.dll 和 FSR 输入\n超分辨率功能将无法工作。");
+                    ImGui::Text("找不到 nvngx.dll、libxess.dll 和 FSR 输入\n超分辨率功能将无法工作。");
                     ImGui::Spacing();
 
                     if (config->UseHQFont.value_or_default())
@@ -3027,8 +3024,7 @@ bool MenuCommon::RenderMenu()
                 else
                     ImGui::SetWindowFontScale(menuResScale * 2.5f);
 
-                ImGui::Text("%s 已激活，但游戏当前未使用它\n请进入游戏",
-                            currentFeature->Name().c_str());
+                ImGui::Text("%s 已激活，但游戏当前未使用它\n请进入游戏", currentFeature->Name().c_str());
 
                 if (config->UseHQFont.value_or_default())
                     ImGui::PopFont();
@@ -3312,8 +3308,7 @@ bool MenuCommon::RenderMenu()
                                 ImGui::Spacing();
 
                                 // Colorspaces
-                                const char* colorSpaces[] = { "线性（默认）", "非线性", "非线性 sRGB",
-                                                              "非线性 PQ" };
+                                const char* colorSpaces[] = { "线性（默认）", "非线性", "非线性 sRGB", "非线性 PQ" };
                                 int currentColorSpace = 0;
                                 if (config->FsrNonLinearPQ.value_or_default())
                                     currentColorSpace = 3;
@@ -3354,7 +3349,7 @@ bool MenuCommon::RenderMenu()
                                                "PQ：最少见，可能加重拖影并导致光照异常。");
 
                                 // FSR 4 Presets
-                                const char* presets[] = { "默认",  "预设 0", "预设 1", "预设 2",
+                                const char* presets[] = { "默认",   "预设 0", "预设 1", "预设 2",
                                                           "预设 3", "预设 4", "预设 5" };
                                 int currentPresetIdx =
                                     config->Fsr4Preset.has_value() ? config->Fsr4Preset.value() + 1 : 0;
@@ -3373,15 +3368,14 @@ bool MenuCommon::RenderMenu()
                                     state.newBackend = currentBackend;
                                     MARK_ALL_BACKENDS_CHANGED();
                                 }
-                                ShowHelpMarker(
-                                    "每个 FSR4 内部预设都针对特定分辨率调校。\n"
-                                    "选择 FSR4 预设不会改变游戏内的\n超分辨率档位！！！\n\n"
-                                    "预设 0 适用于 FSR 原生抗锯齿\n"
-                                    "预设 1 适用于质量／超高质量\n"
-                                    "预设 2 适用于平衡\n"
-                                    "预设 3 适用于性能\n"
-                                    "预设 4 适用于 DRS\n"
-                                    "预设 5 适用于超级性能");
+                                ShowHelpMarker("每个 FSR4 内部预设都针对特定分辨率调校。\n"
+                                               "选择 FSR4 预设不会改变游戏内的\n超分辨率档位！！！\n\n"
+                                               "预设 0 适用于 FSR 原生抗锯齿\n"
+                                               "预设 1 适用于质量／超高质量\n"
+                                               "预设 2 适用于平衡\n"
+                                               "预设 3 适用于性能\n"
+                                               "预设 4 适用于 DRS\n"
+                                               "预设 5 适用于超级性能");
 
                                 // Display the active preset right next to the combo box instead of using a table
                                 ImGui::SameLine();
@@ -3604,17 +3598,15 @@ bool MenuCommon::RenderMenu()
 
                                         // Accumulation Added Per Frame
                                         float accAddPerFrame = config->FsrAccAddPerFrame.value_or_default();
-                                        if (ImGui::SliderFloat("每帧新增累积量", &accAddPerFrame, 0.00f, 1.0f,
-                                                               "%.3f"))
+                                        if (ImGui::SliderFloat("每帧新增累积量", &accAddPerFrame, 0.00f, 1.0f, "%.3f"))
                                             config->FsrAccAddPerFrame = accAddPerFrame;
 
-                                        ShowHelpMarker(
-                                            "对应发生遮挡显露或反应性遮罩值\n"
-                                            "大于 0.0f 时，像素坐标处\n"
-                                            "每帧新增的累积量。降低此值，并将\n"
-                                            "有拖影的物体（如无运动向量的物体）绘入反应性遮罩，\n"
-                                            "且遮罩值接近 1.0f，可减轻时域拖影。\n"
-                                            "降低此值可能使细小特征的像素闪烁加重。");
+                                        ShowHelpMarker("对应发生遮挡显露或反应性遮罩值\n"
+                                                       "大于 0.0f 时，像素坐标处\n"
+                                                       "每帧新增的累积量。降低此值，并将\n"
+                                                       "有拖影的物体（如无运动向量的物体）绘入反应性遮罩，\n"
+                                                       "且遮罩值接近 1.0f，可减轻时域拖影。\n"
+                                                       "降低此值可能使细小特征的像素闪烁加重。");
 
                                         // Min Disocclusion Accumulation
                                         float minDisOccAcc = config->FsrMinDisOccAcc.value_or_default();
@@ -3653,8 +3645,7 @@ bool MenuCommon::RenderMenu()
 
                         if (overridden)
                         {
-                            ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.8f, 0.f, 1.f)),
-                                               "预设被外部工具覆盖");
+                            ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.8f, 0.f, 1.f)), "预设被外部工具覆盖");
                             ShowHelpMarker("这通常是由于使用了\n"
                                            "Nvidia App 或 Nvidia Inspector 等工具");
                             // ImGui::Text("Selecting setting below will disable that external override\n"
@@ -3743,8 +3734,7 @@ bool MenuCommon::RenderMenu()
 
                         ImGui::Spacing();
 
-                        if (auto ch = ScopedCollapsingHeader(usesDlssd ? "DLSSD 高级设置"
-                                                                       : "DLSS 高级设置");
+                        if (auto ch = ScopedCollapsingHeader(usesDlssd ? "DLSSD 高级设置" : "DLSS 高级设置");
                             ch.IsHeaderOpen())
                         {
                             ScopedIndent indent {};
@@ -3829,8 +3819,7 @@ bool MenuCommon::RenderMenu()
                 {
                     fsr31InitTried = true;
                     FfxApiProxy::InitFfxDx12();
-                    inputOptions[optiFgIndex].set_disabled(!FfxApiProxy::IsFGReady(),
-                                                           "缺少 amd_fidelityfx_dx12.dll");
+                    inputOptions[optiFgIndex].set_disabled(!FfxApiProxy::IsFGReady(), "缺少 amd_fidelityfx_dx12.dll");
                 }
                 else if (!inputOptions[optiFgIndex].disabled && state.activeFgOutput == FGOutput::XeFG &&
                          !xefgInitTried && XeFGProxy::Module() == nullptr)
@@ -3893,10 +3882,8 @@ bool MenuCommon::RenderMenu()
                 }
                 else if (!state.NukemsFilesAvailable)
                 {
-                    inputOptions[nukemsInputIndex].set_disabled(true,
-                                                                "缺少 dlssg_to_fsr3_amd_is_better.dll 文件");
-                    outputOptions[nukemsOutputIndex].set_disabled(true,
-                                                                  "缺少 dlssg_to_fsr3_amd_is_better.dll 文件");
+                    inputOptions[nukemsInputIndex].set_disabled(true, "缺少 dlssg_to_fsr3_amd_is_better.dll 文件");
+                    outputOptions[nukemsOutputIndex].set_disabled(true, "缺少 dlssg_to_fsr3_amd_is_better.dll 文件");
                 }
 
                 // FSR FG output requirements
@@ -3972,8 +3959,7 @@ bool MenuCommon::RenderMenu()
                     if (state.fgSettingsChanged)
                     {
                         ImGui::Spacing();
-                        ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.f, 0.0f, 1.f)),
-                                           "保存设置并重启以应用更改");
+                        ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.f, 0.0f, 1.f)), "保存设置并重启以应用更改");
                         ImGui::Spacing();
                     }
 
@@ -4117,8 +4103,7 @@ bool MenuCommon::RenderMenu()
 
                                 const char* ftSources[] = { "输入", "Opti", "零" };
                                 const char* ftSourceInfos[] = { "使用 DLSSG 或 FSR-FG\n提供的帧时间",
-                                                                "使用 Opti 计算的帧时间",
-                                                                "让 XeFG 处理帧时间" };
+                                                                "使用 Opti 计算的帧时间", "让 XeFG 处理帧时间" };
 
                                 auto currentSet = (int) config->FTInput.value_or_default();
                                 auto currentSourceCount = state.activeFgOutput == FGOutput::XeFG ? 3 : 2;
@@ -4219,8 +4204,7 @@ bool MenuCommon::RenderMenu()
                                 LOG_DEBUG("Async set FGChanged");
                             }
                         }
-                        ShowHelpMarker(
-                            "启用异步以提高 FG 性能\n可能导致崩溃，尤其是同时使用 HUD Fix 时！");
+                        ShowHelpMarker("启用异步以提高 FG 性能\n可能导致崩溃，尤其是同时使用 HUD Fix 时！");
 
                         ImGui::SameLine(0.0f, 16.0f);
 
@@ -4287,9 +4271,8 @@ bool MenuCommon::RenderMenu()
                             else
                                 ImGui::TextDisabled("（关闭）");
 
-                            ShowHelpMarker(
-                                "驱动中实际应用的翻转计量模式\nFSR 仅在独占全屏"
-                                "或无边框全屏下请求此功能");
+                            ShowHelpMarker("驱动中实际应用的翻转计量模式\nFSR 仅在独占全屏"
+                                           "或无边框全屏下请求此功能");
                         }
 
                         ImGui::Spacing();
@@ -4390,8 +4373,7 @@ bool MenuCommon::RenderMenu()
 
                                     ImGui::PushItemWidth(115.0f * menuResScale);
                                     auto fptSafetyMargin = config->FGFPTSafetyMarginInMs.value_or_default();
-                                    if (ImGui::InputFloat("安全余量（ms）", &fptSafetyMargin, 0.01f, 0.1f,
-                                                          "%.2f"))
+                                    if (ImGui::InputFloat("安全余量（ms）", &fptSafetyMargin, 0.01f, 0.1f, "%.2f"))
                                         config->FGFPTSafetyMarginInMs = fptSafetyMargin;
                                     ShowHelpMarker("安全余量，单位为毫秒\n"
                                                    "FSR 默认值: 0.1ms\n"
@@ -4483,14 +4465,12 @@ bool MenuCommon::RenderMenu()
                         else
                         {
                             if (!correctMVs)
-                                ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.f, 0.f, 1.f)),
-                                                   "需要禁用扩张的运动向量");
+                                ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.f, 0.f, 1.f)), "需要禁用扩张的运动向量");
 
                             if (!ignoreChecks && state.realExclusiveFullscreen)
                             {
                                 cantActivate = true;
-                                ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.f, 0.f, 1.f)),
-                                                   "需要无边框显示模式！");
+                                ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.f, 0.f, 1.f)), "需要无边框显示模式！");
                             }
 
                             if (!ignoreChecks && state.isHdrActive)
@@ -4709,8 +4689,7 @@ bool MenuCommon::RenderMenu()
                                 LOG_DEBUG("Enabled set FGHUDFixExtended: {}", hudExtended);
                                 config->FGHUDFixExtended = hudExtended;
                             }
-                            ShowHelpMarker(
-                                "扩展潜在 HUDless 的格式检查\n可能导致崩溃和性能下降！");
+                            ShowHelpMarker("扩展潜在 HUDless 的格式检查\n可能导致崩溃和性能下降！");
                             ImGui::SameLine(0.0f, 16.0f);
 
                             ImGui::BeginDisabled(!config->FGHUDFix.value_or_default());
@@ -4839,9 +4818,8 @@ bool MenuCommon::RenderMenu()
                                         config->FGAlwaysTrackHeaps = ath;
                                         LOG_DEBUG("Enabled set FGAlwaysTrackHeaps: {}", ath);
                                     }
-                                    ShowHelpMarker(
-                                        "始终跟踪资源，可能影响性能，\n但也可能"
-                                        "修复 HUDFix 相关崩溃！");
+                                    ShowHelpMarker("始终跟踪资源，可能影响性能，\n但也可能"
+                                                   "修复 HUDFix 相关崩溃！");
 
                                     auto disableRTV = config->FGHudfixDisableRTV.value_or_default();
                                     if (ImGui::Checkbox("禁用 RTV 跟踪", &disableRTV))
@@ -5007,8 +4985,7 @@ bool MenuCommon::RenderMenu()
                     }
                     else if (state.swapchainApi == Vulkan)
                     {
-                        ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.8f, 0.f, 1.f)),
-                                           "此菜单可见时会主动禁用 DLSSG");
+                        ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.8f, 0.f, 1.f)), "此菜单可见时会主动禁用 DLSSG");
                         ImGui::Spacing();
                     }
 
@@ -5206,9 +5183,8 @@ bool MenuCommon::RenderMenu()
                 // Framerate ---------------------
                 if (state.reflexLimitsFps || config->OverlayMenu)
                 {
-                    SeparatorWithHelpMarker(
-                        "帧率",
-                        "尽可能使用 Reflex\n在 AMD/Intel 显卡上，可用 Fakenvapi 替代 Reflex");
+                    SeparatorWithHelpMarker("帧率",
+                                            "尽可能使用 Reflex\n在 AMD/Intel 显卡上，可用 Fakenvapi 替代 Reflex");
 
                     static std::string currentMethod {};
                     if (state.reflexLimitsFps)
@@ -5228,9 +5204,8 @@ bool MenuCommon::RenderMenu()
 
                             if (state.rtssReflexInjection && mode == Mode::AntiLag2 &&
                                 config->FGOutput == FGOutput::FSRFG)
-                                ImGui::TextColored(
-                                    toneMapColor(ImVec4(1.f, 0.8f, 0.f, 1.f)),
-                                    "同时使用 RTSS Reflex 注入、AntiLag 2 和 FSR FG 可能导致问题");
+                                ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.8f, 0.f, 1.f)),
+                                                   "同时使用 RTSS Reflex 注入、AntiLag 2 和 FSR FG 可能导致问题");
                         }
                         else
                         {
@@ -5310,8 +5285,7 @@ bool MenuCommon::RenderMenu()
                 {
                     ImGui::SeparatorText("fakenvapi");
 
-                    if (bool logs = config->FN_EnableLogs.value_or_default();
-                        ImGui::Checkbox("启用文件日志", &logs))
+                    if (bool logs = config->FN_EnableLogs.value_or_default(); ImGui::Checkbox("启用文件日志", &logs))
                         config->FN_EnableLogs = logs;
 
                     ImGui::BeginDisabled(!config->FN_EnableLogs.value_or_default());
@@ -5506,11 +5480,10 @@ bool MenuCommon::RenderMenu()
                                         config->DAClampOutput.reset();
                                 }
 
-                                ShowHelpMarker(
-                                    "将最终图像限制在 [0, 1] 范围。\n\n"
-                                    "防止亮光晕或负颜色值等过冲伪影。\n"
-                                    "建议 LDR 管线启用；HDR 可根据色调映射情况选择。\n\n"
-                                    "未设置时，OptiScaler 根据超分辨率 HDR 标志控制此项");
+                                ShowHelpMarker("将最终图像限制在 [0, 1] 范围。\n\n"
+                                               "防止亮光晕或负颜色值等过冲伪影。\n"
+                                               "建议 LDR 管线启用；HDR 可根据色调映射情况选择。\n\n"
+                                               "未设置时，OptiScaler 根据超分辨率 HDR 标志控制此项");
 
                                 if (depthLinear)
                                 {
@@ -5518,23 +5491,21 @@ bool MenuCommon::RenderMenu()
                                     if (ImGui::SliderFloat("深度偏置", &depthBias, 0.005f, 0.03f, "%.4f"))
                                         config->DADepthBias = depthBias;
 
-                                    ShowHelpMarker(
-                                        "边缘检测前忽略细小深度差异。\n\n"
-                                        "较高值可减少细小深度变化引起的闪烁和噪声，但可能"
-                                        "使真实几何边缘变柔和。\n"
-                                        "较低值可保留精细细节，但边缘检测可能不稳定或"
-                                        "带有噪声。");
+                                    ShowHelpMarker("边缘检测前忽略细小深度差异。\n\n"
+                                                   "较高值可减少细小深度变化引起的闪烁和噪声，但可能"
+                                                   "使真实几何边缘变柔和。\n"
+                                                   "较低值可保留精细细节，但边缘检测可能不稳定或"
+                                                   "带有噪声。");
 
                                     float depthScale = config->DADepthScale.value_or(250.0f);
                                     if (ImGui::SliderFloat("深度缩放", &depthScale, 100.0f, 600.0f, "%.1f"))
                                         config->DADepthScale = depthScale;
 
-                                    ShowHelpMarker(
-                                        "控制跨深度边缘时降低锐化的强度。\n\n"
-                                        "较高值更强烈地阻止跨物体边界的锐化"
-                                        "（减少光晕）。\n"
-                                        "较低值允许更多锐化跨越边缘（更锐利，但"
-                                        "风险更高）。");
+                                    ShowHelpMarker("控制跨深度边缘时降低锐化的强度。\n\n"
+                                                   "较高值更强烈地阻止跨物体边界的锐化"
+                                                   "（减少光晕）。\n"
+                                                   "较低值允许更多锐化跨越边缘（更锐利，但"
+                                                   "风险更高）。");
                                 }
                                 else
                                 {
@@ -5542,23 +5513,21 @@ bool MenuCommon::RenderMenu()
                                     if (ImGui::SliderFloat("深度偏置", &depthBias, 0.0001f, 0.003f, "%.4f"))
                                         config->DADepthBias = depthBias;
 
-                                    ShowHelpMarker(
-                                        "边缘检测前忽略细小深度差异。\n\n"
-                                        "较高值可减少细小深度变化引起的闪烁和噪声，但可能"
-                                        "使真实几何边缘变柔和。\n"
-                                        "较低值可保留精细细节，但边缘检测可能不稳定或"
-                                        "带有噪声。");
+                                    ShowHelpMarker("边缘检测前忽略细小深度差异。\n\n"
+                                                   "较高值可减少细小深度变化引起的闪烁和噪声，但可能"
+                                                   "使真实几何边缘变柔和。\n"
+                                                   "较低值可保留精细细节，但边缘检测可能不稳定或"
+                                                   "带有噪声。");
 
                                     float depthScale = config->DADepthScale.value_or(35.0f);
                                     if (ImGui::SliderFloat("深度缩放", &depthScale, 25.0f, 400.0f, "%.1f"))
                                         config->DADepthScale = depthScale;
 
-                                    ShowHelpMarker(
-                                        "控制跨深度边缘时降低锐化的强度。\n\n"
-                                        "较高值更强烈地阻止跨物体边界的锐化"
-                                        "（减少光晕）。\n"
-                                        "较低值允许更多锐化跨越边缘（更锐利，但"
-                                        "风险更高）。");
+                                    ShowHelpMarker("控制跨深度边缘时降低锐化的强度。\n\n"
+                                                   "较高值更强烈地阻止跨物体边界的锐化"
+                                                   "（减少光晕）。\n"
+                                                   "较低值允许更多锐化跨越边缘（更锐利，但"
+                                                   "风险更高）。");
                                 }
 
                                 if (ImGui::Button("重置深度参数"))
@@ -5617,20 +5586,18 @@ bool MenuCommon::RenderMenu()
                             ImGui::SliderFloat("运动阈值", &motionThreshod, 0.0f, 100.0f, "%.2f");
                             config->MotionThreshold = motionThreshod;
 
-                            ShowHelpMarker(
-                                "开始根据运动调整锐化所需的最小运动量。\n\n"
-                                "较高值忽略细小运动（更稳定）。\n"
-                                "较低值响应轻微运动（更敏感）。");
+                            ShowHelpMarker("开始根据运动调整锐化所需的最小运动量。\n\n"
+                                           "较高值忽略细小运动（更稳定）。\n"
+                                           "较低值响应轻微运动（更敏感）。");
 
                             float motionScale = config->MotionScaleLimit.value_or_default();
                             ImGui::SliderFloat("运动范围", &motionScale, 0.01f, 100.0f, "%.2f");
                             config->MotionScaleLimit = motionScale;
 
-                            ShowHelpMarker(
-                                "定义效果从零逐渐达到最大强度所需的运动范围。\n\n"
-                                "超过阈值的数值会映射到此范围。\n"
-                                "较大值使响应更平滑、渐进。\n"
-                                "较小值使响应更快速、强烈。");
+                            ShowHelpMarker("定义效果从零逐渐达到最大强度所需的运动范围。\n\n"
+                                           "超过阈值的数值会映射到此范围。\n"
+                                           "较大值使响应更平滑、渐进。\n"
+                                           "较小值使响应更快速、强烈。");
 
                             ImGui::EndDisabled();
 
@@ -5768,8 +5735,7 @@ bool MenuCommon::RenderMenu()
                                 // clang-format on
 
                                 const bool isUpsampleRatio = _ssRatio < 1.0f;
-                                const std::string disabledReason =
-                                    "倍率低于 1.0 时仅支持 FSR1 和 Bicubic。";
+                                const std::string disabledReason = "倍率低于 1.0 时仅支持 FSR1 和 Bicubic。";
 
                                 for (auto& opt : ds_options)
                                 {
@@ -5894,8 +5860,7 @@ bool MenuCommon::RenderMenu()
                             if (ImGui::BeginTable("init2", 2, ImGuiTableFlags_SizingStretchProp))
                             {
                                 ImGui::TableNextColumn();
-                                if (bool depth = currentFeature->DepthInverted();
-                                    ImGui::Checkbox("反向深度", &depth))
+                                if (bool depth = currentFeature->DepthInverted(); ImGui::Checkbox("反向深度", &depth))
                                 {
                                     config->DepthInverted = depth;
                                     ReInitUpscaler();
@@ -6123,12 +6088,11 @@ bool MenuCommon::RenderMenu()
                                 {
                                     config->ManualInputPolling = ManualInputPolling;
                                 }
-                                ShowHelpMarker(
-                                    "使用手动输入轮询，而非挂钩 WndProc\n"
-                                    "可能有助于解决某些游戏不能正确捕获输入的问题\n"
-                                    "缺点是菜单打开时无法阻止游戏接收输入\n\n"
-                                    "更改此选项后，请保存设置。\n"
-                                    "将在下次启动时生效。");
+                                ShowHelpMarker("使用手动输入轮询，而非挂钩 WndProc\n"
+                                               "可能有助于解决某些游戏不能正确捕获输入的问题\n"
+                                               "缺点是菜单打开时无法阻止游戏接收输入\n\n"
+                                               "更改此选项后，请保存设置。\n"
+                                               "将在下次启动时生效。");
                             }
                         }
 
@@ -6750,8 +6714,8 @@ bool MenuCommon::RenderMenu()
                         ImGui::EndCombo();
                     }
 
-                    const char* fpsType[] = { "仅 FPS", "简洁",       "详细",      "详细 + 图表",
-                                              "完整",     "完整 + 图表", "Reflex 计时" };
+                    const char* fpsType[] = { "仅 FPS", "简洁",        "详细",       "详细 + 图表",
+                                              "完整",   "完整 + 图表", "Reflex 计时" };
                     const char* selectedType = fpsType[config->FpsOverlayType.value_or_default()];
 
                     if (ImGui::BeginCombo("叠加层类型", selectedType))
@@ -6770,7 +6734,7 @@ bool MenuCommon::RenderMenu()
                         config->FpsOverlayAlpha = fpsAlpha;
 
                     const char* options[] = { "与菜单相同", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0", "1.1", "1.2",
-                                              "1.3",          "1.4", "1.5", "1.6", "1.7", "1.8", "1.9", "2.0" };
+                                              "1.3",        "1.4", "1.5", "1.6", "1.7", "1.8", "1.9", "2.0" };
                     int currentIndex = std::max(((int) (config->FpsScale.value_or(0.0f) * 10.0f)) - 4, 0);
                     float values[] = { 0.0f, 0.5f, 0.6f, 0.7f, 0.8f, 0.9f, 1.0f, 1.1f, 1.2f,
                                        1.3f, 1.4f, 1.5f, 1.6f, 1.7f, 1.8f, 1.9f, 2.0f };
@@ -6788,8 +6752,7 @@ bool MenuCommon::RenderMenu()
                 // UPSCALER INPUTS -----------------------------
                 ImGui::Spacing();
                 auto uiStateOpen = currentFeature == nullptr || currentFeature->IsFrozen();
-                if (auto ch =
-                        ScopedCollapsingHeader("超分辨率输入", uiStateOpen ? ImGuiTreeNodeFlags_DefaultOpen : 0);
+                if (auto ch = ScopedCollapsingHeader("超分辨率输入", uiStateOpen ? ImGuiTreeNodeFlags_DefaultOpen : 0);
                     ch.IsHeaderOpen())
                 {
                     ScopedIndent indent {};
@@ -7050,8 +7013,8 @@ bool MenuCommon::RenderMenu()
                         {
                             if (config->MipmapBiasFixedOverride.value_or_default())
                             {
-                                ImGui::Text("当前: %.3f / %.3f，目标: %.3f", state.lastMipBias,
-                                            state.lastMipBiasMax, config->MipmapBiasOverride.value());
+                                ImGui::Text("当前: %.3f / %.3f，目标: %.3f", state.lastMipBias, state.lastMipBiasMax,
+                                            config->MipmapBiasOverride.value());
                             }
                             else if (config->MipmapBiasScaleOverride.value_or_default())
                             {
@@ -7291,9 +7254,8 @@ bool MenuCommon::RenderMenu()
                 if (state.nvngxIniDetected)
                 {
                     ImGui::Spacing();
-                    ImGui::TextColored(
-                        toneMapColor(ImVec4(1.f, 0.f, 0.f, 1.f)),
-                        "检测到 nvngx.ini，请改用 OptiScaler.ini 并删除旧配置");
+                    ImGui::TextColored(toneMapColor(ImVec4(1.f, 0.f, 0.f, 1.f)),
+                                       "检测到 nvngx.ini，请改用 OptiScaler.ini 并删除旧配置");
                     ImGui::Spacing();
                 }
 
@@ -7378,8 +7340,7 @@ bool MenuCommon::RenderMenu()
                         _mipBiasCalculated = log2((float) _renderWidth / (float) _displayWidth);
                     }
 
-                    const char* q[] = { "超级性能", "性能",   "平衡",
-                                        "质量",           "超高质量", "DLAA" };
+                    const char* q[] = { "超级性能", "性能", "平衡", "质量", "超高质量", "DLAA" };
                     float fr[] = { 3.0f, 2.0f, 1.7f, 1.5f, 1.3f, 1.0f };
                     auto configQ = _mipmapUpscalerQuality;
 

@@ -30,7 +30,20 @@ python tools/validate_zh_cn.py
 
 `tools/l10n/zh-CN.json` 记录每个翻译的原始字面量编号、基线行号、源文、译文及字体补丁。`--apply` 只接受原始基线或已经与预期完全一致的 menu/project 文件，拒绝覆盖其他更改。它可从固定基线重现补丁，不应使用优化模式 `python -O` 运行（检查使用 assert）。
 
-校验内容：原文和定位不漂移；printf 格式符顺序一致；`{}` 格式字段一致；隐藏 ID 后缀一致；翻译不进入 include/直接日志格式；源码严格等于“固定基线 + 已登记字符串替换 + 已审阅字体块 + 一处既存尾随空白清理”；工程只新增 UTF-8 选项；字体辅助文件哈希一致；受版本控制和非忽略的新增文件均在白名单内；所有 INI 逐字节不变（因此有效键值、注释和默认值也均不变）。
+校验内容：原文和定位不漂移；printf 格式符顺序一致；`{}` 格式字段一致；隐藏 ID 后缀一致；翻译不进入 include/直接日志格式；源码严格等于“固定基线 + 已登记字符串替换 + 已审阅字体块 + 一处既存尾随空白清理 + 已登记的 clang-format 20.1.8 空白替换”；工程只新增 UTF-8 选项；字体辅助文件哈希一致；受版本控制和非忽略的新增文件均在白名单内；所有 INI 逐字节不变（因此有效键值、注释和默认值也均不变）。
+
+格式化必须在字符串映射和字体补丁完成后执行，不能把格式化后的行号写回原始翻译索引。映射中的 `clang_format` 记录格式化输入和 `.clang-format` 的 SHA-256，以及 clang-format 20.1.8 生成的 93 项 UTF-8 字节偏移替换。校验器检查输入与样式哈希、替换位置不重叠、替换前后均为空白、注释和完整字面量及非空白代码字符不变，再逐字重建最终源码；不接受任意“忽略空白后相同”的文件。常规校验及 `--apply` 仍只依赖 Python 标准库和 Git。
+
+可用实际格式器独立复现已记录的格式阶段，并检查两个必要源码文件：
+
+```sh
+python -m venv /tmp/optiscaler-format-venv
+/tmp/optiscaler-format-venv/bin/pip install clang-format==20.1.8
+python tools/validate_zh_cn.py --verify-clang-format /tmp/optiscaler-format-venv/bin/clang-format
+/tmp/optiscaler-format-venv/bin/clang-format --dry-run --Werror OptiScaler/menu/menu_common.cpp OptiScaler/menu/font/zh_cn_font.h
+```
+
+这是 POSIX shell 示例；Windows 可使用虚拟环境的 `Scripts` 路径。虚拟环境不要提交到仓库。Alpine/musl 包如在标准输入模式下报告找不到随包动态库，可将该环境 `site-packages/clang_format.libs` 的绝对路径加入 `LD_LIBRARY_PATH` 后重试。
 
 这些检查证明补丁边界，不证明运行画质、游戏兼容性或注入稳定性。
 

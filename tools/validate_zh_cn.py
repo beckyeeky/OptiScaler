@@ -53,10 +53,40 @@ def translate(text, records):
     return text
 
 
+def format_menu(text, stage, executable=None):
+    # Apply clang-format's recorded UTF-8 byte offsets only AFTER baseline translation/font patches.
+    # Exact input/config hashes prevent drift; the validator still needs only Python stdlib + Git.
+    raw = text.encode('utf-8')
+    assert stage['version'] == '20.1.8'
+    assert hashlib.sha256(raw).hexdigest() == stage['input_sha256'], 'format input drift'
+    assert hashlib.sha256((ROOT / '.clang-format').read_bytes()).hexdigest() == stage['style_sha256'], 'format style drift'
+    end = len(raw)
+    for patch in reversed(stage['replacements']):
+        start, length = patch['offset'], patch['length']
+        assert 0 <= start <= start + length <= end, 'invalid/overlapping format offsets'
+        old, new = raw[start:start + length], patch['text'].encode('utf-8')
+        assert not old.strip() and not new.strip(), 'format edit is not whitespace-only'
+        raw = raw[:start] + new + raw[start + length:]
+        end = start
+    formatted = raw.decode('utf-8')
+    # Also preserve comments and whole literal tokens, including whitespace inside strings.
+    tokens = re.compile(LEX.pattern + r'|\S', re.S)
+    assert tokens.findall(text) == tokens.findall(formatted), 'formatter changed non-whitespace tokens'
+    if executable:
+        version = subprocess.check_output([executable, '--version'], text=True)
+        assert re.search(r'\bversion 20\.1\.8\b', version), f'clang-format version drift: {version}'
+        actual = subprocess.check_output(
+            [executable, '--style=file', '--assume-filename=' + str(ROOT / MENU)],
+            input=text.encode('utf-8')).decode('utf-8')
+        assert actual == formatted, 'recorded replacements differ from clang-format 20.1.8'
+    return formatted
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--apply', action='store_true', help='apply to an otherwise baseline menu/project only')
     parser.add_argument('--inventory', action='store_true', help='print all baseline string literals, including non-UI tokens')
+    parser.add_argument('--verify-clang-format', metavar='PATH', help='also reproduce recorded edits with clang-format 20.1.8')
     args = parser.parse_args()
     if args.inventory:
         text = upstream(MENU)
@@ -69,6 +99,7 @@ def main():
     for patch in data['font_patches']:
         assert menu.count(patch['old']) == 1
         menu = menu.replace(patch['old'], patch['new'], 1)
+    menu = format_menu(menu, data['clang_format'], args.verify_clang_format)
     def utf8(match):
         block = match.group()
         if '<AdditionalOptions>' in block:

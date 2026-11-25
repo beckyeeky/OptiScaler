@@ -24,8 +24,8 @@ inline ImFont* LoadZhCnFontFile(ImFontAtlas* atlas, const std::filesystem::path&
         // ImGui copies the bytes; the local vector may then be destroyed safely.
         fileConfig.FontDataOwnedByAtlas = false;
         // ImGui 1.92+ loads glyphs on demand. Keep explicit ranges for legacy atlas builds too.
-        static const ImWchar ranges[] = { 0x0020, 0x00FF, 0x2000, 0x206F, 0x3000, 0x30FF,
-                                          0x3400, 0x4DBF, 0x4E00, 0x9FFF, 0xFF00, 0xFFEF, 0 };
+        static const ImWchar ranges[] = { 0x0020, 0x00FF, 0x2000, 0x206F, 0x3000, 0x30FF, 0x3400,
+                                          0x4DBF, 0x4E00, 0x9FFF, 0xFF00, 0xFFEF, 0 };
         return atlas->AddFontFromMemoryTTF(bytes.data(), static_cast<int>(bytes.size()), size, &fileConfig, ranges);
     }
     catch (const std::exception&)
