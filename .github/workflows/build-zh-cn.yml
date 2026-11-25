@@ -1,0 +1,47 @@
+name: Build zh-CN (unsigned, build only)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Validate display-only localization
+        run: python tools/validate_zh_cn.py
+      - uses: microsoft/setup-msbuild@v2
+        with:
+          vs-version: '[17.0,18.0)'
+          msbuild-architecture: x64
+      - name: Build Release x64 (no signing or publishing)
+        shell: pwsh
+        run: |
+          msbuild OptiScaler.sln /m /p:Configuration=Release /p:Platform=x64 /verbosity:minimal /fl '/flp:logfile=build-zh-cn.log;verbosity=normal'
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Prepare DLL-only review artifact
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Path review-artifact -Force | Out-Null
+          Copy-Item x64/Release/a/OptiScaler.dll review-artifact/OptiScaler-v0.9.5-zh-CN-unsigned.dll
+          Copy-Item LICENSE,docs/LOCALIZATION.zh-CN.md,tools/l10n/zh-CN.json review-artifact/
+          git rev-parse HEAD | Out-File review-artifact/source-commit.txt -Encoding utf8
+          git submodule status --recursive | Out-File review-artifact/submodules.txt -Encoding utf8
+          Get-FileHash review-artifact/*.dll -Algorithm SHA256 | Format-List | Out-File review-artifact/SHA256.txt -Encoding utf8
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: OptiScaler-v0.9.5-zh-CN-unsigned-review
+          path: |
+            review-artifact/
+            build-zh-cn.log
+          if-no-files-found: error
+          retention-days: 14

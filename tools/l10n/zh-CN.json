@@ -1,0 +1,6178 @@
+{
+  "base_commit": "90d9568d576d93ebb2d6c1c207596d21e9900651",
+  "translations": [
+    {
+      "index": 6,
+      "line": 56,
+      "source": "Cope smarter, not harder",
+      "target": "巧妙应对，不必硬扛"
+    },
+    {
+      "index": 7,
+      "line": 57,
+      "source": "Coping is strong with this one...",
+      "target": "这位的自我安慰功力很强…"
+    },
+    {
+      "index": 8,
+      "line": 58,
+      "source": "This is where the fun begins...",
+      "target": "好戏现在开始…"
+    },
+    {
+      "index": 9,
+      "line": 59,
+      "source": "Got any more of them scalers?...",
+      "target": "还有更多超分辨率技术吗？…"
+    },
+    {
+      "index": 10,
+      "line": 60,
+      "source": "Fake pixels and even faker frames...",
+      "target": "像素是假的，帧更是假的…"
+    },
+    {
+      "index": 11,
+      "line": 61,
+      "source": "Fake frames, get your fake frames...",
+      "target": "生成帧，快来领取你的生成帧…"
+    },
+    {
+      "index": 12,
+      "line": 62,
+      "source": "I'm here to kick pixels and chew frames...",
+      "target": "我来这里就是为了处理像素、吞吐帧…"
+    },
+    {
+      "index": 13,
+      "line": 63,
+      "source": "I find your lack of supersampling disturbing...",
+      "target": "你竟然不用超采样，真令人不安…"
+    },
+    {
+      "index": 14,
+      "line": 64,
+      "source": "Frame by frame, I scale-up!",
+      "target": "一帧接一帧，我不断放大！"
+    },
+    {
+      "index": 15,
+      "line": 65,
+      "source": "Resistance is futile. Your pixels will be upscaled.",
+      "target": "抵抗是徒劳的。你的像素将被放大。"
+    },
+    {
+      "index": 16,
+      "line": 66,
+      "source": "I've got 99 problems, but low-res ain't one.",
+      "target": "我有 99 个烦恼，但低分辨率不在其中。"
+    },
+    {
+      "index": 17,
+      "line": 67,
+      "source": "It's over, DLSS, I have the higher ground!",
+      "target": "结束了，DLSS，我占据了制高点！"
+    },
+    {
+      "index": 18,
+      "line": 68,
+      "source": "This isn't the resolution you're looking for.",
+      "target": "这不是你要找的分辨率。"
+    },
+    {
+      "index": 19,
+      "line": 69,
+      "source": "To infinity and beyond... with ray tracing off.",
+      "target": "飞向无限，超越极限…先关掉光追。"
+    },
+    {
+      "index": 20,
+      "line": 70,
+      "source": "I have a bad feeling about this frame pacing.",
+      "target": "这帧节奏让我有种不祥的预感。"
+    },
+    {
+      "index": 21,
+      "line": 71,
+      "source": "It's Dangerous to Go Alone-Take This Upscaler",
+      "target": "独自前行太危险，带上这个超分辨率工具"
+    },
+    {
+      "index": 22,
+      "line": 72,
+      "source": "Upscaled beyond recognition.",
+      "target": "放大到认不出来。"
+    },
+    {
+      "index": 23,
+      "line": 73,
+      "source": "Trust the process. Ignore the shimmer.",
+      "target": "相信过程，忽略闪烁。"
+    },
+    {
+      "index": 24,
+      "line": 74,
+      "source": "Real fake frames. Certified.",
+      "target": "货真价实的生成帧。认证过的。"
+    },
+    {
+      "index": 25,
+      "line": 75,
+      "source": "The illusion of performance, perfected.",
+      "target": "性能的幻觉，已臻完美。"
+    },
+    {
+      "index": 26,
+      "line": 76,
+      "source": "This upscaler belongs in a museum!",
+      "target": "这个超分辨率工具该进博物馆！"
+    },
+    {
+      "index": 27,
+      "line": 77,
+      "source": "Because native rendering is overrated.",
+      "target": "因为原生渲染被高估了。"
+    },
+    {
+      "index": 28,
+      "line": 78,
+      "source": "The more you upscaler, the more you save",
+      "target": "超分辨率用得越多，省得越多"
+    },
+    {
+      "index": 29,
+      "line": 79,
+      "source": "It's never too late to buy a better GPU",
+      "target": "买块更好的 GPU，永远不算晚"
+    },
+    {
+      "index": 30,
+      "line": 80,
+      "source": "We don't need real pixels where we're going",
+      "target": "我们要去的地方不需要真实像素"
+    },
+    {
+      "index": 31,
+      "line": 81,
+      "source": "Did you know that Intel released XeFG for everyone?",
+      "target": "你知道 Intel 向所有人开放了 XeFG 吗？"
+    },
+    {
+      "index": 32,
+      "line": 82,
+      "source": "MFG totally works with Nukem's 100%% no scam",
+      "target": "MFG 搭配 Nukem 的方案完全可用，100%% 绝不骗人"
+    },
+    {
+      "index": 33,
+      "line": 83,
+      "source": "Some of those pixels might even be real!",
+      "target": "有些像素说不定还是真的！"
+    },
+    {
+      "index": 34,
+      "line": 84,
+      "source": "Just don't look too closely at the image",
+      "target": "只是别凑太近看画面"
+    },
+    {
+      "index": 35,
+      "line": 85,
+      "source": "Even supports \\\"software\\\" XeSS!",
+      "target": "甚至支持\\\"软件\\\" XeSS！"
+    },
+    {
+      "index": 36,
+      "line": 86,
+      "source": "It’s too blurry to go alone, take RCAS with you",
+      "target": "独自前行太模糊，带上 RCAS"
+    },
+    {
+      "index": 37,
+      "line": 87,
+      "source": "Thanks nitec, back to you nitec",
+      "target": "谢谢 nitec，接下来交还给 nitec"
+    },
+    {
+      "index": 38,
+      "line": 88,
+      "source": "Tested and approved by By-U",
+      "target": "经 By-U 测试并认可"
+    },
+    {
+      "index": 39,
+      "line": 89,
+      "source": "0.8 was an inside job",
+      "target": "0.8 是内部策划的"
+    },
+    {
+      "index": 40,
+      "line": 90,
+      "source": "FSR4 DP4a wenETA, AMD plz",
+      "target": "FSR4 DP4a 何时来，AMD 求求了"
+    },
+    {
+      "index": 41,
+      "line": 91,
+      "source": "OptiCopers, assemble!",
+      "target": "OptiCopers，集结！"
+    },
+    {
+      "index": 42,
+      "line": 92,
+      "source": "The Way It's Meant To Be Upscaled",
+      "target": "超分辨率，本该如此"
+    },
+    {
+      "index": 43,
+      "line": 93,
+      "source": "Your game may not even crash today",
+      "target": "今天你的游戏说不定不会崩溃"
+    },
+    {
+      "index": 44,
+      "line": 94,
+      "source": "Expanded and Enhanced",
+      "target": "扩展与增强"
+    },
+    {
+      "index": 45,
+      "line": 95,
+      "source": "It's only my 5th crash today",
+      "target": "今天才崩溃第 5 次而已"
+    },
+    {
+      "index": 46,
+      "line": 96,
+      "source": "Latency with FG? But I have good internet",
+      "target": "FG 有延迟？可我的网速很好啊"
+    },
+    {
+      "index": 47,
+      "line": 97,
+      "source": "Console peasants can't do that",
+      "target": "主机玩家可做不到这个"
+    },
+    {
+      "index": 48,
+      "line": 98,
+      "source": "Hope you don't have a good eyesight",
+      "target": "希望你的眼神别太好"
+    },
+    {
+      "index": 49,
+      "line": 99,
+      "source": "Such an aggressive upscaling? A bold move",
+      "target": "如此激进的超分辨率？真大胆"
+    },
+    {
+      "index": 50,
+      "line": 100,
+      "source": "I almost don't feel the input lag",
+      "target": "我几乎感觉不到输入延迟"
+    },
+    {
+      "index": 51,
+      "line": 101,
+      "source": "And that's how you get to 60 FPS",
+      "target": "就这样达到了 60 FPS"
+    },
+    {
+      "index": 52,
+      "line": 102,
+      "source": "Together We Upscale",
+      "target": "一起放大"
+    },
+    {
+      "index": 53,
+      "line": 103,
+      "source": "For upscalers, by upscalers",
+      "target": "来自超分辨率玩家，服务超分辨率玩家"
+    },
+    {
+      "index": 54,
+      "line": 104,
+      "source": "Opti Sports, it's in the sampling",
+      "target": "Opti Sports，尽在采样中"
+    },
+    {
+      "index": 55,
+      "line": 105,
+      "source": "Render in your world. Upscale in ours",
+      "target": "在你的世界渲染，在我们的世界放大"
+    },
+    {
+      "index": 56,
+      "line": 106,
+      "source": "All your pixels are belong to us",
+      "target": "你的像素全都属于我们"
+    },
+    {
+      "index": 57,
+      "line": 107,
+      "source": "Upscaling for the masses, not the classes",
+      "target": "超分辨率属于大众，不分阶层"
+    },
+    {
+      "index": 58,
+      "line": 108,
+      "source": "Generating discord since 2023",
+      "target": "自 2023 年起不断引发讨论"
+    },
+    {
+      "index": 59,
+      "line": 109,
+      "source": "Enabling DLSS since 2023",
+      "target": "自 2023 年起启用 DLSS"
+    },
+    {
+      "index": 60,
+      "line": 110,
+      "source": "[REDACTED] never looked better",
+      "target": "[已编辑] 从未如此好看"
+    },
+    {
+      "index": 61,
+      "line": 111,
+      "source": "Free and always free",
+      "target": "免费，而且永远免费"
+    },
+    {
+      "index": 62,
+      "line": 112,
+      "source": "Getting unshackled from green chains in progress...",
+      "target": "正在挣脱绿色锁链…"
+    },
+    {
+      "index": 63,
+      "line": 113,
+      "source": "Who's Nukem anyway?",
+      "target": "所以 Nukem 到底是谁？"
+    },
+    {
+      "index": 64,
+      "line": 114,
+      "source": "Compiling shaders... ETA: 05h:49m",
+      "target": "正在编译着色器…预计剩余: 05h:49m"
+    },
+    {
+      "index": 65,
+      "line": 115,
+      "source": "Did you really just pay 70€ for this game?!",
+      "target": "你真的花了 70€ 买这个游戏？！"
+    },
+    {
+      "index": 66,
+      "line": 116,
+      "source": "Guess who forgot about a nullptr check again",
+      "target": "猜猜谁又忘了检查 nullptr"
+    },
+    {
+      "index": 67,
+      "line": 117,
+      "source": "AI can't outslop this",
+      "target": "AI 也整不出这么烂的活"
+    },
+    {
+      "index": 68,
+      "line": 118,
+      "source": "Guess we're pre-alpha build demos now",
+      "target": "看来我们现在是 pre-alpha 演示构建了"
+    },
+    {
+      "index": 69,
+      "line": 119,
+      "source": "New app on the block - TH",
+      "target": "新来的应用 - TH"
+    },
+    {
+      "index": 70,
+      "line": 120,
+      "source": "One more stutter and I might lose it",
+      "target": "再卡顿一次我就要抓狂了"
+    },
+    {
+      "index": 71,
+      "line": 121,
+      "source": "Deep Learning Slop Sampling 5",
+      "target": "深度学习糊弄采样 5"
+    },
+    {
+      "index": 72,
+      "line": 122,
+      "source": "2D AI filters, now powered by just 2x 5090s",
+      "target": "2D AI 滤镜，现在仅需两块 5090"
+    },
+    {
+      "index": 73,
+      "line": 123,
+      "source": "Neural Slop Sampling with DLSS5",
+      "target": "DLSS5 神经糊弄采样"
+    },
+    {
+      "index": 74,
+      "line": 124,
+      "source": "DLSS 5 - the way it's meant to be slopped",
+      "target": "DLSS 5 - 糊弄，本该如此"
+    },
+    {
+      "index": 75,
+      "line": 125,
+      "source": "Just when I think I'm out, they scale me back in",
+      "target": "刚以为能脱身，他们又把我放大回来了"
+    },
+    {
+      "index": 76,
+      "line": 126,
+      "source": "How to remove those corny messages?!",
+      "target": "这些老掉牙的提示怎么关？！"
+    },
+    {
+      "index": 77,
+      "line": 127,
+      "source": "<Your funny text goes here>",
+      "target": "<在此填写你的趣味文本>"
+    },
+    {
+      "index": 101,
+      "line": 795,
+      "source": "Unbound",
+      "target": "未绑定"
+    },
+    {
+      "index": 102,
+      "line": 828,
+      "source": "Unknown",
+      "target": "未知"
+    },
+    {
+      "index": 103,
+      "line": 844,
+      "source": "Press any key...",
+      "target": "请按任意键…"
+    },
+    {
+      "index": 310,
+      "line": 1592,
+      "source": "DEFAULT",
+      "target": "默认"
+    },
+    {
+      "index": 311,
+      "line": 1593,
+      "source": "Whatever the game uses",
+      "target": "使用游戏设置"
+    },
+    {
+      "index": 312,
+      "line": 1594,
+      "source": "PRESET A",
+      "target": "预设 A"
+    },
+    {
+      "index": 313,
+      "line": 1595,
+      "source": "Intended for Performance/Balanced/Quality modes.\\nAn older variant best suited to combat ghosting...\\nRemoved on recent versions!",
+      "target": "适用于性能／平衡／质量模式。\\n较旧的变体，最适合抑制拖影…\\n已在较新版本中移除！"
+    },
+    {
+      "index": 314,
+      "line": 1596,
+      "source": "PRESET B",
+      "target": "预设 B"
+    },
+    {
+      "index": 315,
+      "line": 1597,
+      "source": "Intended for Ultra Performance mode.\\nSimilar to Preset A...\\nRemoved on recent versions!",
+      "target": "适用于超级性能模式。\\n与预设 A 类似…\\n已在较新版本中移除！"
+    },
+    {
+      "index": 316,
+      "line": 1598,
+      "source": "PRESET C",
+      "target": "预设 C"
+    },
+    {
+      "index": 317,
+      "line": 1599,
+      "source": "Intended for Performance/Balanced/Quality modes.\\nGenerally favors current frame information...\\nRemoved on recent versions!",
+      "target": "适用于性能／平衡／质量模式。\\n通常更偏重当前帧的信息…\\n已在较新版本中移除！"
+    },
+    {
+      "index": 318,
+      "line": 1600,
+      "source": "PRESET D",
+      "target": "预设 D"
+    },
+    {
+      "index": 319,
+      "line": 1601,
+      "source": "Default preset for Performance/Balanced/Quality modes;\\ngenerally favors image stability.\\nRemoved on recent versions!",
+      "target": "性能／平衡／质量模式的默认预设；\\n通常更偏重图像稳定性。\\n已在较新版本中移除！"
+    },
+    {
+      "index": 320,
+      "line": 1602,
+      "source": "PRESET E",
+      "target": "预设 E"
+    },
+    {
+      "index": 321,
+      "line": 1603,
+      "source": "DLSS 3.7+, a better D preset\\nRemoved on recent versions!",
+      "target": "DLSS 3.7+，改进的预设 D\\n已在较新版本中移除！"
+    },
+    {
+      "index": 322,
+      "line": 1604,
+      "source": "PRESET F",
+      "target": "预设 F"
+    },
+    {
+      "index": 323,
+      "line": 1605,
+      "source": "Default preset for Ultra Performance and DLAA modes\\nRemoved on recent versions!",
+      "target": "超级性能和 DLAA 模式的默认预设\\n已在较新版本中移除！"
+    },
+    {
+      "index": 324,
+      "line": 1606,
+      "source": "PRESET G",
+      "target": "预设 G"
+    },
+    {
+      "index": 325,
+      "line": 1607,
+      "source": "Unused",
+      "target": "未使用"
+    },
+    {
+      "index": 326,
+      "line": 1608,
+      "source": "PRESET H",
+      "target": "预设 H"
+    },
+    {
+      "index": 327,
+      "line": 1609,
+      "source": "Unused",
+      "target": "未使用"
+    },
+    {
+      "index": 328,
+      "line": 1610,
+      "source": "PRESET I",
+      "target": "预设 I"
+    },
+    {
+      "index": 329,
+      "line": 1611,
+      "source": "Unused",
+      "target": "未使用"
+    },
+    {
+      "index": 330,
+      "line": 1612,
+      "source": "PRESET J",
+      "target": "预设 J"
+    },
+    {
+      "index": 331,
+      "line": 1613,
+      "source": "Similar to preset K. Preset J might exhibit slightly\\nless ghosting...\\n1st Gen Transformer",
+      "target": "与预设 K 类似。预设 J 的拖影可能\\n略少一些…\\n第一代 Transformer"
+    },
+    {
+      "index": 332,
+      "line": 1614,
+      "source": "PRESET K",
+      "target": "预设 K"
+    },
+    {
+      "index": 333,
+      "line": 1615,
+      "source": "Default preset for DLAA/Balanced/Quality modes...\\n1st Gen Transformer",
+      "target": "DLAA／平衡／质量模式的默认预设…\\n第一代 Transformer"
+    },
+    {
+      "index": 334,
+      "line": 1616,
+      "source": "PRESET L",
+      "target": "预设 L"
+    },
+    {
+      "index": 335,
+      "line": 1617,
+      "source": "Default for Ultra Perf mode\\n2nd Gen Transformers",
+      "target": "超级性能模式的默认预设\\n第二代 Transformer"
+    },
+    {
+      "index": 336,
+      "line": 1618,
+      "source": "PRESET M",
+      "target": "预设 M"
+    },
+    {
+      "index": 337,
+      "line": 1619,
+      "source": "Default for Perf mode\\n2nd Gen Transformer",
+      "target": "性能模式的默认预设\\n第二代 Transformer"
+    },
+    {
+      "index": 338,
+      "line": 1620,
+      "source": "PRESET N",
+      "target": "预设 N"
+    },
+    {
+      "index": 339,
+      "line": 1621,
+      "source": "Unused",
+      "target": "未使用"
+    },
+    {
+      "index": 340,
+      "line": 1622,
+      "source": "PRESET O",
+      "target": "预设 O"
+    },
+    {
+      "index": 341,
+      "line": 1623,
+      "source": "Unused",
+      "target": "未使用"
+    },
+    {
+      "index": 342,
+      "line": 1624,
+      "source": "Latest",
+      "target": "最新"
+    },
+    {
+      "index": 343,
+      "line": 1625,
+      "source": "Latest supported by the dll",
+      "target": "此 DLL 支持的最新预设"
+    },
+    {
+      "index": 344,
+      "line": 1636,
+      "source": "DEFAULT",
+      "target": "默认"
+    },
+    {
+      "index": 345,
+      "line": 1636,
+      "source": "Whatever the game uses",
+      "target": "使用游戏设置"
+    },
+    {
+      "index": 346,
+      "line": 1637,
+      "source": "PRESET A",
+      "target": "预设 A"
+    },
+    {
+      "index": 347,
+      "line": 1637,
+      "source": "Preset A\\nRemoved on recent versions!",
+      "target": "预设 A\\n已在较新版本中移除！"
+    },
+    {
+      "index": 348,
+      "line": 1638,
+      "source": "PRESET B",
+      "target": "预设 B"
+    },
+    {
+      "index": 349,
+      "line": 1638,
+      "source": "Preset B\\nRemoved on recent versions!",
+      "target": "预设 B\\n已在较新版本中移除！"
+    },
+    {
+      "index": 350,
+      "line": 1639,
+      "source": "PRESET C",
+      "target": "预设 C"
+    },
+    {
+      "index": 351,
+      "line": 1639,
+      "source": "Preset C\\nRemoved on recent versions!",
+      "target": "预设 C\\n已在较新版本中移除！"
+    },
+    {
+      "index": 352,
+      "line": 1640,
+      "source": "PRESET D",
+      "target": "预设 D"
+    },
+    {
+      "index": 353,
+      "line": 1640,
+      "source": "Default model, Transformer",
+      "target": "默认模型，Transformer"
+    },
+    {
+      "index": 354,
+      "line": 1641,
+      "source": "PRESET E",
+      "target": "预设 E"
+    },
+    {
+      "index": 355,
+      "line": 1641,
+      "source": "Latest Transformer model\\nMust use if DoF guide is needed",
+      "target": "最新 Transformer 模型\\n需要 DoF 引导时必须使用"
+    },
+    {
+      "index": 356,
+      "line": 1642,
+      "source": "PRESET F",
+      "target": "预设 F"
+    },
+    {
+      "index": 357,
+      "line": 1642,
+      "source": "Latest Transformer model\\nMust use if DoF guide is needed",
+      "target": "最新 Transformer 模型\\n需要 DoF 引导时必须使用"
+    },
+    {
+      "index": 358,
+      "line": 1643,
+      "source": "Latest",
+      "target": "最新"
+    },
+    {
+      "index": 359,
+      "line": 1643,
+      "source": "Latest supported by the dll",
+      "target": "此 DLL 支持的最新预设"
+    },
+    {
+      "index": 360,
+      "line": 1664,
+      "source": "Unknown",
+      "target": "未知"
+    },
+    {
+      "index": 381,
+      "line": 2310,
+      "source": "OptiScaler - %s for menu",
+      "target": "OptiScaler - 按 %s 打开菜单"
+    },
+    {
+      "index": 382,
+      "line": 2356,
+      "source": "Update Available",
+      "target": "有可用更新"
+    },
+    {
+      "index": 383,
+      "line": 2377,
+      "source": "OptiScaler Update available",
+      "target": "OptiScaler 有可用更新"
+    },
+    {
+      "index": 384,
+      "line": 2379,
+      "source": "Press %s for more info",
+      "target": "按 %s 查看更多信息"
+    },
+    {
+      "index": 385,
+      "line": 2473,
+      "source": "Performance Overlay",
+      "target": "性能监控叠加层"
+    },
+    {
+      "index": 405,
+      "line": 2591,
+      "source": "%s | FPS: %6.1f/%5.1f, Avg: %6.1f %s | %s -> %s %u.%u.%u",
+      "target": "%s | FPS: %6.1f/%5.1f, 平均: %6.1f %s | %s -> %s %u.%u.%u"
+    },
+    {
+      "index": 406,
+      "line": 2600,
+      "source": "%s | FPS: %6.1f, Avg: %6.1f %s | %s -> %s %u.%u.%u",
+      "target": "%s | FPS: %6.1f, 平均: %6.1f %s | %s -> %s %u.%u.%u"
+    },
+    {
+      "index": 407,
+      "line": 2610,
+      "source": "%s | FPS: %6.1f/%5.1f, Avg: %6.1f %s",
+      "target": "%s | FPS: %6.1f/%5.1f, 平均: %6.1f %s"
+    },
+    {
+      "index": 408,
+      "line": 2616,
+      "source": "%s | FPS: %6.1f, Avg: %6.1f %s",
+      "target": "%s | FPS: %6.1f, 平均: %6.1f %s"
+    },
+    {
+      "index": 410,
+      "line": 2636,
+      "source": "Frame Time: %7.2f ms, Avg: %7.2f ms",
+      "target": "帧时间: %7.2f ms, 平均: %7.2f ms"
+    },
+    {
+      "index": 411,
+      "line": 2643,
+      "source": "Upscaler Time: %7.2f ms, Avg: %7.2f ms",
+      "target": "超分辨率耗时: %7.2f ms, 平均: %7.2f ms"
+    },
+    {
+      "index": 417,
+      "line": 2755,
+      "source": "Reflex timings, whole frame: %.1fms",
+      "target": "Reflex 计时，整帧: %.1fms"
+    },
+    {
+      "index": 419,
+      "line": 2780,
+      "source": "Simulation",
+      "target": "模拟"
+    },
+    {
+      "index": 420,
+      "line": 2781,
+      "source": "RenderSubmit",
+      "target": "渲染提交"
+    },
+    {
+      "index": 421,
+      "line": 2782,
+      "source": "Present",
+      "target": "呈现"
+    },
+    {
+      "index": 422,
+      "line": 2783,
+      "source": "Driver",
+      "target": "驱动"
+    },
+    {
+      "index": 423,
+      "line": 2784,
+      "source": "RenderQueue",
+      "target": "渲染队列"
+    },
+    {
+      "index": 424,
+      "line": 2785,
+      "source": "GpuRender",
+      "target": "GPU 渲染"
+    },
+    {
+      "index": 425,
+      "line": 2883,
+      "source": "%s - %s %s %s %s",
+      "target": "%s - %s %s %s %s [简体中文非官方构建]"
+    },
+    {
+      "index": 432,
+      "line": 2909,
+      "source": "Update available: %s (current %s)",
+      "target": "有可用更新: %s（当前 %s）"
+    },
+    {
+      "index": 433,
+      "line": 2915,
+      "source": "Open release page",
+      "target": "打开发布页面"
+    },
+    {
+      "index": 438,
+      "line": 2960,
+      "source": " or ",
+      "target": " 或 "
+    },
+    {
+      "index": 439,
+      "line": 2964,
+      "source": "Please select %s as upscaler from game\\noptions and load a save game ",
+      "target": "请在游戏选项中选择 %s 作为超分辨率技术，\\n并载入存档，"
+    },
+    {
+      "index": 440,
+      "line": 2965,
+      "source": "to enable Opti settings.\\nUpscalers don't always work in menus.",
+      "target": "以启用 Opti 设置。\\n超分辨率技术在菜单中不一定生效。"
+    },
+    {
+      "index": 442,
+      "line": 2977,
+      "source": "Exists",
+      "target": "存在"
+    },
+    {
+      "index": 443,
+      "line": 2977,
+      "source": "Doesn't Exist",
+      "target": "不存在"
+    },
+    {
+      "index": 445,
+      "line": 2982,
+      "source": "Exists",
+      "target": "存在"
+    },
+    {
+      "index": 446,
+      "line": 2982,
+      "source": "Doesn't Exist",
+      "target": "不存在"
+    },
+    {
+      "index": 448,
+      "line": 2985,
+      "source": "Exists",
+      "target": "存在"
+    },
+    {
+      "index": 449,
+      "line": 2985,
+      "source": "Doesn't Exist",
+      "target": "不存在"
+    },
+    {
+      "index": 450,
+      "line": 2990,
+      "source": "nvngx replacement: %s",
+      "target": "nvngx 替代模块: %s"
+    },
+    {
+      "index": 451,
+      "line": 2991,
+      "source": "Exists",
+      "target": "存在"
+    },
+    {
+      "index": 452,
+      "line": 2991,
+      "source": "Doesn't Exist",
+      "target": "不存在"
+    },
+    {
+      "index": 454,
+      "line": 2995,
+      "source": "Exists",
+      "target": "存在"
+    },
+    {
+      "index": 455,
+      "line": 2995,
+      "source": "Doesn't Exist",
+      "target": "不存在"
+    },
+    {
+      "index": 456,
+      "line": 2997,
+      "source": "FSR Hooks: %s",
+      "target": "FSR 挂钩: %s"
+    },
+    {
+      "index": 457,
+      "line": 2997,
+      "source": "Exist",
+      "target": "存在"
+    },
+    {
+      "index": 458,
+      "line": 2997,
+      "source": "Don't Exist",
+      "target": "不存在"
+    },
+    {
+      "index": 460,
+      "line": 2999,
+      "source": "Exists",
+      "target": "存在"
+    },
+    {
+      "index": 461,
+      "line": 2999,
+      "source": "Doesn't Exist",
+      "target": "不存在"
+    },
+    {
+      "index": 463,
+      "line": 3001,
+      "source": "Exists",
+      "target": "存在"
+    },
+    {
+      "index": 464,
+      "line": 3001,
+      "source": "Doesn't Exist",
+      "target": "不存在"
+    },
+    {
+      "index": 466,
+      "line": 3003,
+      "source": "Exists",
+      "target": "存在"
+    },
+    {
+      "index": 467,
+      "line": 3003,
+      "source": "Doesn't Exist",
+      "target": "不存在"
+    },
+    {
+      "index": 468,
+      "line": 3011,
+      "source": "Can't find nvngx.dll and libxess.dll and FSR inputs\\nUpscaling support will NOT work.",
+      "target": "找不到 nvngx.dll、libxess.dll 和 FSR 输入\\n超分辨率功能将无法工作。"
+    },
+    {
+      "index": 469,
+      "line": 3029,
+      "source": "%s active, but currently not used by the game\\nPlease load into the game",
+      "target": "%s 已激活，但游戏当前未使用它\\n请进入游戏"
+    },
+    {
+      "index": 471,
+      "line": 3045,
+      "source": "Upscalers",
+      "target": "超分辨率"
+    },
+    {
+      "index": 472,
+      "line": 3046,
+      "source": "Which copium do you choose?",
+      "target": "你选择哪种超分辨率技术？"
+    },
+    {
+      "index": 476,
+      "line": 3066,
+      "source": "| Input: %s",
+      "target": "| 输入: %s"
+    },
+    {
+      "index": 477,
+      "line": 3069,
+      "source": "On",
+      "target": "开"
+    },
+    {
+      "index": 478,
+      "line": 3069,
+      "source": "Off",
+      "target": "关"
+    },
+    {
+      "index": 479,
+      "line": 3070,
+      "source": "| Spoof: %s",
+      "target": "| 伪装: %s"
+    },
+    {
+      "index": 484,
+      "line": 3085,
+      "source": "| Input: %s",
+      "target": "| 输入: %s"
+    },
+    {
+      "index": 485,
+      "line": 3088,
+      "source": "On",
+      "target": "开"
+    },
+    {
+      "index": 486,
+      "line": 3088,
+      "source": "Off",
+      "target": "关"
+    },
+    {
+      "index": 487,
+      "line": 3089,
+      "source": "| Spoof: %s",
+      "target": "| 伪装: %s"
+    },
+    {
+      "index": 492,
+      "line": 3104,
+      "source": "| Input: %s",
+      "target": "| 输入: %s"
+    },
+    {
+      "index": 493,
+      "line": 3110,
+      "source": "On + Ext",
+      "target": "开启 + 扩展"
+    },
+    {
+      "index": 494,
+      "line": 3112,
+      "source": "On",
+      "target": "开"
+    },
+    {
+      "index": 495,
+      "line": 3114,
+      "source": "Just Ext",
+      "target": "仅扩展"
+    },
+    {
+      "index": 496,
+      "line": 3116,
+      "source": "Off",
+      "target": "关"
+    },
+    {
+      "index": 497,
+      "line": 3119,
+      "source": "| Spoof: %s",
+      "target": "| 伪装: %s"
+    },
+    {
+      "index": 500,
+      "line": 3131,
+      "source": "Change Upscaler##2",
+      "target": "切换超分辨率技术##2"
+    },
+    {
+      "index": 503,
+      "line": 3150,
+      "source": "Use Reactive Mask as Transparency Mask",
+      "target": "将反应性遮罩用作透明度遮罩"
+    },
+    {
+      "index": 504,
+      "line": 3160,
+      "source": "nvngx_dlss.dll not found, DLSS disabled!",
+      "target": "未找到 nvngx_dlss.dll，DLSS 已禁用！"
+    },
+    {
+      "index": 508,
+      "line": 3172,
+      "source": "Dx11 with Dx12 Settings",
+      "target": "Dx11 转 Dx12 设置"
+    },
+    {
+      "index": 509,
+      "line": 3178,
+      "source": "Don't Use NTShared",
+      "target": "不使用 NTShared"
+    },
+    {
+      "index": 510,
+      "line": 3189,
+      "source": "Vulkan with Dx12 Settings",
+      "target": "Vulkan 转 Dx12 设置"
+    },
+    {
+      "index": 511,
+      "line": 3195,
+      "source": "Use CopyResource for Inputs",
+      "target": "输入使用 CopyResource"
+    },
+    {
+      "index": 512,
+      "line": 3199,
+      "source": "Use CopyResource for Output",
+      "target": "输出使用 CopyResource"
+    },
+    {
+      "index": 515,
+      "line": 3213,
+      "source": "XeSS Settings",
+      "target": "XeSS 设置"
+    },
+    {
+      "index": 522,
+      "line": 3226,
+      "source": "Network Models",
+      "target": "网络模型"
+    },
+    {
+      "index": 523,
+      "line": 3240,
+      "source": "Likely doesn't do much",
+      "target": "可能作用不大"
+    },
+    {
+      "index": 524,
+      "line": 3242,
+      "source": "Dump (Shift+Del)",
+      "target": "转储（Shift+Del）"
+    },
+    {
+      "index": 525,
+      "line": 3249,
+      "source": "frames",
+      "target": "帧"
+    },
+    {
+      "index": 530,
+      "line": 3270,
+      "source": "FFX Settings",
+      "target": "FFX 设置"
+    },
+    {
+      "index": 534,
+      "line": 3281,
+      "source": "FFX Upscaler",
+      "target": "FFX 超分辨率技术"
+    },
+    {
+      "index": 536,
+      "line": 3295,
+      "source": "List of upscalers reported by FFX SDK",
+      "target": "FFX SDK 报告的超分辨率技术列表"
+    },
+    {
+      "index": 537,
+      "line": 3299,
+      "source": "Change Upscaler",
+      "target": "切换超分辨率技术"
+    },
+    {
+      "index": 538,
+      "line": 3314,
+      "source": "Linear (Default)",
+      "target": "线性（默认）"
+    },
+    {
+      "index": 539,
+      "line": 3314,
+      "source": "Non-Linear",
+      "target": "非线性"
+    },
+    {
+      "index": 540,
+      "line": 3314,
+      "source": "Non-Linear sRGB",
+      "target": "非线性 sRGB"
+    },
+    {
+      "index": 541,
+      "line": 3315,
+      "source": "Non-Linear PQ",
+      "target": "非线性 PQ"
+    },
+    {
+      "index": 542,
+      "line": 3325,
+      "source": "Input Colour Space",
+      "target": "输入色彩空间"
+    },
+    {
+      "index": 543,
+      "line": 3350,
+      "source": "Select the input colour space that the game uses.\\n",
+      "target": "选择游戏使用的输入色彩空间。\\n"
+    },
+    {
+      "index": 544,
+      "line": 3351,
+      "source": "Non-Linear / sRGB: Might improve FSR4 upscaling quality, might ",
+      "target": "非线性／sRGB：可能改善 FSR4 超分辨率画质，也可能"
+    },
+    {
+      "index": 545,
+      "line": 3352,
+      "source": "increase ghosting.\\n",
+      "target": "加重拖影。\\n"
+    },
+    {
+      "index": 546,
+      "line": 3353,
+      "source": "PQ: Rarest, might increase ghosting and break lights.",
+      "target": "PQ：最少见，可能加重拖影并导致光照异常。"
+    },
+    {
+      "index": 547,
+      "line": 3356,
+      "source": "Default",
+      "target": "默认"
+    },
+    {
+      "index": 548,
+      "line": 3356,
+      "source": "Preset 0",
+      "target": "预设 0"
+    },
+    {
+      "index": 549,
+      "line": 3356,
+      "source": "Preset 1",
+      "target": "预设 1"
+    },
+    {
+      "index": 550,
+      "line": 3356,
+      "source": "Preset 2",
+      "target": "预设 2"
+    },
+    {
+      "index": 551,
+      "line": 3357,
+      "source": "Preset 3",
+      "target": "预设 3"
+    },
+    {
+      "index": 552,
+      "line": 3357,
+      "source": "Preset 4",
+      "target": "预设 4"
+    },
+    {
+      "index": 553,
+      "line": 3357,
+      "source": "Preset 5",
+      "target": "预设 5"
+    },
+    {
+      "index": 554,
+      "line": 3365,
+      "source": "FSR4 Preset",
+      "target": "FSR4 预设"
+    },
+    {
+      "index": 555,
+      "line": 3376,
+      "source": "Each internal FSR4 preset is tuned for a specific resolution.\\n",
+      "target": "每个 FSR4 内部预设都针对特定分辨率调校。\\n"
+    },
+    {
+      "index": 556,
+      "line": 3377,
+      "source": "Selecting an FSR4 preset won't change the in-game\\nupscaler preset!!!\\n\\n",
+      "target": "选择 FSR4 预设不会改变游戏内的\\n超分辨率档位！！！\\n\\n"
+    },
+    {
+      "index": 557,
+      "line": 3378,
+      "source": "Preset 0 is meant for FSR Native AA\\n",
+      "target": "预设 0 适用于 FSR 原生抗锯齿\\n"
+    },
+    {
+      "index": 558,
+      "line": 3379,
+      "source": "Preset 1 is meant for Quality/Ultra Quality\\n",
+      "target": "预设 1 适用于质量／超高质量\\n"
+    },
+    {
+      "index": 559,
+      "line": 3380,
+      "source": "Preset 2 is meant for Balanced\\n",
+      "target": "预设 2 适用于平衡\\n"
+    },
+    {
+      "index": 560,
+      "line": 3381,
+      "source": "Preset 3 is meant for Performance\\n",
+      "target": "预设 3 适用于性能\\n"
+    },
+    {
+      "index": 561,
+      "line": 3382,
+      "source": "Preset 4 is meant for DRS\\n",
+      "target": "预设 4 适用于 DRS\\n"
+    },
+    {
+      "index": 562,
+      "line": 3383,
+      "source": "Preset 5 is meant for Ultra Performance",
+      "target": "预设 5 适用于超级性能"
+    },
+    {
+      "index": 563,
+      "line": 3388,
+      "source": "(Active: %d)",
+      "target": "（当前: %d）"
+    },
+    {
+      "index": 564,
+      "line": 3391,
+      "source": "(Potential FSR3 fallback)",
+      "target": "（可能回退至 FSR3）"
+    },
+    {
+      "index": 565,
+      "line": 3393,
+      "source": "(Failed to hook)",
+      "target": "（挂钩失败）"
+    },
+    {
+      "index": 566,
+      "line": 3401,
+      "source": "Auto",
+      "target": "自动"
+    },
+    {
+      "index": 567,
+      "line": 3405,
+      "source": "FSR4 Model",
+      "target": "FSR4 模型"
+    },
+    {
+      "index": 568,
+      "line": 3407,
+      "source": "Auto",
+      "target": "自动"
+    },
+    {
+      "index": 569,
+      "line": 3438,
+      "source": "FSR 4 network to run.\\n",
+      "target": "要运行的 FSR 4 网络。\\n"
+    },
+    {
+      "index": 570,
+      "line": 3439,
+      "source": "Auto lets FFX pick the best one the GPU supports.",
+      "target": "自动：让 FFX 选择 GPU 支持的最佳模型。"
+    },
+    {
+      "index": 571,
+      "line": 3443,
+      "source": "(Active: %s)",
+      "target": "（当前: %s）"
+    },
+    {
+      "index": 572,
+      "line": 3446,
+      "source": "(Potential FSR3 fallback)",
+      "target": "（可能回退至 FSR3）"
+    },
+    {
+      "index": 573,
+      "line": 3455,
+      "source": "Upscaler Debug View",
+      "target": "超分辨率调试视图"
+    },
+    {
+      "index": 574,
+      "line": 3469,
+      "source": "Top left: Dilated Motion Vectors\\n",
+      "target": "左上：扩张的运动向量\\n"
+    },
+    {
+      "index": 575,
+      "line": 3470,
+      "source": "Top right: Predicted Blend Factor",
+      "target": "右上：预测混合因子"
+    },
+    {
+      "index": 576,
+      "line": 3474,
+      "source": "Top left: Dilated Motion Vectors\\n",
+      "target": "左上：扩张的运动向量\\n"
+    },
+    {
+      "index": 577,
+      "line": 3475,
+      "source": "Top middle: Protected Areas\\n",
+      "target": "中上：受保护区域\\n"
+    },
+    {
+      "index": 578,
+      "line": 3476,
+      "source": "Top right: Dilated Depth\\n",
+      "target": "右上：扩张的深度\\n"
+    },
+    {
+      "index": 579,
+      "line": 3477,
+      "source": "Middle: Upscaled frame\\n",
+      "target": "中间：超分辨率帧\\n"
+    },
+    {
+      "index": 580,
+      "line": 3478,
+      "source": "Bottom left: Disocclusion mask\\n",
+      "target": "左下：遮挡显露遮罩\\n"
+    },
+    {
+      "index": 581,
+      "line": 3479,
+      "source": "Bottom middle: Reactiveness\\n",
+      "target": "中下：反应性\\n"
+    },
+    {
+      "index": 582,
+      "line": 3480,
+      "source": "Bottom right: Detail Protection Takedown",
+      "target": "右下：细节保护削减"
+    },
+    {
+      "index": 583,
+      "line": 3487,
+      "source": "Watermark",
+      "target": "水印"
+    },
+    {
+      "index": 585,
+      "line": 3511,
+      "source": "FSR 3.1 Presets:",
+      "target": "FSR 3.1 预设:"
+    },
+    {
+      "index": 586,
+      "line": 3516,
+      "source": "Stability",
+      "target": "稳定性"
+    },
+    {
+      "index": 587,
+      "line": 3537,
+      "source": "Motion",
+      "target": "运动"
+    },
+    {
+      "index": 588,
+      "line": 3558,
+      "source": "Default",
+      "target": "默认"
+    },
+    {
+      "index": 589,
+      "line": 3570,
+      "source": "FSR 3 Upscaler Manual Tuning",
+      "target": "FSR 3 超分辨率手动调校"
+    },
+    {
+      "index": 590,
+      "line": 3579,
+      "source": "Velocity Factor",
+      "target": "速度因子"
+    },
+    {
+      "index": 592,
+      "line": 3582,
+      "source": "Value of 0.0f can improve temporal stability of bright pixels\\n",
+      "target": "设为 0.0f 可改善明亮像素的时域稳定性\\n"
+    },
+    {
+      "index": 593,
+      "line": 3583,
+      "source": "Lower values are more stable with ghosting\\n",
+      "target": "较低值更稳定，但会有拖影\\n"
+    },
+    {
+      "index": 594,
+      "line": 3584,
+      "source": "Higher values are more pixelly, but less ghosting",
+      "target": "较高值更有像素感，但拖影较少"
+    },
+    {
+      "index": 595,
+      "line": 3590,
+      "source": "Reactive Scale",
+      "target": "反应性缩放"
+    },
+    {
+      "index": 597,
+      "line": 3593,
+      "source": "Meant for development purpose to test if\\n",
+      "target": "用于开发测试：\\n"
+    },
+    {
+      "index": 598,
+      "line": 3594,
+      "source": "writing a larger value to reactive mask, reduces ghosting.",
+      "target": "向反应性遮罩写入更大的值是否能减少拖影。"
+    },
+    {
+      "index": 599,
+      "line": 3598,
+      "source": "Shading Scale",
+      "target": "着色变化缩放"
+    },
+    {
+      "index": 601,
+      "line": 3601,
+      "source": "Increasing this scales fsr3.1 computed shading\\n",
+      "target": "增大此值会放大读取时 FSR 3.1 计算的着色\\n"
+    },
+    {
+      "index": 602,
+      "line": 3602,
+      "source": "change value at read to have higher reactiveness.",
+      "target": "变化值，以提高反应性。"
+    },
+    {
+      "index": 603,
+      "line": 3606,
+      "source": "Acc. Added Per Frame",
+      "target": "每帧新增累积量"
+    },
+    {
+      "index": 605,
+      "line": 3611,
+      "source": "Corresponds to amount of accumulation added per frame\\n",
+      "target": "对应发生遮挡显露或反应性遮罩值\\n"
+    },
+    {
+      "index": 606,
+      "line": 3612,
+      "source": "at pixel coordinate where disocclusion occured or when\\n",
+      "target": "大于 0.0f 时，像素坐标处\\n"
+    },
+    {
+      "index": 607,
+      "line": 3613,
+      "source": "reactive mask value is > 0.0f. Decreasing this and \\n",
+      "target": "每帧新增的累积量。降低此值，并将\\n"
+    },
+    {
+      "index": 608,
+      "line": 3614,
+      "source": "drawing the ghosting object (IE no mv) to reactive mask \\n",
+      "target": "有拖影的物体（如无运动向量的物体）绘入反应性遮罩，\\n"
+    },
+    {
+      "index": 609,
+      "line": 3615,
+      "source": "with value close to 1.0f can decrease temporal ghosting.\\n",
+      "target": "且遮罩值接近 1.0f，可减轻时域拖影。\\n"
+    },
+    {
+      "index": 610,
+      "line": 3616,
+      "source": "Decreasing this could result in more thin feature pixels flickering.",
+      "target": "降低此值可能使细小特征的像素闪烁加重。"
+    },
+    {
+      "index": 611,
+      "line": 3620,
+      "source": "Min. Disocclusion Acc.",
+      "target": "最小遮挡显露累积量"
+    },
+    {
+      "index": 613,
+      "line": 3624,
+      "source": "Increasing this value may reduce white pixel temporal\\n",
+      "target": "增大此值可能减少摇摆的细小物体\\n"
+    },
+    {
+      "index": 614,
+      "line": 3625,
+      "source": "flickering around swaying thin objects that are disoccluding \\n",
+      "target": "频繁相互显露时周围白色像素的时域闪烁。\\n"
+    },
+    {
+      "index": 615,
+      "line": 3626,
+      "source": "one another often. Too high value may increase ghosting.",
+      "target": "数值过高可能加重拖影。"
+    },
+    {
+      "index": 619,
+      "line": 3646,
+      "source": "DLSSD Settings",
+      "target": "DLSSD 设置"
+    },
+    {
+      "index": 620,
+      "line": 3648,
+      "source": "DLSS Settings",
+      "target": "DLSS 设置"
+    },
+    {
+      "index": 621,
+      "line": 3656,
+      "source": "Presets are overridden externally",
+      "target": "预设被外部工具覆盖"
+    },
+    {
+      "index": 622,
+      "line": 3657,
+      "source": "This usually happens due to using tools\\n",
+      "target": "这通常是由于使用了\\n"
+    },
+    {
+      "index": 623,
+      "line": 3658,
+      "source": "such as Nvidia App or Nvidia Inspector",
+      "target": "Nvidia App 或 Nvidia Inspector 等工具"
+    },
+    {
+      "index": 624,
+      "line": 3668,
+      "source": "Render Presets Override",
+      "target": "覆盖渲染预设"
+    },
+    {
+      "index": 625,
+      "line": 3671,
+      "source": "Each render preset has it strengths and weaknesses\\n",
+      "target": "各渲染预设各有优缺点\\n"
+    },
+    {
+      "index": 626,
+      "line": 3672,
+      "source": "Override to potentially improve image quality\\n",
+      "target": "覆盖预设可能改善画质\\n"
+    },
+    {
+      "index": 627,
+      "line": 3673,
+      "source": "Press apply after enable/disable",
+      "target": "启用／禁用后请点击应用"
+    },
+    {
+      "index": 628,
+      "line": 3688,
+      "source": "Override Preset",
+      "target": "覆盖预设"
+    },
+    {
+      "index": 629,
+      "line": 3696,
+      "source": "Render Presets Override",
+      "target": "覆盖渲染预设"
+    },
+    {
+      "index": 630,
+      "line": 3699,
+      "source": "Each render preset has it strengths and weaknesses\\n",
+      "target": "各渲染预设各有优缺点\\n"
+    },
+    {
+      "index": 631,
+      "line": 3700,
+      "source": "Override to potentially improve image quality\\n",
+      "target": "覆盖预设可能改善画质\\n"
+    },
+    {
+      "index": 632,
+      "line": 3701,
+      "source": "Press Apply after enable/disable",
+      "target": "启用／禁用后请点击应用"
+    },
+    {
+      "index": 633,
+      "line": 3716,
+      "source": "Override Preset",
+      "target": "覆盖预设"
+    },
+    {
+      "index": 634,
+      "line": 3724,
+      "source": "Apply Changes",
+      "target": "应用更改"
+    },
+    {
+      "index": 637,
+      "line": 3745,
+      "source": "Advanced DLSSD Settings",
+      "target": "DLSSD 高级设置"
+    },
+    {
+      "index": 638,
+      "line": 3746,
+      "source": "Advanced DLSS Settings",
+      "target": "DLSS 高级设置"
+    },
+    {
+      "index": 639,
+      "line": 3753,
+      "source": "Use Generic App Id with DLSS",
+      "target": "DLSS 使用通用 App ID"
+    },
+    {
+      "index": 640,
+      "line": 3756,
+      "source": "Use generic appid with NGX\\n",
+      "target": "NGX 使用通用 App ID\\n"
+    },
+    {
+      "index": 641,
+      "line": 3757,
+      "source": "Fixes OptiScaler preset override not working with certain games\\n",
+      "target": "修复某些游戏中 OptiScaler 预设覆盖不生效的问题\\n"
+    },
+    {
+      "index": 642,
+      "line": 3758,
+      "source": "Requires a game restart",
+      "target": "需要重启游戏"
+    },
+    {
+      "index": 643,
+      "line": 3766,
+      "source": "DLAA Preset",
+      "target": "DLAA 预设"
+    },
+    {
+      "index": 644,
+      "line": 3767,
+      "source": "UltraQ Preset",
+      "target": "超高质量预设"
+    },
+    {
+      "index": 645,
+      "line": 3768,
+      "source": "Quality Preset",
+      "target": "质量预设"
+    },
+    {
+      "index": 646,
+      "line": 3769,
+      "source": "Balanced Preset",
+      "target": "平衡预设"
+    },
+    {
+      "index": 647,
+      "line": 3770,
+      "source": "Perf Preset",
+      "target": "性能预设"
+    },
+    {
+      "index": 648,
+      "line": 3771,
+      "source": "UltraP Preset",
+      "target": "超级性能预设"
+    },
+    {
+      "index": 649,
+      "line": 3775,
+      "source": "DLAA Preset",
+      "target": "DLAA 预设"
+    },
+    {
+      "index": 650,
+      "line": 3776,
+      "source": "UltraQ Preset",
+      "target": "超高质量预设"
+    },
+    {
+      "index": 651,
+      "line": 3777,
+      "source": "Quality Preset",
+      "target": "质量预设"
+    },
+    {
+      "index": 652,
+      "line": 3778,
+      "source": "Balanced Preset",
+      "target": "平衡预设"
+    },
+    {
+      "index": 653,
+      "line": 3779,
+      "source": "Perf Preset",
+      "target": "性能预设"
+    },
+    {
+      "index": 654,
+      "line": 3780,
+      "source": "UltraP Preset",
+      "target": "超级性能预设"
+    },
+    {
+      "index": 655,
+      "line": 3799,
+      "source": "None",
+      "target": "无"
+    },
+    {
+      "index": 657,
+      "line": 3801,
+      "source": "Limited to FSR3-FG\\n\\nRequires enabling DLSS-FG in game settings\\nSupports HUDless out of the box\\nUses Streamline swapchain for pacing",
+      "target": "仅限 FSR3-FG\\n\\n需要在游戏设置中启用 DLSS-FG\\n开箱即支持 HUDless\\n使用 Streamline 交换链控制帧节奏"
+    },
+    {
+      "index": 659,
+      "line": 3803,
+      "source": "Can be used with any FG Output\\n\\nRequires enabling FSR-FG in game settings\\nSupports HUDless out of the box",
+      "target": "可搭配任意 FG 输出\\n\\n需要在游戏设置中启用 FSR-FG\\n开箱即支持 HUDless"
+    },
+    {
+      "index": 660,
+      "line": 3804,
+      "source": "DLSSG via Streamline",
+      "target": "通过 Streamline 使用 DLSSG"
+    },
+    {
+      "index": 661,
+      "line": 3805,
+      "source": "Can be used with any FG Output\\n\\nRequires enabling DLSS-FG in game settings\\nSupports HUDless out of the box\\n\\nLimited to games that use Streamline v2",
+      "target": "可搭配任意 FG 输出\\n\\n需要在游戏设置中启用 DLSS-FG\\n开箱即支持 HUDless\\n\\n仅限使用 Streamline v2 的游戏"
+    },
+    {
+      "index": 663,
+      "line": 3807,
+      "source": "OptiFG (Upscaler)",
+      "target": "OptiFG（超分辨率）"
+    },
+    {
+      "index": 664,
+      "line": 3808,
+      "source": "Upscaler must be enabled\\n\\nCan be used with any FG Output, but might be imperfect with some\\nTo prevent UI glitching, HUDfix required",
+      "target": "必须启用超分辨率\\n\\n可搭配任意 FG 输出，但部分组合可能不够完善\\n需要 HUDfix 防止 UI 显示异常"
+    },
+    {
+      "index": 666,
+      "line": 3810,
+      "source": "Can be used with any FG Output\\n\\nRequires enabling FSR-FG in game settings\\nSupports HUDless out of the box",
+      "target": "可搭配任意 FG 输出\\n\\n需要在游戏设置中启用 FSR-FG\\n开箱即支持 HUDless"
+    },
+    {
+      "index": 667,
+      "line": 3817,
+      "source": "Support not implemented, they meant FG Output",
+      "target": "尚未实现支持；此处指的是 FG 输出"
+    },
+    {
+      "index": 668,
+      "line": 3822,
+      "source": "Unsupported API",
+      "target": "不支持的 API"
+    },
+    {
+      "index": 669,
+      "line": 3824,
+      "source": "Unsupported Opti working mode",
+      "target": "不支持的 Opti 工作模式"
+    },
+    {
+      "index": 670,
+      "line": 3832,
+      "source": "amd_fidelityfx_dx12.dll is missing",
+      "target": "缺少 amd_fidelityfx_dx12.dll"
+    },
+    {
+      "index": 671,
+      "line": 3839,
+      "source": "libxess_fg.dll is missing",
+      "target": "缺少 libxess_fg.dll"
+    },
+    {
+      "index": 672,
+      "line": 3844,
+      "source": "Unsupported API",
+      "target": "不支持的 API"
+    },
+    {
+      "index": 673,
+      "line": 3849,
+      "source": "Unsupported Streamline version: {}.{}.{}",
+      "target": "不支持的 Streamline 版本: {}.{}.{}"
+    },
+    {
+      "index": 674,
+      "line": 3855,
+      "source": "Unsupported API",
+      "target": "不支持的 API"
+    },
+    {
+      "index": 675,
+      "line": 3859,
+      "source": "Unsupported API",
+      "target": "不支持的 API"
+    },
+    {
+      "index": 676,
+      "line": 3872,
+      "source": "None",
+      "target": "无"
+    },
+    {
+      "index": 677,
+      "line": 3873,
+      "source": "FSR3-FG via Nukem's",
+      "target": "通过 Nukem 使用 FSR3-FG"
+    },
+    {
+      "index": 678,
+      "line": 3873,
+      "source": "Enable DLSS-FG in game settings\\n\\nLightest, but most artifacts (esp. in fast motion)",
+      "target": "在游戏设置中启用 DLSS-FG\\n\\n开销最小，但伪影最多（尤其在快速运动时）"
+    },
+    {
+      "index": 680,
+      "line": 3874,
+      "source": "FSR3/4-FG, RDNA4 autoupgrades to FSR4-FG\\n\\nFSR4-FG sometimes better/worse than XeFG",
+      "target": "FSR3/4-FG，RDNA4 自动升级至 FSR4-FG\\n\\nFSR4-FG 有时优于 XeFG，有时不如 XeFG"
+    },
+    {
+      "index": 682,
+      "line": 3875,
+      "source": "Support not implemented",
+      "target": "尚未实现支持"
+    },
+    {
+      "index": 684,
+      "line": 3876,
+      "source": "XeFG - heaviest, but best universal FG\\n\\nXeFG 3 overall deals best with HUD\\n\\nEnable UI Composition if HUD ghosting",
+      "target": "XeFG - 开销最大，但通用 FG 效果最佳\\n\\nXeFG 3 总体上对 HUD 的处理最好\\n\\n若 HUD 出现拖影，请启用 UI 合成"
+    },
+    {
+      "index": 685,
+      "line": 3883,
+      "source": "Support not implemented",
+      "target": "尚未实现支持"
+    },
+    {
+      "index": 686,
+      "line": 3890,
+      "source": "Unsupported Opti working mode",
+      "target": "不支持的 Opti 工作模式"
+    },
+    {
+      "index": 687,
+      "line": 3891,
+      "source": "Unsupported Opti working mode",
+      "target": "不支持的 Opti 工作模式"
+    },
+    {
+      "index": 688,
+      "line": 3896,
+      "source": "Missing the dlssg_to_fsr3_amd_is_better.dll file",
+      "target": "缺少 dlssg_to_fsr3_amd_is_better.dll 文件"
+    },
+    {
+      "index": 689,
+      "line": 3898,
+      "source": "Missing the dlssg_to_fsr3_amd_is_better.dll file",
+      "target": "缺少 dlssg_to_fsr3_amd_is_better.dll 文件"
+    },
+    {
+      "index": 690,
+      "line": 3903,
+      "source": "Unsupported API",
+      "target": "不支持的 API"
+    },
+    {
+      "index": 691,
+      "line": 3907,
+      "source": "Unsupported API",
+      "target": "不支持的 API"
+    },
+    {
+      "index": 694,
+      "line": 3929,
+      "source": "Frame Generation",
+      "target": "帧生成"
+    },
+    {
+      "index": 696,
+      "line": 3935,
+      "source": "FG Input",
+      "target": "FG 输入"
+    },
+    {
+      "index": 697,
+      "line": 3936,
+      "source": "The data source to be used for FG\\n",
+      "target": "用于 FG 的数据来源\\n"
+    },
+    {
+      "index": 698,
+      "line": 3937,
+      "source": "The native FG which the game supports",
+      "target": "即游戏原生支持的 FG"
+    },
+    {
+      "index": 699,
+      "line": 3944,
+      "source": "FG Output",
+      "target": "FG 输出"
+    },
+    {
+      "index": 700,
+      "line": 3948,
+      "source": "Doesn't matter with the selected FG Source",
+      "target": "对当前选定的 FG 来源无影响"
+    },
+    {
+      "index": 701,
+      "line": 3950,
+      "source": "The FG that you will actually be using",
+      "target": "你实际使用的 FG 技术"
+    },
+    {
+      "index": 702,
+      "line": 3975,
+      "source": "Save Settings and restart to apply the changes",
+      "target": "保存设置并重启以应用更改"
+    },
+    {
+      "index": 703,
+      "line": 3984,
+      "source": "Show Detected UI",
+      "target": "显示检测到的 UI"
+    },
+    {
+      "index": 704,
+      "line": 3985,
+      "source": "Needs HUDless texture to compare with final image.\\n",
+      "target": "需要 HUDless 纹理与最终图像进行比较。\\n"
+    },
+    {
+      "index": 705,
+      "line": 3986,
+      "source": "UI elements and ONLY UI elements should have a pink tint!",
+      "target": "应当仅有 UI 元素呈粉红色！"
+    },
+    {
+      "index": 706,
+      "line": 3993,
+      "source": "Draw UI over",
+      "target": "叠加绘制 UI"
+    },
+    {
+      "index": 707,
+      "line": 3997,
+      "source": "Draws UI resource over the final image\\n",
+      "target": "将 UI 资源绘制到最终图像之上\\n"
+    },
+    {
+      "index": 708,
+      "line": 3998,
+      "source": "If no UI visible, enable this!",
+      "target": "若看不到 UI，请启用此项！"
+    },
+    {
+      "index": 709,
+      "line": 4007,
+      "source": "UI Premult. alpha",
+      "target": "UI 预乘 Alpha"
+    },
+    {
+      "index": 710,
+      "line": 4011,
+      "source": "If UI is too bright, disable this option",
+      "target": "若 UI 过亮，请禁用此选项"
+    },
+    {
+      "index": 711,
+      "line": 4021,
+      "source": "Advanced FG Settings",
+      "target": "FG 高级设置"
+    },
+    {
+      "index": 712,
+      "line": 4037,
+      "source": "Disable UI texture",
+      "target": "禁用 UI 纹理"
+    },
+    {
+      "index": 713,
+      "line": 4043,
+      "source": "For when the game sends a UI texture, but you want to disable it",
+      "target": "游戏提供了 UI 纹理，但你希望禁用它时使用"
+    },
+    {
+      "index": 714,
+      "line": 4052,
+      "source": "Disable HUDless",
+      "target": "禁用 HUDless"
+    },
+    {
+      "index": 715,
+      "line": 4057,
+      "source": "For when the game sends HUDless, but you want to disable it",
+      "target": "游戏提供了 HUDless，但你希望禁用它时使用"
+    },
+    {
+      "index": 716,
+      "line": 4062,
+      "source": "Depth as ValidNow",
+      "target": "深度标记为 ValidNow"
+    },
+    {
+      "index": 717,
+      "line": 4065,
+      "source": "Will use more VRAM, but Uniscaler needs this\\n",
+      "target": "会使用更多显存，但 Uniscaler 需要此项\\n"
+    },
+    {
+      "index": 718,
+      "line": 4066,
+      "source": "Maybe some other games might need too",
+      "target": "某些其他游戏也可能需要"
+    },
+    {
+      "index": 719,
+      "line": 4071,
+      "source": "Velocity as ValidNow",
+      "target": "速度标记为 ValidNow"
+    },
+    {
+      "index": 720,
+      "line": 4074,
+      "source": "Will use more VRAM, but Uniscaler needs this\\n",
+      "target": "会使用更多显存，但 Uniscaler 需要此项\\n"
+    },
+    {
+      "index": 721,
+      "line": 4075,
+      "source": "Maybe some other games might need too",
+      "target": "某些其他游戏也可能需要"
+    },
+    {
+      "index": 722,
+      "line": 4078,
+      "source": "HUDless as ValidNow",
+      "target": "HUDless 标记为 ValidNow"
+    },
+    {
+      "index": 723,
+      "line": 4081,
+      "source": "Will use more VRAM, but some games might need this",
+      "target": "会使用更多显存，但某些游戏可能需要此项"
+    },
+    {
+      "index": 724,
+      "line": 4086,
+      "source": "Accept First HUDless",
+      "target": "接受首个 HUDless"
+    },
+    {
+      "index": 725,
+      "line": 4089,
+      "source": "If source tags more than one HUDless, only use the first one",
+      "target": "若来源标记了多个 HUDless，则仅使用第一个"
+    },
+    {
+      "index": 726,
+      "line": 4092,
+      "source": "Skip Reset",
+      "target": "跳过重置信号"
+    },
+    {
+      "index": 727,
+      "line": 4097,
+      "source": "Don't use reset signals from FG Inputs",
+      "target": "不使用 FG 输入提供的重置信号"
+    },
+    {
+      "index": 728,
+      "line": 4104,
+      "source": "Frame Ahead",
+      "target": "允许提前帧数"
+    },
+    {
+      "index": 729,
+      "line": 4110,
+      "source": "Number of frames the FG is allowed to be ahead of the game\\n",
+      "target": "允许 FG 领先于游戏的帧数\\n"
+    },
+    {
+      "index": 730,
+      "line": 4111,
+      "source": "Might prevent FG on/off switching, but also might cause issues",
+      "target": "可能防止 FG 反复开关，但也可能导致问题"
+    },
+    {
+      "index": 731,
+      "line": 4117,
+      "source": "Input",
+      "target": "输入"
+    },
+    {
+      "index": 733,
+      "line": 4117,
+      "source": "Zero",
+      "target": "零"
+    },
+    {
+      "index": 734,
+      "line": 4118,
+      "source": "Uses frametimes provided by\\nDLSSG or FSR-FG ",
+      "target": "使用 DLSSG 或 FSR-FG\\n提供的帧时间"
+    },
+    {
+      "index": 735,
+      "line": 4119,
+      "source": "Uses frametimes calculated by Opti",
+      "target": "使用 Opti 计算的帧时间"
+    },
+    {
+      "index": 736,
+      "line": 4120,
+      "source": "Let XeFG to handle frametimes",
+      "target": "让 XeFG 处理帧时间"
+    },
+    {
+      "index": 737,
+      "line": 4127,
+      "source": "FT Input",
+      "target": "帧时间输入"
+    },
+    {
+      "index": 739,
+      "line": 4148,
+      "source": "Select source for frametime\\n",
+      "target": "选择帧时间来源\\n"
+    },
+    {
+      "index": 740,
+      "line": 4149,
+      "source": "Might help frame pacing and stutter issues",
+      "target": "可能有助于解决帧节奏和卡顿问题"
+    },
+    {
+      "index": 741,
+      "line": 4164,
+      "source": "Frame Generation (FSR FG)",
+      "target": "帧生成（FSR FG）"
+    },
+    {
+      "index": 743,
+      "line": 4176,
+      "source": "FFX FG Version",
+      "target": "FFX FG 版本"
+    },
+    {
+      "index": 745,
+      "line": 4195,
+      "source": "List of FGs reported by FFX SDK",
+      "target": "FFX SDK 报告的 FG 列表"
+    },
+    {
+      "index": 746,
+      "line": 4199,
+      "source": "Active##2",
+      "target": "启用##2"
+    },
+    {
+      "index": 748,
+      "line": 4207,
+      "source": "Enable Frame Generation",
+      "target": "启用帧生成"
+    },
+    {
+      "index": 749,
+      "line": 4210,
+      "source": "Allow Async",
+      "target": "允许异步"
+    },
+    {
+      "index": 751,
+      "line": 4222,
+      "source": "Enable Async for better FG performance\\nMight cause crashes, especially with HUD Fix!",
+      "target": "启用异步以提高 FG 性能\\n可能导致崩溃，尤其是同时使用 HUD Fix 时！"
+    },
+    {
+      "index": 752,
+      "line": 4227,
+      "source": "Debug View##2",
+      "target": "调试视图##2"
+    },
+    {
+      "index": 754,
+      "line": 4237,
+      "source": "Enable FSR3.1-FG Debug view\\n\\n",
+      "target": "启用 FSR3.1-FG 调试视图\\n\\n"
+    },
+    {
+      "index": 755,
+      "line": 4238,
+      "source": "Top left: Game Motion Vectors\\n",
+      "target": "左上：游戏运动向量\\n"
+    },
+    {
+      "index": 756,
+      "line": 4239,
+      "source": "Top middle: GMV Depth\\n",
+      "target": "中上：GMV 深度\\n"
+    },
+    {
+      "index": 757,
+      "line": 4240,
+      "source": "Top right: Optical Flow MV\\n",
+      "target": "右上：光流运动向量\\n"
+    },
+    {
+      "index": 758,
+      "line": 4241,
+      "source": "Middle: Interpolated frame only\\n",
+      "target": "中间：仅插值帧\\n"
+    },
+    {
+      "index": 759,
+      "line": 4242,
+      "source": "Bottom left: Disocclusion mask\\n",
+      "target": "左下：遮挡显露遮罩\\n"
+    },
+    {
+      "index": 760,
+      "line": 4243,
+      "source": "Bottom middle: Interpolation source (w/o UI)\\n",
+      "target": "中下：插值来源（不含 UI）\\n"
+    },
+    {
+      "index": 761,
+      "line": 4244,
+      "source": "Bottom right: HUDless resource",
+      "target": "右下：HUDless 资源"
+    },
+    {
+      "index": 762,
+      "line": 4251,
+      "source": "FG Watermark",
+      "target": "FG 水印"
+    },
+    {
+      "index": 764,
+      "line": 4274,
+      "source": "Disable HW Flip Metering",
+      "target": "禁用硬件翻转计量"
+    },
+    {
+      "index": 765,
+      "line": 4279,
+      "source": "Overrides the AMD hardware flip metering requested by FSR\\n",
+      "target": "覆盖 FSR 请求的 AMD 硬件翻转计量\\n"
+    },
+    {
+      "index": 766,
+      "line": 4280,
+      "source": "(Driver-Assisted Frame Pacing)",
+      "target": "（驱动辅助帧节奏控制）"
+    },
+    {
+      "index": 767,
+      "line": 4285,
+      "source": "(Mode %u)",
+      "target": "（模式 %u）"
+    },
+    {
+      "index": 768,
+      "line": 4287,
+      "source": "(Off)",
+      "target": "（关闭）"
+    },
+    {
+      "index": 769,
+      "line": 4290,
+      "source": "Flip metering mode applied in the driver\\nFSR only requests it in exclusive ",
+      "target": "驱动中实际应用的翻转计量模式\\nFSR 仅在独占全屏"
+    },
+    {
+      "index": 770,
+      "line": 4291,
+      "source": "or borderless fullscreen",
+      "target": "或无边框全屏下请求此功能"
+    },
+    {
+      "index": 771,
+      "line": 4296,
+      "source": "Extended FSR FG Settings",
+      "target": "FSR FG 扩展设置"
+    },
+    {
+      "index": 772,
+      "line": 4301,
+      "source": "FG Only Generated",
+      "target": "仅显示生成帧"
+    },
+    {
+      "index": 773,
+      "line": 4302,
+      "source": "Display only FSR 3.1 Generated frames",
+      "target": "仅显示 FSR 3.1 生成的帧"
+    },
+    {
+      "index": 774,
+      "line": 4306,
+      "source": "Debug Reset Lines",
+      "target": "调试重置线"
+    },
+    {
+      "index": 776,
+      "line": 4311,
+      "source": "Enables drawing of Interpolation skip lines",
+      "target": "启用插值跳过线的绘制"
+    },
+    {
+      "index": 777,
+      "line": 4314,
+      "source": "Debug Tear Lines",
+      "target": "调试撕裂线"
+    },
+    {
+      "index": 779,
+      "line": 4319,
+      "source": "Enables drawing of Tear and Interpolation skip lines",
+      "target": "启用撕裂线和插值跳过线的绘制"
+    },
+    {
+      "index": 780,
+      "line": 4323,
+      "source": "Debug Pacing Lines",
+      "target": "调试帧节奏线"
+    },
+    {
+      "index": 782,
+      "line": 4328,
+      "source": "Enables drawing of Pacing lines",
+      "target": "启用帧节奏线的绘制"
+    },
+    {
+      "index": 783,
+      "line": 4331,
+      "source": "FG Rectangle Settings",
+      "target": "FG 矩形设置"
+    },
+    {
+      "index": 784,
+      "line": 4335,
+      "source": "Rect Left",
+      "target": "矩形左边距"
+    },
+    {
+      "index": 785,
+      "line": 4340,
+      "source": "Rect Top",
+      "target": "矩形上边距"
+    },
+    {
+      "index": 786,
+      "line": 4344,
+      "source": "Rect Width",
+      "target": "矩形宽度"
+    },
+    {
+      "index": 787,
+      "line": 4349,
+      "source": "Rect Height",
+      "target": "矩形高度"
+    },
+    {
+      "index": 788,
+      "line": 4353,
+      "source": "Frame generation rectangle, adjust for letterboxed content",
+      "target": "帧生成矩形，可针对带黑边的内容调整"
+    },
+    {
+      "index": 789,
+      "line": 4359,
+      "source": "Reset FG Rect",
+      "target": "重置 FG 矩形"
+    },
+    {
+      "index": 790,
+      "line": 4367,
+      "source": "Resets Frame generation rectangle",
+      "target": "重置帧生成矩形"
+    },
+    {
+      "index": 792,
+      "line": 4379,
+      "source": "Frame Pacing Tuning",
+      "target": "帧节奏调校"
+    },
+    {
+      "index": 793,
+      "line": 4382,
+      "source": "Enable Tuning",
+      "target": "启用调校"
+    },
+    {
+      "index": 794,
+      "line": 4392,
+      "source": "Safety Margins in ms",
+      "target": "安全余量（ms）"
+    },
+    {
+      "index": 796,
+      "line": 4395,
+      "source": "Safety margins in millisecons\\n",
+      "target": "安全余量，单位为毫秒\\n"
+    },
+    {
+      "index": 797,
+      "line": 4396,
+      "source": "FSR default value: 0.1ms\\n",
+      "target": "FSR 默认值: 0.1ms\\n"
+    },
+    {
+      "index": 798,
+      "line": 4397,
+      "source": "Opti default value: 0.01ms",
+      "target": "Opti 默认值: 0.01ms"
+    },
+    {
+      "index": 799,
+      "line": 4400,
+      "source": "Variance Factor",
+      "target": "方差因子"
+    },
+    {
+      "index": 801,
+      "line": 4402,
+      "source": "Variance factor\\n",
+      "target": "方差因子\\n"
+    },
+    {
+      "index": 802,
+      "line": 4403,
+      "source": "FSR default value: 0.1\\n",
+      "target": "FSR 默认值: 0.1\\n"
+    },
+    {
+      "index": 803,
+      "line": 4404,
+      "source": "Opti default value: 0.3",
+      "target": "Opti 默认值: 0.3"
+    },
+    {
+      "index": 804,
+      "line": 4408,
+      "source": "Enable Hybrid Spin",
+      "target": "启用混合自旋"
+    },
+    {
+      "index": 805,
+      "line": 4410,
+      "source": "Allows pacing spinlock to sleep, should reduce CPU usage\\n",
+      "target": "允许帧节奏自旋锁休眠，应能降低 CPU 占用\\n"
+    },
+    {
+      "index": 806,
+      "line": 4411,
+      "source": "Might cause slow ramp up of FPS",
+      "target": "可能导致 FPS 上升缓慢"
+    },
+    {
+      "index": 807,
+      "line": 4415,
+      "source": "Hybrid Spin Time",
+      "target": "混合自旋时长"
+    },
+    {
+      "index": 808,
+      "line": 4417,
+      "source": "How long to spin if FPTHybridSpin is true. Measured in timer ",
+      "target": "FPTHybridSpin 为 true 时的自旋时长。以计时器"
+    },
+    {
+      "index": 809,
+      "line": 4418,
+      "source": "resolution units.\\n",
+      "target": "分辨率为单位。\\n"
+    },
+    {
+      "index": 810,
+      "line": 4419,
+      "source": "Not recommended to go below 2. Will result in frequent overshoots",
+      "target": "不建议低于 2，否则会频繁超时"
+    },
+    {
+      "index": 811,
+      "line": 4424,
+      "source": "Enable WaitForSingleObjectOnFence",
+      "target": "启用 WaitForSingleObjectOnFence"
+    },
+    {
+      "index": 812,
+      "line": 4429,
+      "source": "Allows WaitForSingleObject instead of spinning for fence value",
+      "target": "允许使用 WaitForSingleObject 等待，而非自旋等待 fence 值"
+    },
+    {
+      "index": 813,
+      "line": 4431,
+      "source": "Apply Timing Changes",
+      "target": "应用时序更改"
+    },
+    {
+      "index": 814,
+      "line": 4451,
+      "source": "Frame Generation (XeFG)",
+      "target": "帧生成（XeFG）"
+    },
+    {
+      "index": 815,
+      "line": 4480,
+      "source": "Restart the game to apply correct XeFG settings!",
+      "target": "重启游戏以应用正确的 XeFG 设置！"
+    },
+    {
+      "index": 816,
+      "line": 4486,
+      "source": "Requires disabling dilated motion vectors",
+      "target": "需要禁用扩张的运动向量"
+    },
+    {
+      "index": 817,
+      "line": 4492,
+      "source": "Borderless display mode required!",
+      "target": "需要无边框显示模式！"
+    },
+    {
+      "index": 818,
+      "line": 4502,
+      "source": "XeFG only supports HDR10",
+      "target": "XeFG 仅支持 HDR10"
+    },
+    {
+      "index": 819,
+      "line": 4509,
+      "source": "Ignore Init Checks",
+      "target": "忽略初始化检查"
+    },
+    {
+      "index": 820,
+      "line": 4512,
+      "source": "Ignores all prechecks for XeFG\\n",
+      "target": "忽略 XeFG 的全部预检查\\n"
+    },
+    {
+      "index": 821,
+      "line": 4513,
+      "source": "Don't use this option to skip MV size warning for UE games!\\n",
+      "target": "不要用此选项跳过 UE 游戏的运动向量尺寸警告！\\n"
+    },
+    {
+      "index": 822,
+      "line": 4514,
+      "source": "It might cause crashes and bad IQ!",
+      "target": "这可能导致崩溃和画质问题！"
+    },
+    {
+      "index": 823,
+      "line": 4520,
+      "source": "Active##3",
+      "target": "启用##3"
+    },
+    {
+      "index": 825,
+      "line": 4529,
+      "source": "Enable Frame Generation",
+      "target": "启用帧生成"
+    },
+    {
+      "index": 833,
+      "line": 4560,
+      "source": "Set XeFG interpolation count",
+      "target": "设置 XeFG 插值数量"
+    },
+    {
+      "index": 834,
+      "line": 4567,
+      "source": "UI Composition",
+      "target": "UI 合成"
+    },
+    {
+      "index": 835,
+      "line": 4570,
+      "source": "Disable HUD/UI interpolation\\n",
+      "target": "禁用 HUD/UI 插值\\n"
+    },
+    {
+      "index": 836,
+      "line": 4571,
+      "source": "Reverts back to previous XeFG 2 behaviour\\n\\n",
+      "target": "恢复到先前 XeFG 2 的行为\\n\\n"
+    },
+    {
+      "index": 837,
+      "line": 4572,
+      "source": "Fixes artifacting transparent HUD/UI",
+      "target": "修复透明 HUD/UI 的伪影"
+    },
+    {
+      "index": 838,
+      "line": 4576,
+      "source": "Debug View##2",
+      "target": "调试视图##2"
+    },
+    {
+      "index": 840,
+      "line": 4586,
+      "source": "Enable XeFG Debug view",
+      "target": "启用 XeFG 调试视图"
+    },
+    {
+      "index": 841,
+      "line": 4592,
+      "source": "Force Borderless",
+      "target": "强制无边框"
+    },
+    {
+      "index": 842,
+      "line": 4595,
+      "source": "Forces Borderless display mode\\n\\n",
+      "target": "强制无边框显示模式\\n\\n"
+    },
+    {
+      "index": 843,
+      "line": 4596,
+      "source": "For best results, set fullscreen \\n",
+      "target": "为获得最佳效果，请将全屏\\n"
+    },
+    {
+      "index": 844,
+      "line": 4597,
+      "source": "resolution to your display resolution\\n",
+      "target": "分辨率设为显示器分辨率\\n"
+    },
+    {
+      "index": 845,
+      "line": 4598,
+      "source": "Might cause some instability issues.\\n\\n",
+      "target": "可能导致某些不稳定问题。\\n\\n"
+    },
+    {
+      "index": 846,
+      "line": 4599,
+      "source": "NEEDS GAME RESTART TO BE ACTIVE!",
+      "target": "需要重启游戏才会生效！"
+    },
+    {
+      "index": 847,
+      "line": 4607,
+      "source": "Extended XeFG Settings",
+      "target": "XeFG 扩展设置"
+    },
+    {
+      "index": 848,
+      "line": 4610,
+      "source": "Rectangle Settings",
+      "target": "矩形设置"
+    },
+    {
+      "index": 849,
+      "line": 4614,
+      "source": "Rect Left##2",
+      "target": "矩形左边距##2"
+    },
+    {
+      "index": 850,
+      "line": 4619,
+      "source": "Rect Top##2",
+      "target": "矩形上边距##2"
+    },
+    {
+      "index": 851,
+      "line": 4623,
+      "source": "Rect Width##2",
+      "target": "矩形宽度##2"
+    },
+    {
+      "index": 852,
+      "line": 4628,
+      "source": "Rect Height##2",
+      "target": "矩形高度##2"
+    },
+    {
+      "index": 853,
+      "line": 4632,
+      "source": "Frame generation rectangle, adjust for letterboxed content##2",
+      "target": "帧生成矩形，可针对带黑边的内容调整##2"
+    },
+    {
+      "index": 854,
+      "line": 4638,
+      "source": "Reset FG Rect##2",
+      "target": "重置 FG 矩形##2"
+    },
+    {
+      "index": 855,
+      "line": 4646,
+      "source": "Resets Frame generation rectangle##2",
+      "target": "重置帧生成矩形##2"
+    },
+    {
+      "index": 856,
+      "line": 4662,
+      "source": "Frame Generation (OptiFG)",
+      "target": "帧生成（OptiFG）"
+    },
+    {
+      "index": 857,
+      "line": 4662,
+      "source": "Using upscaler data for FG",
+      "target": "使用超分辨率数据进行 FG"
+    },
+    {
+      "index": 860,
+      "line": 4680,
+      "source": "Enable HUD stability fix, might cause crashes!",
+      "target": "启用 HUD 稳定性修复，可能导致崩溃！"
+    },
+    {
+      "index": 861,
+      "line": 4687,
+      "source": "Limit",
+      "target": "限制"
+    },
+    {
+      "index": 863,
+      "line": 4697,
+      "source": "Delay HUDless capture, high values might cause crash!",
+      "target": "延迟 HUDless 捕获，数值过高可能导致崩溃！"
+    },
+    {
+      "index": 864,
+      "line": 4700,
+      "source": "Res##2",
+      "target": "分辨率##2"
+    },
+    {
+      "index": 865,
+      "line": 4706,
+      "source": "Extended",
+      "target": "扩展"
+    },
+    {
+      "index": 867,
+      "line": 4712,
+      "source": "Extended format checks for possible HUDless\\nMight cause crashes and slowdowns!",
+      "target": "扩展潜在 HUDless 的格式检查\\n可能导致崩溃和性能下降！"
+    },
+    {
+      "index": 868,
+      "line": 4718,
+      "source": "Immediate Capture",
+      "target": "立即捕获"
+    },
+    {
+      "index": 870,
+      "line": 4723,
+      "source": "Enables capturing of resources before shader execution.\\nIncrease HUDless ",
+      "target": "允许在着色器执行前捕获资源。提高 HUDless"
+    },
+    {
+      "index": 871,
+      "line": 4724,
+      "source": "capture chances, but might cause capturing of unnecessary resources.",
+      "target": "捕获概率，但可能捕获不必要的资源。"
+    },
+    {
+      "index": 872,
+      "line": 4731,
+      "source": "Scale Depth to fix DLSS RR",
+      "target": "缩放深度以修复 DLSS RR"
+    },
+    {
+      "index": 873,
+      "line": 4733,
+      "source": "Fix for DLSS-D wrong depth inputs",
+      "target": "修复 DLSS-D 深度输入错误"
+    },
+    {
+      "index": 874,
+      "line": 4736,
+      "source": "Flip (Unity)",
+      "target": "翻转（Unity）"
+    },
+    {
+      "index": 875,
+      "line": 4738,
+      "source": "Flip Velocity & Depth resources of Unity games",
+      "target": "翻转 Unity 游戏的速度和深度资源"
+    },
+    {
+      "index": 876,
+      "line": 4743,
+      "source": "Flip Use Offset",
+      "target": "翻转时使用偏移"
+    },
+    {
+      "index": 877,
+      "line": 4745,
+      "source": "Use height difference as offset",
+      "target": "使用高度差作为偏移量"
+    },
+    {
+      "index": 878,
+      "line": 4749,
+      "source": "Advanced OptiFG Settings",
+      "target": "OptiFG 高级设置"
+    },
+    {
+      "index": 879,
+      "line": 4757,
+      "source": "Disable HUDFix Resource Tracking",
+      "target": "禁用 HUDFix 资源跟踪"
+    },
+    {
+      "index": 881,
+      "line": 4762,
+      "source": "Disables HUDFix resource tracking and\\n",
+      "target": "禁用 HUDFix 资源跟踪并\\n"
+    },
+    {
+      "index": 882,
+      "line": 4763,
+      "source": "reduces CPU overhead.\\n",
+      "target": "降低 CPU 开销。\\n"
+    },
+    {
+      "index": 883,
+      "line": 4764,
+      "source": "Useful for MLFG which deals well with the HUD.\\n\\n",
+      "target": "适用于能较好处理 HUD 的 MLFG。\\n\\n"
+    },
+    {
+      "index": 884,
+      "line": 4765,
+      "source": "After changing, please Save Settings and restart.",
+      "target": "更改后请保存设置并重启。"
+    },
+    {
+      "index": 885,
+      "line": 4773,
+      "source": "Resource Blocking",
+      "target": "资源屏蔽"
+    },
+    {
+      "index": 887,
+      "line": 4778,
+      "source": "Block rarely used resources from using as HUDless \\n",
+      "target": "禁止将很少使用的资源用作 HUDless，\\n"
+    },
+    {
+      "index": 888,
+      "line": 4779,
+      "source": "to prevent flickers and other issues\\n\\n",
+      "target": "以防闪烁和其他问题\\n\\n"
+    },
+    {
+      "index": 889,
+      "line": 4780,
+      "source": "HUDfix enable/disable will reset the block list!",
+      "target": "启用／禁用 HUDfix 会重置屏蔽列表！"
+    },
+    {
+      "index": 890,
+      "line": 4785,
+      "source": "Relaxed Resource Check",
+      "target": "放宽资源检查"
+    },
+    {
+      "index": 892,
+      "line": 4790,
+      "source": "Relax resolution checks for HUDless by 32 pixels \\n",
+      "target": "将 HUDless 分辨率检查的容差放宽 32 像素\\n"
+    },
+    {
+      "index": 893,
+      "line": 4791,
+      "source": "Helps games which use black borders for some \\n",
+      "target": "有助于某些分辨率和宽高比下使用黑边的\\n"
+    },
+    {
+      "index": 894,
+      "line": 4792,
+      "source": "resolutions and screen ratios (e.g. Witcher 3)",
+      "target": "游戏（如《巫师 3》）"
+    },
+    {
+      "index": 895,
+      "line": 4796,
+      "source": "FG Create List",
+      "target": "FG 创建列表"
+    },
+    {
+      "index": 896,
+      "line": 4805,
+      "source": "FG Use List",
+      "target": "FG 使用列表"
+    },
+    {
+      "index": 898,
+      "line": 4821,
+      "source": "Reset List",
+      "target": "重置列表"
+    },
+    {
+      "index": 900,
+      "line": 4833,
+      "source": "Tracking Settings",
+      "target": "跟踪设置"
+    },
+    {
+      "index": 901,
+      "line": 4836,
+      "source": "Always Track Heaps",
+      "target": "始终跟踪堆"
+    },
+    {
+      "index": 903,
+      "line": 4842,
+      "source": "Always track resources, might cause performance issues\\n, but also might ",
+      "target": "始终跟踪资源，可能影响性能，\\n但也可能"
+    },
+    {
+      "index": 904,
+      "line": 4843,
+      "source": "fix HUDFix related crashes!",
+      "target": "修复 HUDFix 相关崩溃！"
+    },
+    {
+      "index": 905,
+      "line": 4846,
+      "source": "Disable RTV Tracking",
+      "target": "禁用 RTV 跟踪"
+    },
+    {
+      "index": 906,
+      "line": 4848,
+      "source": "Disable tracking of CreateRenderTargetView\\n",
+      "target": "禁用 CreateRenderTargetView 跟踪\\n"
+    },
+    {
+      "index": 907,
+      "line": 4849,
+      "source": "This might help filtering of wrong HUDless resources",
+      "target": "这可能有助于过滤错误的 HUDless 资源"
+    },
+    {
+      "index": 908,
+      "line": 4854,
+      "source": "Disable SRV Tracking",
+      "target": "禁用 SRV 跟踪"
+    },
+    {
+      "index": 909,
+      "line": 4856,
+      "source": "Disable tracking of CreateShaderResourceView\\n",
+      "target": "禁用 CreateShaderResourceView 跟踪\\n"
+    },
+    {
+      "index": 910,
+      "line": 4857,
+      "source": "This might help filtering of wrong HUDless resources",
+      "target": "这可能有助于过滤错误的 HUDless 资源"
+    },
+    {
+      "index": 911,
+      "line": 4860,
+      "source": "Disable UAV Tracking",
+      "target": "禁用 UAV 跟踪"
+    },
+    {
+      "index": 912,
+      "line": 4862,
+      "source": "Disable tracking of CreateUnorderedAccessView\\n",
+      "target": "禁用 CreateUnorderedAccessView 跟踪\\n"
+    },
+    {
+      "index": 913,
+      "line": 4863,
+      "source": "This might help filtering of wrong HUDless resources",
+      "target": "这可能有助于过滤错误的 HUDless 资源"
+    },
+    {
+      "index": 914,
+      "line": 4868,
+      "source": "Disable OM Tracking",
+      "target": "禁用 OM 跟踪"
+    },
+    {
+      "index": 915,
+      "line": 4870,
+      "source": "Disable tracking of OMSetRenderTargets\\n",
+      "target": "禁用 OMSetRenderTargets 跟踪\\n"
+    },
+    {
+      "index": 916,
+      "line": 4871,
+      "source": "This might help filtering of wrong HUDless resources",
+      "target": "这可能有助于过滤错误的 HUDless 资源"
+    },
+    {
+      "index": 917,
+      "line": 4874,
+      "source": "Disable SCR Tracking",
+      "target": "禁用 SCR 跟踪"
+    },
+    {
+      "index": 918,
+      "line": 4876,
+      "source": "Disable tracking of SetComputeRootDescriptorTable\\n",
+      "target": "禁用 SetComputeRootDescriptorTable 跟踪\\n"
+    },
+    {
+      "index": 919,
+      "line": 4877,
+      "source": "This might help filtering of wrong HUDless resources",
+      "target": "这可能有助于过滤错误的 HUDless 资源"
+    },
+    {
+      "index": 920,
+      "line": 4882,
+      "source": "Disable SGR Tracking",
+      "target": "禁用 SGR 跟踪"
+    },
+    {
+      "index": 921,
+      "line": 4884,
+      "source": "Disable tracking of SetGraphicsRootDescriptorTable\\n",
+      "target": "禁用 SetGraphicsRootDescriptorTable 跟踪\\n"
+    },
+    {
+      "index": 922,
+      "line": 4885,
+      "source": "This might help filtering of wrong HUDless resources",
+      "target": "这可能有助于过滤错误的 HUDless 资源"
+    },
+    {
+      "index": 923,
+      "line": 4890,
+      "source": "Disable DI Tracking",
+      "target": "禁用 DI 跟踪"
+    },
+    {
+      "index": 924,
+      "line": 4892,
+      "source": "Disable tracking of DrawInstanced\\n",
+      "target": "禁用 DrawInstanced 跟踪\\n"
+    },
+    {
+      "index": 925,
+      "line": 4893,
+      "source": "This might help filtering of wrong HUDless resources",
+      "target": "这可能有助于过滤错误的 HUDless 资源"
+    },
+    {
+      "index": 926,
+      "line": 4898,
+      "source": "Disable DII Tracking",
+      "target": "禁用 DII 跟踪"
+    },
+    {
+      "index": 927,
+      "line": 4900,
+      "source": "Disable tracking of DrawIndexedInstanced\\n",
+      "target": "禁用 DrawIndexedInstanced 跟踪\\n"
+    },
+    {
+      "index": 928,
+      "line": 4901,
+      "source": "This might help filtering of wrong HUDless resources",
+      "target": "这可能有助于过滤错误的 HUDless 资源"
+    },
+    {
+      "index": 929,
+      "line": 4904,
+      "source": "Disable Dispatch Tracking",
+      "target": "禁用 Dispatch 跟踪"
+    },
+    {
+      "index": 930,
+      "line": 4906,
+      "source": "Disable tracking of Dispatch\\n",
+      "target": "禁用 Dispatch 跟踪\\n"
+    },
+    {
+      "index": 931,
+      "line": 4907,
+      "source": "This might help filtering of wrong HUDless resources",
+      "target": "这可能有助于过滤错误的 HUDless 资源"
+    },
+    {
+      "index": 932,
+      "line": 4914,
+      "source": "Resource Settings",
+      "target": "资源设置"
+    },
+    {
+      "index": 933,
+      "line": 4917,
+      "source": "FG Make MV Copies",
+      "target": "FG 复制运动向量"
+    },
+    {
+      "index": 934,
+      "line": 4919,
+      "source": "Make a copy of motion vectors to use with OptiFG\\n",
+      "target": "复制一份运动向量供 OptiFG 使用\\n"
+    },
+    {
+      "index": 935,
+      "line": 4920,
+      "source": "For preventing corruptions that might happen",
+      "target": "用于防止可能发生的损坏"
+    },
+    {
+      "index": 936,
+      "line": 4923,
+      "source": "FG Make Depth Copies",
+      "target": "FG 复制深度"
+    },
+    {
+      "index": 937,
+      "line": 4925,
+      "source": "Make a copy of depth to use with OptiFG\\n",
+      "target": "复制一份深度供 OptiFG 使用\\n"
+    },
+    {
+      "index": 938,
+      "line": 4926,
+      "source": "For preventing corruptions that might happen",
+      "target": "用于防止可能发生的损坏"
+    },
+    {
+      "index": 939,
+      "line": 4930,
+      "source": "FG Scale Depth Max",
+      "target": "FG 深度缩放最大值"
+    },
+    {
+      "index": 941,
+      "line": 4932,
+      "source": "Depth values will be divided to this value",
+      "target": "深度值将除以此值"
+    },
+    {
+      "index": 942,
+      "line": 4939,
+      "source": "Syncing Settings",
+      "target": "同步设置"
+    },
+    {
+      "index": 943,
+      "line": 4942,
+      "source": "FG Use Mutex for Present",
+      "target": "FG 呈现时使用互斥锁"
+    },
+    {
+      "index": 944,
+      "line": 4944,
+      "source": "Use mutex to prevent desync of FG and crashes\\n",
+      "target": "使用互斥锁防止 FG 不同步和崩溃\\n"
+    },
+    {
+      "index": 945,
+      "line": 4945,
+      "source": "Disabling might improve the perf but decrease stability",
+      "target": "禁用可能提高性能，但会降低稳定性"
+    },
+    {
+      "index": 946,
+      "line": 4956,
+      "source": "Upscaler is not active",
+      "target": "超分辨率未激活"
+    },
+    {
+      "index": 947,
+      "line": 4961,
+      "source": "amd_fidelityfx_dx12.dll is missing!",
+      "target": "缺少 amd_fidelityfx_dx12.dll！"
+    },
+    {
+      "index": 948,
+      "line": 4966,
+      "source": "libxess_fg.dll is missing!",
+      "target": "缺少 libxess_fg.dll！"
+    },
+    {
+      "index": 949,
+      "line": 4974,
+      "source": "Frame Generation (FSR3-FG via Nukem's DLSSG)",
+      "target": "帧生成（通过 Nukem 的 DLSSG 使用 FSR3-FG）"
+    },
+    {
+      "index": 950,
+      "line": 4975,
+      "source": "Requires Nukem's dlssg_to_fsr3 dll\\nSelect DLSS-FG in-game",
+      "target": "需要 Nukem 的 dlssg_to_fsr3 DLL\\n请在游戏中选择 DLSS-FG"
+    },
+    {
+      "index": 951,
+      "line": 4979,
+      "source": "Please put dlssg_to_fsr3_amd_is_better.dll next to OptiScaler",
+      "target": "请将 dlssg_to_fsr3_amd_is_better.dll 放在 OptiScaler 旁"
+    },
+    {
+      "index": 952,
+      "line": 4983,
+      "source": "Reflex not hooked",
+      "target": "Reflex 未挂钩"
+    },
+    {
+      "index": 953,
+      "line": 4984,
+      "source": "If you are using an AMD/Intel GPU, then make sure you have Fakenvapi",
+      "target": "若使用 AMD/Intel GPU，请确保已安装 Fakenvapi"
+    },
+    {
+      "index": 954,
+      "line": 4988,
+      "source": "Please select DLSS Frame Generation in the game options\\n",
+      "target": "请在游戏选项中选择 DLSS 帧生成\\n"
+    },
+    {
+      "index": 955,
+      "line": 4989,
+      "source": "You might need to select DLSS first",
+      "target": "你可能需要先选择 DLSS"
+    },
+    {
+      "index": 956,
+      "line": 4994,
+      "source": "Current DLSSG state:",
+      "target": "当前 DLSSG 状态:"
+    },
+    {
+      "index": 957,
+      "line": 4997,
+      "source": "ON",
+      "target": "开启"
+    },
+    {
+      "index": 958,
+      "line": 4999,
+      "source": "OFF",
+      "target": "关闭"
+    },
+    {
+      "index": 959,
+      "line": 5002,
+      "source": "Fix broken visuals",
+      "target": "修复画面异常"
+    },
+    {
+      "index": 960,
+      "line": 5004,
+      "source": "Makes a copy of the depth buffer\\nCan fix broken visuals in some games on AMD ",
+      "target": "复制深度缓冲区\\n可修复 Windows 下 AMD GPU 上某些游戏的"
+    },
+    {
+      "index": 961,
+      "line": 5005,
+      "source": "GPUs under Windows\\nCan cause stutters, so best to use only when necessary",
+      "target": "画面异常\\n可能引起卡顿，因此最好仅在必要时使用"
+    },
+    {
+      "index": 962,
+      "line": 5010,
+      "source": "DLSSG is purposefully disabled when this menu is visible",
+      "target": "此菜单可见时会主动禁用 DLSSG"
+    },
+    {
+      "index": 963,
+      "line": 5018,
+      "source": "Enable Debug View",
+      "target": "启用调试视图"
+    },
+    {
+      "index": 964,
+      "line": 5022,
+      "source": "Interpolated frames only",
+      "target": "仅插值帧"
+    },
+    {
+      "index": 965,
+      "line": 5029,
+      "source": "Enable Debug View",
+      "target": "启用调试视图"
+    },
+    {
+      "index": 966,
+      "line": 5041,
+      "source": "Frame Generation (FSR-FG Inputs)",
+      "target": "帧生成（FSR-FG 输入）"
+    },
+    {
+      "index": 967,
+      "line": 5041,
+      "source": "Select FSR-FG in-game",
+      "target": "请在游戏中选择 FSR-FG"
+    },
+    {
+      "index": 968,
+      "line": 5046,
+      "source": "Current FSR-FG state:",
+      "target": "当前 FSR-FG 状态:"
+    },
+    {
+      "index": 969,
+      "line": 5051,
+      "source": "ON",
+      "target": "开启"
+    },
+    {
+      "index": 970,
+      "line": 5053,
+      "source": "ACTIVATE FG",
+      "target": "激活 FG"
+    },
+    {
+      "index": 971,
+      "line": 5057,
+      "source": "OFF",
+      "target": "关闭"
+    },
+    {
+      "index": 972,
+      "line": 5058,
+      "source": "Please select FSR Frame Generation in the game options\\n",
+      "target": "请在游戏选项中选择 FSR 帧生成\\n"
+    },
+    {
+      "index": 973,
+      "line": 5059,
+      "source": "You might need to select FSR first",
+      "target": "你可能需要先选择 FSR"
+    },
+    {
+      "index": 974,
+      "line": 5064,
+      "source": "Skip Config for HUDless",
+      "target": "跳过 Config 的 HUDless"
+    },
+    {
+      "index": 975,
+      "line": 5067,
+      "source": "Do not use HUDless set at ffxConfig",
+      "target": "不使用在 ffxConfig 中设置的 HUDless"
+    },
+    {
+      "index": 976,
+      "line": 5072,
+      "source": "Skip Dispatch for HUDless",
+      "target": "跳过 Dispatch 的 HUDless"
+    },
+    {
+      "index": 977,
+      "line": 5075,
+      "source": "Do not use HUDless set at ffxDispatch",
+      "target": "不使用在 ffxDispatch 中设置的 HUDless"
+    },
+    {
+      "index": 978,
+      "line": 5082,
+      "source": "Frame Generation (Streamline FG Inputs)",
+      "target": "帧生成（Streamline FG 输入）"
+    },
+    {
+      "index": 979,
+      "line": 5082,
+      "source": "Select DLSS-FG in-game",
+      "target": "请在游戏中选择 DLSS-FG"
+    },
+    {
+      "index": 980,
+      "line": 5088,
+      "source": "Reflex not hooked",
+      "target": "Reflex 未挂钩"
+    },
+    {
+      "index": 981,
+      "line": 5089,
+      "source": "If you are using an AMD/Intel GPU, then make sure you have fakenvapi",
+      "target": "若使用 AMD/Intel GPU，请确保已安装 fakenvapi"
+    },
+    {
+      "index": 982,
+      "line": 5093,
+      "source": "Current Streamline FG state:",
+      "target": "当前 Streamline FG 状态:"
+    },
+    {
+      "index": 983,
+      "line": 5098,
+      "source": "ON",
+      "target": "开启"
+    },
+    {
+      "index": 984,
+      "line": 5100,
+      "source": "ACTIVATE FG",
+      "target": "激活 FG"
+    },
+    {
+      "index": 985,
+      "line": 5104,
+      "source": "OFF",
+      "target": "关闭"
+    },
+    {
+      "index": 986,
+      "line": 5105,
+      "source": "Please select DLSS Frame Generation in the game options\\n",
+      "target": "请在游戏选项中选择 DLSS 帧生成\\n"
+    },
+    {
+      "index": 987,
+      "line": 5106,
+      "source": "You might need to select DLSS first",
+      "target": "你可能需要先选择 DLSS"
+    },
+    {
+      "index": 989,
+      "line": 5117,
+      "source": "FSR Common Settings",
+      "target": "FSR 通用设置"
+    },
+    {
+      "index": 990,
+      "line": 5117,
+      "source": "Affects both FSR-FG & Upscalers",
+      "target": "同时影响 FSR-FG 和超分辨率"
+    },
+    {
+      "index": 991,
+      "line": 5120,
+      "source": "Use FSR Input Values",
+      "target": "使用 FSR 输入值"
+    },
+    {
+      "index": 992,
+      "line": 5124,
+      "source": "FoV & Camera Values",
+      "target": "视野与相机参数"
+    },
+    {
+      "index": 993,
+      "line": 5139,
+      "source": "Use Vert. Fov",
+      "target": "使用垂直视野"
+    },
+    {
+      "index": 994,
+      "line": 5148,
+      "source": "Use Horz. Fov",
+      "target": "使用水平视野"
+    },
+    {
+      "index": 995,
+      "line": 5157,
+      "source": "Vert. FOV",
+      "target": "垂直 FOV"
+    },
+    {
+      "index": 997,
+      "line": 5160,
+      "source": "Might help achieve better image quality",
+      "target": "可能有助于改善画质"
+    },
+    {
+      "index": 998,
+      "line": 5164,
+      "source": "Horz. FOV",
+      "target": "水平 FOV"
+    },
+    {
+      "index": 1000,
+      "line": 5167,
+      "source": "Might help achieve better image quality",
+      "target": "可能有助于改善画质"
+    },
+    {
+      "index": 1001,
+      "line": 5176,
+      "source": "Camera Near",
+      "target": "相机近裁剪面"
+    },
+    {
+      "index": 1003,
+      "line": 5178,
+      "source": "Might help achieve better image quality\\n",
+      "target": "可能有助于改善画质\\n"
+    },
+    {
+      "index": 1004,
+      "line": 5179,
+      "source": "And potentially less ghosting",
+      "target": "并可能减少拖影"
+    },
+    {
+      "index": 1005,
+      "line": 5181,
+      "source": "Camera Far",
+      "target": "相机远裁剪面"
+    },
+    {
+      "index": 1007,
+      "line": 5183,
+      "source": "Might help achieve better image quality\\n",
+      "target": "可能有助于改善画质\\n"
+    },
+    {
+      "index": 1008,
+      "line": 5184,
+      "source": "And potentially less ghosting",
+      "target": "并可能减少拖影"
+    },
+    {
+      "index": 1009,
+      "line": 5186,
+      "source": "Reset Camera Values",
+      "target": "重置相机参数"
+    },
+    {
+      "index": 1010,
+      "line": 5195,
+      "source": "Near: %.1f Far: %.1f",
+      "target": "近: %.1f 远: %.1f"
+    },
+    {
+      "index": 1011,
+      "line": 5209,
+      "source": "Framerate",
+      "target": "帧率"
+    },
+    {
+      "index": 1012,
+      "line": 5210,
+      "source": "Uses Reflex when possible\\nOn AMD/Intel cards, you can use Fakenvapi to substitute Reflex",
+      "target": "尽可能使用 Reflex\\n在 AMD/Intel 显卡上，可用 Fakenvapi 替代 Reflex"
+    },
+    {
+      "index": 1017,
+      "line": 5232,
+      "source": "Using RTSS Reflex injection with AntiLag 2 and FSR FG might cause issues",
+      "target": "同时使用 RTSS Reflex 注入、AntiLag 2 和 FSR FG 可能导致问题"
+    },
+    {
+      "index": 1019,
+      "line": 5241,
+      "source": "Fallback",
+      "target": "回退"
+    },
+    {
+      "index": 1021,
+      "line": 5247,
+      "source": "Current method: %s",
+      "target": "当前方式: %s"
+    },
+    {
+      "index": 1022,
+      "line": 5252,
+      "source": "Using Reflex's limit with OptiFG has performance overhead",
+      "target": "OptiFG 使用 Reflex 限帧会有性能开销"
+    },
+    {
+      "index": 1023,
+      "line": 5261,
+      "source": "FPS Limit",
+      "target": "FPS 上限"
+    },
+    {
+      "index": 1025,
+      "line": 5263,
+      "source": "Apply Limit",
+      "target": "应用上限"
+    },
+    {
+      "index": 1026,
+      "line": 5270,
+      "source": "Reset Limit",
+      "target": "重置上限"
+    },
+    {
+      "index": 1027,
+      "line": 5277,
+      "source": "VRR Frame Cap Calculator",
+      "target": "VRR 帧率上限计算器"
+    },
+    {
+      "index": 1028,
+      "line": 5283,
+      "source": "Refresh Rate",
+      "target": "刷新率"
+    },
+    {
+      "index": 1029,
+      "line": 5295,
+      "source": "Calculated Cap: %.1f",
+      "target": "计算的上限: %.1f"
+    },
+    {
+      "index": 1030,
+      "line": 5299,
+      "source": "Set as FPS Limit",
+      "target": "设为 FPS 上限"
+    },
+    {
+      "index": 1032,
+      "line": 5313,
+      "source": "Enable Logging To File",
+      "target": "启用文件日志"
+    },
+    {
+      "index": 1033,
+      "line": 5320,
+      "source": "Enable Trace Logs",
+      "target": "启用 Trace 日志"
+    },
+    {
+      "index": 1034,
+      "line": 5326,
+      "source": "Force LatencyFlex",
+      "target": "强制 LatencyFlex"
+    },
+    {
+      "index": 1035,
+      "line": 5328,
+      "source": "By default, AntiLag 2/XeLL is used when available.\\n",
+      "target": "默认优先使用可用的 AntiLag 2/XeLL。\\n"
+    },
+    {
+      "index": 1036,
+      "line": 5329,
+      "source": "This setting lets you force LatencyFlex instead",
+      "target": "此设置可改为强制使用 LatencyFlex"
+    },
+    {
+      "index": 1037,
+      "line": 5333,
+      "source": "Conservative",
+      "target": "保守"
+    },
+    {
+      "index": 1038,
+      "line": 5334,
+      "source": "The safest, but might not reduce latency well",
+      "target": "最安全，但降低延迟的效果可能不佳"
+    },
+    {
+      "index": 1039,
+      "line": 5335,
+      "source": "Aggressive",
+      "target": "激进"
+    },
+    {
+      "index": 1040,
+      "line": 5336,
+      "source": "Improves latency, but in some cases will lower FPS more than expected",
+      "target": "改善延迟，但某些情况下 FPS 下降可能超出预期"
+    },
+    {
+      "index": 1042,
+      "line": 5338,
+      "source": "Best when can be used, some games are not compatible (e.g. Cyberpunk)\\n",
+      "target": "可用时效果最佳，但某些游戏不兼容（如《赛博朋克》），\\n"
+    },
+    {
+      "index": 1043,
+      "line": 5339,
+      "source": "and will fallback to Aggressive",
+      "target": "此时会回退到激进模式"
+    },
+    {
+      "index": 1044,
+      "line": 5342,
+      "source": "LatencyFlex mode",
+      "target": "LatencyFlex 模式"
+    },
+    {
+      "index": 1045,
+      "line": 5344,
+      "source": "Follow in-game",
+      "target": "跟随游戏设置"
+    },
+    {
+      "index": 1046,
+      "line": 5345,
+      "source": "Force Disable",
+      "target": "强制禁用"
+    },
+    {
+      "index": 1047,
+      "line": 5346,
+      "source": "Force Enable",
+      "target": "强制启用"
+    },
+    {
+      "index": 1048,
+      "line": 5348,
+      "source": "Force Reflex",
+      "target": "强制 Reflex"
+    },
+    {
+      "index": 1049,
+      "line": 5351,
+      "source": "Apply##2",
+      "target": "应用##2"
+    },
+    {
+      "index": 1050,
+      "line": 5363,
+      "source": "Sharpness",
+      "target": "锐化"
+    },
+    {
+      "index": 1051,
+      "line": 5366,
+      "source": "Override",
+      "target": "覆盖"
+    },
+    {
+      "index": 1053,
+      "line": 5376,
+      "source": "Ignores the value sent by the game\\n",
+      "target": "忽略游戏传入的值，\\n"
+    },
+    {
+      "index": 1054,
+      "line": 5377,
+      "source": "and uses the value set below",
+      "target": "改用下方设置的值"
+    },
+    {
+      "index": 1055,
+      "line": 5383,
+      "source": "(Current: %.3f)",
+      "target": "（当前: %.3f）"
+    },
+    {
+      "index": 1056,
+      "line": 5385,
+      "source": "(Current: disabled)",
+      "target": "（当前: 已禁用）"
+    },
+    {
+      "index": 1057,
+      "line": 5391,
+      "source": "Sharpness",
+      "target": "锐化"
+    },
+    {
+      "index": 1060,
+      "line": 5408,
+      "source": "Enable RCAS/DA",
+      "target": "启用 RCAS/DA"
+    },
+    {
+      "index": 1061,
+      "line": 5411,
+      "source": "Enable OptiScaler's sharpening filter\\n",
+      "target": "启用 OptiScaler 的锐化滤镜\\n"
+    },
+    {
+      "index": 1062,
+      "line": 5412,
+      "source": "By default uses a sharpening value provided by the game\\n",
+      "target": "默认使用游戏提供的锐化值\\n"
+    },
+    {
+      "index": 1063,
+      "line": 5413,
+      "source": "Select 'Override' under 'Sharpness' and adjust the slider\\n",
+      "target": "在“锐化”下选择“覆盖”并调整滑块\\n"
+    },
+    {
+      "index": 1064,
+      "line": 5414,
+      "source": "to change it\\n\\n",
+      "target": "即可更改锐化强度\\n\\n"
+    },
+    {
+      "index": 1065,
+      "line": 5415,
+      "source": "Some upscalers have their own sharpness filter, so this\\n",
+      "target": "某些超分辨率技术有自己的锐化滤镜，因此\\n"
+    },
+    {
+      "index": 1066,
+      "line": 5416,
+      "source": "option is not always needed",
+      "target": "不一定需要此选项"
+    },
+    {
+      "index": 1068,
+      "line": 5430,
+      "source": "Use AMD's RCAS\\n",
+      "target": "使用 AMD 的 RCAS\\n"
+    },
+    {
+      "index": 1069,
+      "line": 5431,
+      "source": "Modified to add Contrast parameter\\n",
+      "target": "经过修改，增加对比度参数\\n"
+    },
+    {
+      "index": 1070,
+      "line": 5432,
+      "source": "and MAS support",
+      "target": "和 MAS 支持"
+    },
+    {
+      "index": 1071,
+      "line": 5436,
+      "source": "Depth Aware (RCAS)",
+      "target": "深度感知（RCAS）"
+    },
+    {
+      "index": 1072,
+      "line": 5442,
+      "source": "Use Depth Aware Sharpening (RCAS)\\n",
+      "target": "使用深度感知锐化（RCAS）\\n"
+    },
+    {
+      "index": 1073,
+      "line": 5443,
+      "source": "Smarter sharpening with less artifacts,\\n",
+      "target": "更智能的锐化，伪影更少，\\n"
+    },
+    {
+      "index": 1074,
+      "line": 5444,
+      "source": "but also heavier\\n\\n",
+      "target": "但开销也更大\\n\\n"
+    },
+    {
+      "index": 1075,
+      "line": 5445,
+      "source": "The farther away is the object, the more\\n",
+      "target": "物体距离越远，\\n"
+    },
+    {
+      "index": 1076,
+      "line": 5446,
+      "source": "sharpening is applied",
+      "target": "施加的锐化越强"
+    },
+    {
+      "index": 1077,
+      "line": 5450,
+      "source": "Depth Aware (DAS)",
+      "target": "深度感知（DAS）"
+    },
+    {
+      "index": 1078,
+      "line": 5456,
+      "source": "Use Depth Aware Sharpening (DAS)\\n",
+      "target": "使用深度感知锐化（DAS）\\n"
+    },
+    {
+      "index": 1079,
+      "line": 5457,
+      "source": "Depth-aware directional adaptive luma sharpener\\n",
+      "target": "深度感知的方向自适应亮度锐化器\\n"
+    },
+    {
+      "index": 1080,
+      "line": 5458,
+      "source": "Smarter sharpening with less artifacts,\\n",
+      "target": "更智能的锐化，伪影更少，\\n"
+    },
+    {
+      "index": 1081,
+      "line": 5459,
+      "source": "but also heavier\\n\\n",
+      "target": "但开销也更大\\n\\n"
+    },
+    {
+      "index": 1082,
+      "line": 5460,
+      "source": "The farther away is the object, the more\\n",
+      "target": "物体距离越远，\\n"
+    },
+    {
+      "index": 1083,
+      "line": 5461,
+      "source": "sharpening is applied",
+      "target": "施加的锐化越强"
+    },
+    {
+      "index": 1084,
+      "line": 5466,
+      "source": "Enable Motion Adaptive Sharpness",
+      "target": "启用运动自适应锐化"
+    },
+    {
+      "index": 1085,
+      "line": 5468,
+      "source": "Enables sharpness adjustments according to the motion",
+      "target": "根据运动调整锐化强度"
+    },
+    {
+      "index": 1086,
+      "line": 5473,
+      "source": "Linear Depth",
+      "target": "线性深度"
+    },
+    {
+      "index": 1087,
+      "line": 5481,
+      "source": "Most games use non-linear depth, but\\n",
+      "target": "大多数游戏使用非线性深度，但\\n"
+    },
+    {
+      "index": 1088,
+      "line": 5482,
+      "source": "DLSS-D might need this option to be enabled.\\n",
+      "target": "DLSS-D 可能需要启用此选项。\\n"
+    },
+    {
+      "index": 1089,
+      "line": 5483,
+      "source": "Could be verified via Debug view",
+      "target": "可通过调试视图验证"
+    },
+    {
+      "index": 1090,
+      "line": 5488,
+      "source": "DA Debug",
+      "target": "DA 调试"
+    },
+    {
+      "index": 1091,
+      "line": 5491,
+      "source": "Enable DAS debug view\\n\\n",
+      "target": "启用 DAS 调试视图\\n\\n"
+    },
+    {
+      "index": 1092,
+      "line": 5492,
+      "source": "Blue tint for detected edges",
+      "target": "检测到的边缘显示为蓝色"
+    },
+    {
+      "index": 1093,
+      "line": 5494,
+      "source": "Advanced DA Parameters",
+      "target": "DA 高级参数"
+    },
+    {
+      "index": 1094,
+      "line": 5500,
+      "source": "Clamp Output",
+      "target": "钳制输出"
+    },
+    {
+      "index": 1095,
+      "line": 5509,
+      "source": "Clamps the final image to the [0, 1] range.\\n\\n",
+      "target": "将最终图像限制在 [0, 1] 范围。\\n\\n"
+    },
+    {
+      "index": 1096,
+      "line": 5510,
+      "source": "Prevents overshoot artifacts such as bright halos or negative colors.\\n",
+      "target": "防止亮光晕或负颜色值等过冲伪影。\\n"
+    },
+    {
+      "index": 1097,
+      "line": 5511,
+      "source": "Recommended for LDR pipelines; optional for HDR depending on tone-mapping.\\n\\n",
+      "target": "建议 LDR 管线启用；HDR 可根据色调映射情况选择。\\n\\n"
+    },
+    {
+      "index": 1098,
+      "line": 5512,
+      "source": "When not set OptiScaler controls it via upscalers HDR flag",
+      "target": "未设置时，OptiScaler 根据超分辨率 HDR 标志控制此项"
+    },
+    {
+      "index": 1099,
+      "line": 5517,
+      "source": "Depth Bias",
+      "target": "深度偏置"
+    },
+    {
+      "index": 1101,
+      "line": 5521,
+      "source": "Ignores small depth differences before edge detection.\\n\\n",
+      "target": "边缘检测前忽略细小深度差异。\\n\\n"
+    },
+    {
+      "index": 1102,
+      "line": 5522,
+      "source": "Higher values reduce flickering and noise from minor depth changes, but may ",
+      "target": "较高值可减少细小深度变化引起的闪烁和噪声，但可能"
+    },
+    {
+      "index": 1103,
+      "line": 5523,
+      "source": "soften real geometry edges.\\n",
+      "target": "使真实几何边缘变柔和。\\n"
+    },
+    {
+      "index": 1104,
+      "line": 5524,
+      "source": "Lower values preserve fine detail but can cause unstable or noisy edge ",
+      "target": "较低值可保留精细细节，但边缘检测可能不稳定或"
+    },
+    {
+      "index": 1105,
+      "line": 5525,
+      "source": "detection.",
+      "target": "带有噪声。"
+    },
+    {
+      "index": 1106,
+      "line": 5528,
+      "source": "Depth Scale",
+      "target": "深度缩放"
+    },
+    {
+      "index": 1108,
+      "line": 5532,
+      "source": "Controls how strongly sharpening is reduced across depth edges.\\n\\n",
+      "target": "控制跨深度边缘时降低锐化的强度。\\n\\n"
+    },
+    {
+      "index": 1109,
+      "line": 5533,
+      "source": "Higher values more aggressively prevent sharpening across object boundaries ",
+      "target": "较高值更强烈地阻止跨物体边界的锐化"
+    },
+    {
+      "index": 1110,
+      "line": 5534,
+      "source": "(reduces halos).\\n",
+      "target": "（减少光晕）。\\n"
+    },
+    {
+      "index": 1111,
+      "line": 5535,
+      "source": "Lower values allow more sharpening to pass across edges (sharper but ",
+      "target": "较低值允许更多锐化跨越边缘（更锐利，但"
+    },
+    {
+      "index": 1112,
+      "line": 5536,
+      "source": "riskier).",
+      "target": "风险更高）。"
+    },
+    {
+      "index": 1113,
+      "line": 5541,
+      "source": "Depth Bias",
+      "target": "深度偏置"
+    },
+    {
+      "index": 1115,
+      "line": 5545,
+      "source": "Ignores small depth differences before edge detection.\\n\\n",
+      "target": "边缘检测前忽略细小深度差异。\\n\\n"
+    },
+    {
+      "index": 1116,
+      "line": 5546,
+      "source": "Higher values reduce flickering and noise from minor depth changes, but may ",
+      "target": "较高值可减少细小深度变化引起的闪烁和噪声，但可能"
+    },
+    {
+      "index": 1117,
+      "line": 5547,
+      "source": "soften real geometry edges.\\n",
+      "target": "使真实几何边缘变柔和。\\n"
+    },
+    {
+      "index": 1118,
+      "line": 5548,
+      "source": "Lower values preserve fine detail but can cause unstable or noisy edge ",
+      "target": "较低值可保留精细细节，但边缘检测可能不稳定或"
+    },
+    {
+      "index": 1119,
+      "line": 5549,
+      "source": "detection.",
+      "target": "带有噪声。"
+    },
+    {
+      "index": 1120,
+      "line": 5552,
+      "source": "Depth Scale",
+      "target": "深度缩放"
+    },
+    {
+      "index": 1122,
+      "line": 5556,
+      "source": "Controls how strongly sharpening is reduced across depth edges.\\n\\n",
+      "target": "控制跨深度边缘时降低锐化的强度。\\n\\n"
+    },
+    {
+      "index": 1123,
+      "line": 5557,
+      "source": "Higher values more aggressively prevent sharpening across object boundaries ",
+      "target": "较高值更强烈地阻止跨物体边界的锐化"
+    },
+    {
+      "index": 1124,
+      "line": 5558,
+      "source": "(reduces halos).\\n",
+      "target": "（减少光晕）。\\n"
+    },
+    {
+      "index": 1125,
+      "line": 5559,
+      "source": "Lower values allow more sharpening to pass across edges (sharper but ",
+      "target": "较低值允许更多锐化跨越边缘（更锐利，但"
+    },
+    {
+      "index": 1126,
+      "line": 5560,
+      "source": "riskier).",
+      "target": "风险更高）。"
+    },
+    {
+      "index": 1127,
+      "line": 5563,
+      "source": "Reset Depth Values",
+      "target": "重置深度参数"
+    },
+    {
+      "index": 1128,
+      "line": 5573,
+      "source": "Contrast Enabled",
+      "target": "启用对比度调整"
+    },
+    {
+      "index": 1129,
+      "line": 5576,
+      "source": "Controls sharpness at high contrast areas.",
+      "target": "控制高对比度区域的锐化。"
+    },
+    {
+      "index": 1130,
+      "line": 5581,
+      "source": "Contrast",
+      "target": "对比度"
+    },
+    {
+      "index": 1132,
+      "line": 5584,
+      "source": "Lowers sharpness at high contrast areas.",
+      "target": "降低高对比度区域的锐化。"
+    },
+    {
+      "index": 1133,
+      "line": 5590,
+      "source": "Motion Adaptive Sharpness##2",
+      "target": "运动自适应锐化##2"
+    },
+    {
+      "index": 1134,
+      "line": 5600,
+      "source": "MAS Debug",
+      "target": "MAS 调试"
+    },
+    {
+      "index": 1135,
+      "line": 5602,
+      "source": "Areas that are more red will have more sharpness applied\\n",
+      "target": "越红的区域施加的锐化越强\\n"
+    },
+    {
+      "index": 1136,
+      "line": 5603,
+      "source": "Green areas will get reduced sharpness",
+      "target": "绿色区域会降低锐化"
+    },
+    {
+      "index": 1137,
+      "line": 5607,
+      "source": "MotionSharpness",
+      "target": "运动锐化强度"
+    },
+    {
+      "index": 1139,
+      "line": 5610,
+      "source": "Maximum amount of sharpness that motion can add or remove.\\n\\n",
+      "target": "运动可增加或减少的最大锐化量。\\n\\n"
+    },
+    {
+      "index": 1140,
+      "line": 5611,
+      "source": "Negative values reduce sharpening in motion (recommended).\\n",
+      "target": "负值会在运动时降低锐化（推荐）。\\n"
+    },
+    {
+      "index": 1141,
+      "line": 5612,
+      "source": "Positive values increase sharpening in motion.\\n\\n",
+      "target": "正值会在运动时增强锐化。\\n\\n"
+    },
+    {
+      "index": 1142,
+      "line": 5613,
+      "source": "The final adjustment scales with motion and is capped at this value.",
+      "target": "最终调整量随运动变化，并以此值为上限。"
+    },
+    {
+      "index": 1143,
+      "line": 5616,
+      "source": "MotionThreshod",
+      "target": "运动阈值"
+    },
+    {
+      "index": 1145,
+      "line": 5620,
+      "source": "Minimum motion required before motion-based sharpening adjustment begins.\\n\\n",
+      "target": "开始根据运动调整锐化所需的最小运动量。\\n\\n"
+    },
+    {
+      "index": 1146,
+      "line": 5621,
+      "source": "Higher values ignore small movements (more stable).\\n",
+      "target": "较高值忽略细小运动（更稳定）。\\n"
+    },
+    {
+      "index": 1147,
+      "line": 5622,
+      "source": "Lower values react to subtle motion (more sensitive).",
+      "target": "较低值响应轻微运动（更敏感）。"
+    },
+    {
+      "index": 1148,
+      "line": 5625,
+      "source": "MotionRange",
+      "target": "运动范围"
+    },
+    {
+      "index": 1150,
+      "line": 5629,
+      "source": "Defines the motion range over which the effect ramps from zero to full strength.\\n\\n",
+      "target": "定义效果从零逐渐达到最大强度所需的运动范围。\\n\\n"
+    },
+    {
+      "index": 1151,
+      "line": 5630,
+      "source": "Values above the threshold are mapped into this range.\\n",
+      "target": "超过阈值的数值会映射到此范围。\\n"
+    },
+    {
+      "index": 1152,
+      "line": 5631,
+      "source": "Larger values make the response smoother and more gradual.\\n",
+      "target": "较大值使响应更平滑、渐进。\\n"
+    },
+    {
+      "index": 1153,
+      "line": 5632,
+      "source": "Smaller values make the effect react more quickly and aggressively.",
+      "target": "较小值使响应更快速、强烈。"
+    },
+    {
+      "index": 1154,
+      "line": 5648,
+      "source": "Upscale Ratio Override",
+      "target": "覆盖超分辨率倍率"
+    },
+    {
+      "index": 1155,
+      "line": 5651,
+      "source": "Override all",
+      "target": "全部覆盖"
+    },
+    {
+      "index": 1156,
+      "line": 5658,
+      "source": "Overrides every upscaler preset with the set value\\n\\n",
+      "target": "用设定值覆盖所有超分辨率档位\\n\\n"
+    },
+    {
+      "index": 1157,
+      "line": 5659,
+      "source": "1.5x on a 1080p screen means an internal res of 720p\\n",
+      "target": "1080p 屏幕上使用 1.5 倍率，意味着内部渲染分辨率为 720p\\n"
+    },
+    {
+      "index": 1159,
+      "line": 5663,
+      "source": "Override per quality preset",
+      "target": "按质量档位覆盖"
+    },
+    {
+      "index": 1160,
+      "line": 5671,
+      "source": "Lets you override each preset's ratio individually\\n",
+      "target": "允许分别覆盖各档位的倍率\\n"
+    },
+    {
+      "index": 1161,
+      "line": 5672,
+      "source": "Note that not every game supports every quality preset\\n\\n",
+      "target": "并非每个游戏都支持全部质量档位\\n\\n"
+    },
+    {
+      "index": 1162,
+      "line": 5673,
+      "source": "1.5x on a 1080p screen means internal resolution of 720p\\n",
+      "target": "1080p 屏幕上使用 1.5 倍率，意味着内部渲染分辨率为 720p\\n"
+    },
+    {
+      "index": 1164,
+      "line": 5679,
+      "source": "All Ratios",
+      "target": "所有倍率"
+    },
+    {
+      "index": 1168,
+      "line": 5690,
+      "source": "Ultra Quality",
+      "target": "超高质量"
+    },
+    {
+      "index": 1170,
+      "line": 5694,
+      "source": "Quality",
+      "target": "质量"
+    },
+    {
+      "index": 1172,
+      "line": 5698,
+      "source": "Balanced",
+      "target": "平衡"
+    },
+    {
+      "index": 1174,
+      "line": 5702,
+      "source": "Performance",
+      "target": "性能"
+    },
+    {
+      "index": 1176,
+      "line": 5706,
+      "source": "Ultra Performance",
+      "target": "超级性能"
+    },
+    {
+      "index": 1178,
+      "line": 5719,
+      "source": "Output Scaling",
+      "target": "输出缩放"
+    },
+    {
+      "index": 1181,
+      "line": 5732,
+      "source": "Enable",
+      "target": "启用"
+    },
+    {
+      "index": 1182,
+      "line": 5735,
+      "source": "Upscales the image internally to a higher output resolution\\n",
+      "target": "在内部将图像放大至更高的输出分辨率，\\n"
+    },
+    {
+      "index": 1183,
+      "line": 5736,
+      "source": "then downscales it back to your display resolution\\n\\n",
+      "target": "再缩小回显示器分辨率\\n\\n"
+    },
+    {
+      "index": 1184,
+      "line": 5737,
+      "source": "Values <1.0 make the upscaler cheaper\\n",
+      "target": "小于 1.0 的值可降低超分辨率开销\\n"
+    },
+    {
+      "index": 1185,
+      "line": 5738,
+      "source": "Values >1.0 make image sharper at the cost of performance\\n\\n",
+      "target": "大于 1.0 的值可提升清晰度，但会损失性能\\n\\n"
+    },
+    {
+      "index": 1186,
+      "line": 5739,
+      "source": "If greyed out, please check Git Wiki - Unreal Engine tweaks\\n\\n",
+      "target": "若呈灰色，请查看 Git Wiki 的 Unreal Engine 调整说明\\n\\n"
+    },
+    {
+      "index": 1187,
+      "line": 5740,
+      "source": "Target res and total ratio at the bottom (max. total 3.0!)",
+      "target": "目标分辨率和总倍率见底部（总倍率最大 3.0！）"
+    },
+    {
+      "index": 1189,
+      "line": 5751,
+      "source": "Default option.\\nGood enough image quality and very fast.",
+      "target": "默认选项。\\n画质足够好，而且速度很快。"
+    },
+    {
+      "index": 1191,
+      "line": 5753,
+      "source": "Fastest traditional option.\\nProduces a very soft/blurry image, but might be okay for downscaling.",
+      "target": "最快的传统选项。\\n画面很柔和／模糊，但缩小图像时可能可以接受。"
+    },
+    {
+      "index": 1193,
+      "line": 5755,
+      "source": "Designed primarily for downscaling.\\nRetains good contrast with minimal artefacts, but softer than Lanczos.",
+      "target": "主要为缩小图像设计。\\n保留较好对比度，伪影很少，但比 Lanczos 更柔和。"
+    },
+    {
+      "index": 1195,
+      "line": 5757,
+      "source": "Lighter and faster than Lanczos3.\\nLess prone to ringing artefacts, but slightly blurrier.",
+      "target": "比 Lanczos3 更轻量、更快。\\n较少出现振铃伪影，但略模糊。"
+    },
+    {
+      "index": 1197,
+      "line": 5759,
+      "source": "Heavier version of Lanczos2.\\nOffers the sharpest image, but is the most prone to ringing.\\nConsidered the best along with Kaiser3.",
+      "target": "Lanczos2 的高开销版本。\\n画面最锐利，但最容易出现振铃。\\n与 Kaiser3 一同被认为效果最佳。"
+    },
+    {
+      "index": 1199,
+      "line": 5761,
+      "source": "Similar to Lanczos2.\\nSmoother and less prone to artefacts than Lanczos, but slightly blurrier.",
+      "target": "类似 Lanczos2。\\n比 Lanczos 更平滑、伪影更少，但略模糊。"
+    },
+    {
+      "index": 1201,
+      "line": 5763,
+      "source": "Similar to Lanczos3.\\nFar less prone to artefacting than Lanczos3, but much heavier on the GPU.\\nConsidered the best along with Lanczos3.",
+      "target": "类似 Lanczos3。\\n比 Lanczos3 更不易产生伪影，但 GPU 开销大得多。\\n与 Lanczos3 一同被认为效果最佳。"
+    },
+    {
+      "index": 1203,
+      "line": 5765,
+      "source": "Specialised to prevent artifacts.\\nEliminates harsh halos for a natural look, but can appear extremely soft.",
+      "target": "专门用于防止伪影。\\n消除明显光晕，观感自然，但画面可能极其柔和。"
+    },
+    {
+      "index": 1204,
+      "line": 5771,
+      "source": "Only FSR1 and Bicubic are supported when Ratio is below 1.0.",
+      "target": "倍率低于 1.0 时仅支持 FSR1 和 Bicubic。"
+    },
+    {
+      "index": 1206,
+      "line": 5782,
+      "source": "Downscaler",
+      "target": "缩小滤镜"
+    },
+    {
+      "index": 1207,
+      "line": 5793,
+      "source": "Apply Change",
+      "target": "应用更改"
+    },
+    {
+      "index": 1210,
+      "line": 5814,
+      "source": "Ratio",
+      "target": "倍率"
+    },
+    {
+      "index": 1212,
+      "line": 5819,
+      "source": "Output Scaling is %s, Target Res: %dx%d (%.2f)\\nJitter Count: %d",
+      "target": "输出缩放: %s，目标分辨率: %dx%d (%.2f)\\n抖动采样次数: %d"
+    },
+    {
+      "index": 1213,
+      "line": 5820,
+      "source": "ENABLED",
+      "target": "已启用"
+    },
+    {
+      "index": 1214,
+      "line": 5820,
+      "source": "DISABLED",
+      "target": "已禁用"
+    },
+    {
+      "index": 1215,
+      "line": 5833,
+      "source": "Init Flags",
+      "target": "初始化标志"
+    },
+    {
+      "index": 1218,
+      "line": 5843,
+      "source": "Auto Exposure",
+      "target": "自动曝光"
+    },
+    {
+      "index": 1220,
+      "line": 5849,
+      "source": "Some Unreal Engine games need this\\n\\n",
+      "target": "某些 Unreal Engine 游戏需要此项\\n\\n"
+    },
+    {
+      "index": 1221,
+      "line": 5850,
+      "source": "Try using if colours flickering or\\n",
+      "target": "若颜色闪烁或物体出现\\n"
+    },
+    {
+      "index": 1222,
+      "line": 5851,
+      "source": "objects have ghosting trails",
+      "target": "拖影，可尝试启用"
+    },
+    {
+      "index": 1225,
+      "line": 5865,
+      "source": "Disable Reactive Mask",
+      "target": "禁用反应性遮罩"
+    },
+    {
+      "index": 1227,
+      "line": 5879,
+      "source": "Allows the use of a Reactive mask\\n",
+      "target": "允许使用反应性遮罩\\n"
+    },
+    {
+      "index": 1228,
+      "line": 5880,
+      "source": "Keep in mind that a Reactive mask sent to DLSS\\n",
+      "target": "请注意，发送给 DLSS 的反应性遮罩\\n"
+    },
+    {
+      "index": 1229,
+      "line": 5881,
+      "source": "will not produce a good image in combination with FSR/XeSS",
+      "target": "与 FSR/XeSS 配合时无法产生良好的图像"
+    },
+    {
+      "index": 1230,
+      "line": 5883,
+      "source": "Option disabled because the game doesn't provide a Reactive mask",
+      "target": "游戏未提供反应性遮罩，因此此选项已禁用"
+    },
+    {
+      "index": 1231,
+      "line": 5888,
+      "source": "Advanced Init Flags",
+      "target": "高级初始化标志"
+    },
+    {
+      "index": 1233,
+      "line": 5897,
+      "source": "Depth Inverted",
+      "target": "反向深度"
+    },
+    {
+      "index": 1235,
+      "line": 5903,
+      "source": "You shouldn't need to change it",
+      "target": "通常不需要更改此项"
+    },
+    {
+      "index": 1238,
+      "line": 5912,
+      "source": "Might help with purple hue in some games",
+      "target": "可能有助于解决某些游戏画面偏紫的问题"
+    },
+    {
+      "index": 1239,
+      "line": 5915,
+      "source": "Display Res. MV",
+      "target": "显示分辨率运动向量"
+    },
+    {
+      "index": 1241,
+      "line": 5930,
+      "source": "Mostly a fix for Unreal Engine games\\n",
+      "target": "主要用于修复 Unreal Engine 游戏\\n"
+    },
+    {
+      "index": 1242,
+      "line": 5931,
+      "source": "Top left part of the screen will be blurry",
+      "target": "屏幕左上部分会模糊"
+    },
+    {
+      "index": 1243,
+      "line": 5936,
+      "source": "Jitter Cancellation",
+      "target": "消除抖动偏移"
+    },
+    {
+      "index": 1245,
+      "line": 5942,
+      "source": "Fix for games that send motion data with preapplied jitter",
+      "target": "修复运动数据已预先应用抖动偏移的游戏"
+    },
+    {
+      "index": 1249,
+      "line": 5958,
+      "source": "React. Mask Bias",
+      "target": "反应性遮罩偏置"
+    },
+    {
+      "index": 1251,
+      "line": 5961,
+      "source": "Values above 0 activate usage of Reactive mask",
+      "target": "大于 0 的值会启用反应性遮罩"
+    },
+    {
+      "index": 1252,
+      "line": 5966,
+      "source": "Use Binary Reactive Mask",
+      "target": "使用二值反应性遮罩"
+    },
+    {
+      "index": 1253,
+      "line": 5985,
+      "source": "Active Quirks",
+      "target": "当前兼容性修正"
+    },
+    {
+      "index": 1255,
+      "line": 5999,
+      "source": "Advanced Settings",
+      "target": "高级设置"
+    },
+    {
+      "index": 1256,
+      "line": 6007,
+      "source": "Enable Extended Limits",
+      "target": "启用扩展范围"
+    },
+    {
+      "index": 1257,
+      "line": 6010,
+      "source": "Extended sliders limit for quality presets\\n\\n",
+      "target": "扩展质量档位滑块的范围\\n\\n"
+    },
+    {
+      "index": 1258,
+      "line": 6011,
+      "source": "Using this option changes resolution detection logic\\n",
+      "target": "此选项会改变分辨率检测逻辑，\\n"
+    },
+    {
+      "index": 1259,
+      "line": 6012,
+      "source": "and might cause issues and crashes!",
+      "target": "可能导致问题和崩溃！"
+    },
+    {
+      "index": 1260,
+      "line": 6016,
+      "source": "Use Precompiled Shaders",
+      "target": "使用预编译着色器"
+    },
+    {
+      "index": 1261,
+      "line": 6024,
+      "source": "DRS (Dynamic Resolution Scaling)",
+      "target": "DRS（动态分辨率缩放）"
+    },
+    {
+      "index": 1263,
+      "line": 6029,
+      "source": "Override Minimum",
+      "target": "覆盖最小值"
+    },
+    {
+      "index": 1264,
+      "line": 6031,
+      "source": "Fix for games ignoring official DRS limits",
+      "target": "修复忽略官方 DRS 限制的游戏"
+    },
+    {
+      "index": 1265,
+      "line": 6035,
+      "source": "Override Maximum",
+      "target": "覆盖最大值"
+    },
+    {
+      "index": 1266,
+      "line": 6037,
+      "source": "Fix for games ignoring official DRS limits",
+      "target": "修复忽略官方 DRS 限制的游戏"
+    },
+    {
+      "index": 1268,
+      "line": 6047,
+      "source": "Spoofing/Hooking",
+      "target": "伪装／挂钩"
+    },
+    {
+      "index": 1269,
+      "line": 6054,
+      "source": "DXGI Spoofing",
+      "target": "DXGI 伪装"
+    },
+    {
+      "index": 1270,
+      "line": 6058,
+      "source": "Enable Nvidia GPU spoofing for DXGI adapter\\n",
+      "target": "为 DXGI 适配器启用 Nvidia GPU 伪装\\n"
+    },
+    {
+      "index": 1271,
+      "line": 6059,
+      "source": "Detailed modifications available in the INI\\n\\n",
+      "target": "可在 INI 中进行详细调整\\n\\n"
+    },
+    {
+      "index": 1272,
+      "line": 6060,
+      "source": "After changing this option, please Save Settings.\\n",
+      "target": "更改此选项后，请保存设置。\\n"
+    },
+    {
+      "index": 1273,
+      "line": 6061,
+      "source": "It will be applied on next launch.",
+      "target": "将在下次启动时生效。"
+    },
+    {
+      "index": 1274,
+      "line": 6068,
+      "source": "VLK Spoofing",
+      "target": "VLK 伪装"
+    },
+    {
+      "index": 1275,
+      "line": 6072,
+      "source": "Enable Nvidia GPU spoofing for Vulkan\\n",
+      "target": "为 Vulkan 启用 Nvidia GPU 伪装\\n"
+    },
+    {
+      "index": 1276,
+      "line": 6073,
+      "source": "Detailed modifications available in the INI\\n\\n",
+      "target": "可在 INI 中进行详细调整\\n\\n"
+    },
+    {
+      "index": 1277,
+      "line": 6074,
+      "source": "After changing this option, please Save Settings.\\n",
+      "target": "更改此选项后，请保存设置。\\n"
+    },
+    {
+      "index": 1278,
+      "line": 6075,
+      "source": "It will be applied on next launch.",
+      "target": "将在下次启动时生效。"
+    },
+    {
+      "index": 1279,
+      "line": 6082,
+      "source": "VLK Extension Spoofing",
+      "target": "VLK 扩展伪装"
+    },
+    {
+      "index": 1280,
+      "line": 6086,
+      "source": "Enable Nvidia Extension spoofing for Vulkan\\n",
+      "target": "为 Vulkan 启用 Nvidia 扩展伪装\\n"
+    },
+    {
+      "index": 1281,
+      "line": 6087,
+      "source": "Detailed modifications available in the INI\\n\\n",
+      "target": "可在 INI 中进行详细调整\\n\\n"
+    },
+    {
+      "index": 1282,
+      "line": 6088,
+      "source": "After changing this option, please Save Settings.\\n",
+      "target": "更改此选项后，请保存设置。\\n"
+    },
+    {
+      "index": 1283,
+      "line": 6089,
+      "source": "It will be applied on next launch.",
+      "target": "将在下次启动时生效。"
+    },
+    {
+      "index": 1284,
+      "line": 6095,
+      "source": "Ntdll Hooks",
+      "target": "Ntdll 挂钩"
+    },
+    {
+      "index": 1285,
+      "line": 6099,
+      "source": "Only hook ntdll.dll methods\\n",
+      "target": "仅挂钩 ntdll.dll 方法\\n"
+    },
+    {
+      "index": 1286,
+      "line": 6100,
+      "source": "Disable for switching back to kernel hooks\\n\\n",
+      "target": "禁用可切回 kernel 挂钩\\n\\n"
+    },
+    {
+      "index": 1287,
+      "line": 6101,
+      "source": "After changing this option, please Save Settings.\\n",
+      "target": "更改此选项后，请保存设置。\\n"
+    },
+    {
+      "index": 1288,
+      "line": 6102,
+      "source": "It will be applied on next launch.",
+      "target": "将在下次启动时生效。"
+    },
+    {
+      "index": 1289,
+      "line": 6107,
+      "source": "Disable Overlays",
+      "target": "禁用叠加层"
+    },
+    {
+      "index": 1290,
+      "line": 6111,
+      "source": "Disable supported overlays (autoenabled with OptiFG)\\n",
+      "target": "禁用支持的叠加层（使用 OptiFG 时自动启用）\\n"
+    },
+    {
+      "index": 1291,
+      "line": 6112,
+      "source": "Including Steam Input (controller issues)\\n\\n",
+      "target": "包括 Steam Input（控制器问题）\\n\\n"
+    },
+    {
+      "index": 1292,
+      "line": 6113,
+      "source": "After changing this option, please Save Settings.\\n",
+      "target": "更改此选项后，请保存设置。\\n"
+    },
+    {
+      "index": 1293,
+      "line": 6114,
+      "source": "It will be applied on next launch.",
+      "target": "将在下次启动时生效。"
+    },
+    {
+      "index": 1294,
+      "line": 6121,
+      "source": "Manual Input Polling",
+      "target": "手动轮询输入"
+    },
+    {
+      "index": 1295,
+      "line": 6126,
+      "source": "Use manual input polling instead of hooking WndProc\\n",
+      "target": "使用手动输入轮询，而非挂钩 WndProc\\n"
+    },
+    {
+      "index": 1296,
+      "line": 6127,
+      "source": "Might help games which do not capture inputs properly\\n",
+      "target": "可能有助于解决某些游戏不能正确捕获输入的问题\\n"
+    },
+    {
+      "index": 1297,
+      "line": 6128,
+      "source": "As a downside, it will not be able to block inputs when menu is open\\n\\n",
+      "target": "缺点是菜单打开时无法阻止游戏接收输入\\n\\n"
+    },
+    {
+      "index": 1298,
+      "line": 6129,
+      "source": "After changing this option, please Save Settings.\\n",
+      "target": "更改此选项后，请保存设置。\\n"
+    },
+    {
+      "index": 1299,
+      "line": 6130,
+      "source": "It will be applied on next launch.",
+      "target": "将在下次启动时生效。"
+    },
+    {
+      "index": 1300,
+      "line": 6136,
+      "source": "Plugins/Misc",
+      "target": "插件／其他"
+    },
+    {
+      "index": 1301,
+      "line": 6143,
+      "source": "Load ASI plugins",
+      "target": "加载 ASI 插件"
+    },
+    {
+      "index": 1302,
+      "line": 6147,
+      "source": "Let OptiScaler load *.asi files from plugins folder\\n\\n",
+      "target": "允许 OptiScaler 从 plugins 文件夹加载 *.asi 文件\\n\\n"
+    },
+    {
+      "index": 1303,
+      "line": 6148,
+      "source": "After changing this option, please Save Settings.\\n",
+      "target": "更改此选项后，请保存设置。\\n"
+    },
+    {
+      "index": 1304,
+      "line": 6149,
+      "source": "It will be applied on next launch.",
+      "target": "将在下次启动时生效。"
+    },
+    {
+      "index": 1305,
+      "line": 6154,
+      "source": "Disable Splash message",
+      "target": "禁用启动提示"
+    },
+    {
+      "index": 1306,
+      "line": 6158,
+      "source": "Disables Startup Splash message (bottom left corner)\\n\\n",
+      "target": "禁用左下角的启动提示\\n\\n"
+    },
+    {
+      "index": 1307,
+      "line": 6159,
+      "source": "After changing this option, please Save Settings.\\n",
+      "target": "更改此选项后，请保存设置。\\n"
+    },
+    {
+      "index": 1308,
+      "line": 6160,
+      "source": "It will be applied on next launch.",
+      "target": "将在下次启动时生效。"
+    },
+    {
+      "index": 1309,
+      "line": 6167,
+      "source": "Check for Update",
+      "target": "检查更新"
+    },
+    {
+      "index": 1310,
+      "line": 6171,
+      "source": "Enable checking Github for latest version\\n",
+      "target": "允许检查 GitHub 上的最新版本\\n"
+    },
+    {
+      "index": 1311,
+      "line": 6172,
+      "source": "Only works on stable/final releases\\n\\n",
+      "target": "仅适用于稳定／正式版本\\n\\n"
+    },
+    {
+      "index": 1312,
+      "line": 6173,
+      "source": "After changing this option, please Save Settings.\\n",
+      "target": "更改此选项后，请保存设置。\\n"
+    },
+    {
+      "index": 1313,
+      "line": 6174,
+      "source": "It will be applied on next launch.",
+      "target": "将在下次启动时生效。"
+    },
+    {
+      "index": 1314,
+      "line": 6180,
+      "source": "Resource Barriers",
+      "target": "资源屏障"
+    },
+    {
+      "index": 1315,
+      "line": 6185,
+      "source": "Color",
+      "target": "颜色"
+    },
+    {
+      "index": 1316,
+      "line": 6186,
+      "source": "Depth",
+      "target": "深度"
+    },
+    {
+      "index": 1317,
+      "line": 6187,
+      "source": "Motion",
+      "target": "运动"
+    },
+    {
+      "index": 1318,
+      "line": 6188,
+      "source": "Exposure",
+      "target": "曝光"
+    },
+    {
+      "index": 1319,
+      "line": 6189,
+      "source": "Mask",
+      "target": "遮罩"
+    },
+    {
+      "index": 1320,
+      "line": 6190,
+      "source": "Output",
+      "target": "输出"
+    },
+    {
+      "index": 1321,
+      "line": 6197,
+      "source": "Root Signatures",
+      "target": "根签名"
+    },
+    {
+      "index": 1322,
+      "line": 6203,
+      "source": "Restore Compute Root Signature",
+      "target": "恢复计算根签名"
+    },
+    {
+      "index": 1323,
+      "line": 6207,
+      "source": "Restore Graphic Root Signature",
+      "target": "恢复图形根签名"
+    },
+    {
+      "index": 1324,
+      "line": 6216,
+      "source": "Logging",
+      "target": "日志"
+    },
+    {
+      "index": 1325,
+      "line": 6228,
+      "source": "To File",
+      "target": "写入文件"
+    },
+    {
+      "index": 1326,
+      "line": 6236,
+      "source": "To Console",
+      "target": "输出到控制台"
+    },
+    {
+      "index": 1327,
+      "line": 6244,
+      "source": "Single File",
+      "target": "单一文件"
+    },
+    {
+      "index": 1328,
+      "line": 6250,
+      "source": "Trace",
+      "target": "跟踪"
+    },
+    {
+      "index": 1329,
+      "line": 6250,
+      "source": "Debug",
+      "target": "调试"
+    },
+    {
+      "index": 1330,
+      "line": 6250,
+      "source": "Information",
+      "target": "信息"
+    },
+    {
+      "index": 1331,
+      "line": 6250,
+      "source": "Warning",
+      "target": "警告"
+    },
+    {
+      "index": 1332,
+      "line": 6250,
+      "source": "Error",
+      "target": "错误"
+    },
+    {
+      "index": 1333,
+      "line": 6253,
+      "source": "Log Level",
+      "target": "日志级别"
+    },
+    {
+      "index": 1334,
+      "line": 6271,
+      "source": "Menu Theme and Colour",
+      "target": "菜单主题与颜色"
+    },
+    {
+      "index": 1335,
+      "line": 6303,
+      "source": "Light Theme",
+      "target": "浅色主题"
+    },
+    {
+      "index": 1336,
+      "line": 6309,
+      "source": "Accent Colour",
+      "target": "强调色"
+    },
+    {
+      "index": 1337,
+      "line": 6311,
+      "source": "Presets:",
+      "target": "预设:"
+    },
+    {
+      "index": 1338,
+      "line": 6330,
+      "source": "Blue",
+      "target": "蓝色"
+    },
+    {
+      "index": 1339,
+      "line": 6351,
+      "source": "Teal",
+      "target": "青色"
+    },
+    {
+      "index": 1340,
+      "line": 6372,
+      "source": "Gray",
+      "target": "灰色"
+    },
+    {
+      "index": 1341,
+      "line": 6393,
+      "source": "Yellow",
+      "target": "黄色"
+    },
+    {
+      "index": 1342,
+      "line": 6414,
+      "source": "Green",
+      "target": "绿色"
+    },
+    {
+      "index": 1343,
+      "line": 6435,
+      "source": "Red",
+      "target": "红色"
+    },
+    {
+      "index": 1344,
+      "line": 6456,
+      "source": "Orange",
+      "target": "橙色"
+    },
+    {
+      "index": 1345,
+      "line": 6477,
+      "source": "Purple",
+      "target": "紫色"
+    },
+    {
+      "index": 1346,
+      "line": 6495,
+      "source": "Custom Accent Colour",
+      "target": "自定义强调色"
+    },
+    {
+      "index": 1347,
+      "line": 6505,
+      "source": "Reset Accent Colour",
+      "target": "重置强调色"
+    },
+    {
+      "index": 1348,
+      "line": 6515,
+      "source": "Background Colour",
+      "target": "背景颜色"
+    },
+    {
+      "index": 1349,
+      "line": 6517,
+      "source": "Presets:",
+      "target": "预设:"
+    },
+    {
+      "index": 1350,
+      "line": 6525,
+      "source": "Blue##2",
+      "target": "蓝色##2"
+    },
+    {
+      "index": 1351,
+      "line": 6546,
+      "source": "Teal##2",
+      "target": "青色##2"
+    },
+    {
+      "index": 1352,
+      "line": 6567,
+      "source": "Gray##2",
+      "target": "灰色##2"
+    },
+    {
+      "index": 1353,
+      "line": 6588,
+      "source": "Yellow##2",
+      "target": "黄色##2"
+    },
+    {
+      "index": 1354,
+      "line": 6609,
+      "source": "Green##2",
+      "target": "绿色##2"
+    },
+    {
+      "index": 1355,
+      "line": 6630,
+      "source": "Red##2",
+      "target": "红色##2"
+    },
+    {
+      "index": 1356,
+      "line": 6651,
+      "source": "Orange##2",
+      "target": "橙色##2"
+    },
+    {
+      "index": 1357,
+      "line": 6672,
+      "source": "Purple##2",
+      "target": "紫色##2"
+    },
+    {
+      "index": 1358,
+      "line": 6690,
+      "source": "Custom BG Colour",
+      "target": "自定义背景色"
+    },
+    {
+      "index": 1359,
+      "line": 6701,
+      "source": "Background Alpha",
+      "target": "背景透明度"
+    },
+    {
+      "index": 1360,
+      "line": 6709,
+      "source": "Reset BG Colour",
+      "target": "重置背景色"
+    },
+    {
+      "index": 1361,
+      "line": 6723,
+      "source": "FPS Overlay",
+      "target": "FPS 叠加层"
+    },
+    {
+      "index": 1362,
+      "line": 6729,
+      "source": "FPS Overlay Enabled",
+      "target": "启用 FPS 叠加层"
+    },
+    {
+      "index": 1363,
+      "line": 6735,
+      "source": "Horizontal",
+      "target": "横向"
+    },
+    {
+      "index": 1364,
+      "line": 6738,
+      "source": "Top Left",
+      "target": "左上"
+    },
+    {
+      "index": 1365,
+      "line": 6738,
+      "source": "Top Right",
+      "target": "右上"
+    },
+    {
+      "index": 1366,
+      "line": 6738,
+      "source": "Bottom Left",
+      "target": "左下"
+    },
+    {
+      "index": 1367,
+      "line": 6738,
+      "source": "Bottom Right",
+      "target": "右下"
+    },
+    {
+      "index": 1368,
+      "line": 6741,
+      "source": "Overlay Position",
+      "target": "叠加层位置"
+    },
+    {
+      "index": 1369,
+      "line": 6752,
+      "source": "Just FPS",
+      "target": "仅 FPS"
+    },
+    {
+      "index": 1370,
+      "line": 6752,
+      "source": "Simple",
+      "target": "简洁"
+    },
+    {
+      "index": 1371,
+      "line": 6752,
+      "source": "Detailed",
+      "target": "详细"
+    },
+    {
+      "index": 1372,
+      "line": 6752,
+      "source": "Detailed + Graph",
+      "target": "详细 + 图表"
+    },
+    {
+      "index": 1373,
+      "line": 6753,
+      "source": "Full",
+      "target": "完整"
+    },
+    {
+      "index": 1374,
+      "line": 6753,
+      "source": "Full + Graph",
+      "target": "完整 + 图表"
+    },
+    {
+      "index": 1375,
+      "line": 6753,
+      "source": "Reflex timings",
+      "target": "Reflex 计时"
+    },
+    {
+      "index": 1376,
+      "line": 6756,
+      "source": "Overlay Type",
+      "target": "叠加层类型"
+    },
+    {
+      "index": 1377,
+      "line": 6768,
+      "source": "Background Alpha",
+      "target": "背景透明度"
+    },
+    {
+      "index": 1379,
+      "line": 6771,
+      "source": "Same as menu",
+      "target": "与菜单相同"
+    },
+    {
+      "index": 1396,
+      "line": 6777,
+      "source": "Scale",
+      "target": "缩放"
+    },
+    {
+      "index": 1397,
+      "line": 6791,
+      "source": "Upscaler Inputs",
+      "target": "超分辨率输入"
+    },
+    {
+      "index": 1398,
+      "line": 6802,
+      "source": "Use Fsr2 Inputs",
+      "target": "使用 Fsr2 输入"
+    },
+    {
+      "index": 1399,
+      "line": 6805,
+      "source": "Use Fsr2 Pattern Matching",
+      "target": "使用 Fsr2 模式匹配"
+    },
+    {
+      "index": 1400,
+      "line": 6807,
+      "source": "This setting will become active on next boot!",
+      "target": "此设置将在下次启动时生效！"
+    },
+    {
+      "index": 1401,
+      "line": 6815,
+      "source": "Use Fsr3 Inputs",
+      "target": "使用 Fsr3 输入"
+    },
+    {
+      "index": 1402,
+      "line": 6818,
+      "source": "Use Fsr3 Pattern Matching",
+      "target": "使用 Fsr3 模式匹配"
+    },
+    {
+      "index": 1403,
+      "line": 6820,
+      "source": "This setting will become active on next boot!",
+      "target": "此设置将在下次启动时生效！"
+    },
+    {
+      "index": 1404,
+      "line": 6827,
+      "source": "Use Ffx Inputs",
+      "target": "使用 Ffx 输入"
+    },
+    {
+      "index": 1405,
+      "line": 6837,
+      "source": "V-Sync Settings",
+      "target": "垂直同步设置"
+    },
+    {
+      "index": 1406,
+      "line": 6844,
+      "source": "Override Vsync",
+      "target": "覆盖垂直同步"
+    },
+    {
+      "index": 1408,
+      "line": 6849,
+      "source": "Force override the game's V-Sync settings.\\n\\n",
+      "target": "强制覆盖游戏的垂直同步设置。\\n\\n"
+    },
+    {
+      "index": 1409,
+      "line": 6850,
+      "source": "Useful for example when XeFG is locked to V-sync\\n",
+      "target": "例如，关闭垂直同步后 XeFG 仍被锁定在垂直同步\\n"
+    },
+    {
+      "index": 1410,
+      "line": 6851,
+      "source": "frame cap despite toggling Vsync off (e.g. Nioh 3)\\n\\n",
+      "target": "帧率上限时，此项可能有用（如《仁王 3》）\\n\\n"
+    },
+    {
+      "index": 1411,
+      "line": 6852,
+      "source": "After changing, please Save Settings and restart.",
+      "target": "更改后请保存设置并重启。"
+    },
+    {
+      "index": 1412,
+      "line": 6859,
+      "source": "V-Sync On",
+      "target": "垂直同步开"
+    },
+    {
+      "index": 1413,
+      "line": 6874,
+      "source": "V-Sync Off",
+      "target": "垂直同步关"
+    },
+    {
+      "index": 1415,
+      "line": 6894,
+      "source": "Sync Int.",
+      "target": "同步间隔"
+    },
+    {
+      "index": 1420,
+      "line": 6924,
+      "source": "Controls the DXGI Present sync interval, which determines how\\n",
+      "target": "控制 DXGI Present 同步间隔，决定\\n"
+    },
+    {
+      "index": 1421,
+      "line": 6925,
+      "source": "the swap chain waits for vertical refresh.\\n\\n",
+      "target": "交换链如何等待垂直刷新。\\n\\n"
+    },
+    {
+      "index": 1422,
+      "line": 6926,
+      "source": "0  = Present immediately, no VSync wait.\\n",
+      "target": "0  = 立即呈现，不等待垂直同步。\\n"
+    },
+    {
+      "index": 1423,
+      "line": 6927,
+      "source": "1  = Sync to every refresh, normal VSync.\\n",
+      "target": "1  = 每次刷新同步一次，普通垂直同步。\\n"
+    },
+    {
+      "index": 1424,
+      "line": 6928,
+      "source": "2+ = Present every N refreshes, reducing effective frame rate.\\n\\n",
+      "target": "2+ = 每 N 次刷新呈现一次，降低实际帧率。\\n\\n"
+    },
+    {
+      "index": 1425,
+      "line": 6929,
+      "source": "Higher values can reduce tearing but may increase latency and cap FPS.\\n",
+      "target": "较高值可减少撕裂，但可能增加延迟并限制 FPS。\\n"
+    },
+    {
+      "index": 1426,
+      "line": 6930,
+      "source": "For most games, use 0 for lowest latency or 1 for normal VSync.",
+      "target": "大多数游戏中，最低延迟用 0，普通垂直同步用 1。"
+    },
+    {
+      "index": 1427,
+      "line": 6935,
+      "source": "Reset##10",
+      "target": "重置##10"
+    },
+    {
+      "index": 1428,
+      "line": 6941,
+      "source": "Force V-Sync On/Off & Sync Interval options",
+      "target": "强制垂直同步开／关及同步间隔选项"
+    },
+    {
+      "index": 1430,
+      "line": 6953,
+      "source": "Mipmap Bias",
+      "target": "Mipmap 偏置"
+    },
+    {
+      "index": 1431,
+      "line": 6964,
+      "source": "Mipmap Bias##2",
+      "target": "Mipmap 偏置##2"
+    },
+    {
+      "index": 1433,
+      "line": 6965,
+      "source": "Can help with blurry textures in broken games\\n",
+      "target": "可改善某些异常游戏的纹理模糊问题\\n"
+    },
+    {
+      "index": 1434,
+      "line": 6966,
+      "source": "Negative values will make textures sharper\\n",
+      "target": "负值使纹理更锐利\\n"
+    },
+    {
+      "index": 1435,
+      "line": 6967,
+      "source": "Positive values will make textures more blurry\\n\\n",
+      "target": "正值使纹理更模糊\\n\\n"
+    },
+    {
+      "index": 1436,
+      "line": 6968,
+      "source": "Has a small performance impact",
+      "target": "有少量性能开销"
+    },
+    {
+      "index": 1437,
+      "line": 6976,
+      "source": "MB Fixed Override",
+      "target": "MB 固定值覆盖"
+    },
+    {
+      "index": 1438,
+      "line": 6982,
+      "source": "Apply same override value to all textures",
+      "target": "对全部纹理应用相同的覆盖值"
+    },
+    {
+      "index": 1439,
+      "line": 6992,
+      "source": "MB Scale Override",
+      "target": "MB 缩放覆盖"
+    },
+    {
+      "index": 1440,
+      "line": 6998,
+      "source": "Apply override value as scale multiplier\\n",
+      "target": "将覆盖值用作缩放倍率\\n"
+    },
+    {
+      "index": 1441,
+      "line": 6999,
+      "source": "When using scale mode, please use positive\\n",
+      "target": "使用缩放模式时，请使用正的\\n"
+    },
+    {
+      "index": 1442,
+      "line": 7000,
+      "source": "override values to increase sharpness!",
+      "target": "覆盖值来提高清晰度！"
+    },
+    {
+      "index": 1443,
+      "line": 7005,
+      "source": "MB Override All Textures",
+      "target": "MB 覆盖全部纹理"
+    },
+    {
+      "index": 1444,
+      "line": 7008,
+      "source": "Override all textures mipmap values\\n",
+      "target": "覆盖全部纹理的 Mipmap 值\\n"
+    },
+    {
+      "index": 1445,
+      "line": 7009,
+      "source": "Normally OptiScaler only overrides\\n",
+      "target": "通常 OptiScaler 仅覆盖\\n"
+    },
+    {
+      "index": 1446,
+      "line": 7010,
+      "source": "below zero mipmap values!",
+      "target": "小于零的 Mipmap 值！"
+    },
+    {
+      "index": 1447,
+      "line": 7017,
+      "source": "Set",
+      "target": "设置"
+    },
+    {
+      "index": 1448,
+      "line": 7030,
+      "source": "Reset",
+      "target": "重置"
+    },
+    {
+      "index": 1449,
+      "line": 7044,
+      "source": "Calculate Mipmap Bias",
+      "target": "计算 Mipmap 偏置"
+    },
+    {
+      "index": 1450,
+      "line": 7052,
+      "source": "Current : %.3f / %.3f, Target: %.3f",
+      "target": "当前: %.3f / %.3f，目标: %.3f"
+    },
+    {
+      "index": 1451,
+      "line": 7057,
+      "source": "Current : %.3f / %.3f, Target: Base * %.3f",
+      "target": "当前: %.3f / %.3f，目标: 基准 * %.3f"
+    },
+    {
+      "index": 1452,
+      "line": 7062,
+      "source": "Current : %.3f / %.3f, Target: Base + %.3f",
+      "target": "当前: %.3f / %.3f，目标: 基准 + %.3f"
+    },
+    {
+      "index": 1453,
+      "line": 7068,
+      "source": "Current : %.3f / %.3f",
+      "target": "当前: %.3f / %.3f"
+    },
+    {
+      "index": 1454,
+      "line": 7071,
+      "source": "Will be applied after RESOLUTION/PRESET change !!!",
+      "target": "将在分辨率／预设更改后生效！！！"
+    },
+    {
+      "index": 1455,
+      "line": 7075,
+      "source": "Anisotropic Filtering",
+      "target": "各向异性过滤"
+    },
+    {
+      "index": 1456,
+      "line": 7087,
+      "source": "Auto",
+      "target": "自动"
+    },
+    {
+      "index": 1457,
+      "line": 7088,
+      "source": "Force Anisotropic Filtering",
+      "target": "强制各向异性过滤"
+    },
+    {
+      "index": 1458,
+      "line": 7090,
+      "source": "Auto",
+      "target": "自动"
+    },
+    {
+      "index": 1464,
+      "line": 7114,
+      "source": "Modify Compare",
+      "target": "修改比较过滤器"
+    },
+    {
+      "index": 1465,
+      "line": 7117,
+      "source": "Update comparison filters",
+      "target": "更新比较过滤器"
+    },
+    {
+      "index": 1466,
+      "line": 7122,
+      "source": "Modify Min/Max",
+      "target": "修改最小／最大过滤器"
+    },
+    {
+      "index": 1467,
+      "line": 7125,
+      "source": "Update min/max filters",
+      "target": "更新最小／最大过滤器"
+    },
+    {
+      "index": 1468,
+      "line": 7128,
+      "source": "Skip Point Filters",
+      "target": "跳过点过滤器"
+    },
+    {
+      "index": 1469,
+      "line": 7131,
+      "source": "Skip updating of point filters",
+      "target": "不更新点过滤器"
+    },
+    {
+      "index": 1470,
+      "line": 7133,
+      "source": "Will might be applied after RESOLUTION/PRESET change !!!",
+      "target": "可能在分辨率／预设更改后生效！！！"
+    },
+    {
+      "index": 1471,
+      "line": 7138,
+      "source": "Keybinds",
+      "target": "快捷键"
+    },
+    {
+      "index": 1472,
+      "line": 7143,
+      "source": "Key combinations are currently NOT supported!",
+      "target": "目前不支持组合键！"
+    },
+    {
+      "index": 1473,
+      "line": 7144,
+      "source": "Escape to cancel, Backspace to unbind",
+      "target": "按 Escape 取消，按 Backspace 解除绑定"
+    },
+    {
+      "index": 1474,
+      "line": 7147,
+      "source": "Menu",
+      "target": "菜单"
+    },
+    {
+      "index": 1475,
+      "line": 7148,
+      "source": "FPS Overlay",
+      "target": "FPS 叠加层"
+    },
+    {
+      "index": 1476,
+      "line": 7149,
+      "source": "FPS Overlay Cycle",
+      "target": "循环切换 FPS 叠加层"
+    },
+    {
+      "index": 1477,
+      "line": 7150,
+      "source": "Frame Generation",
+      "target": "帧生成"
+    },
+    {
+      "index": 1479,
+      "line": 7167,
+      "source": "FrameTime",
+      "target": "帧时间"
+    },
+    {
+      "index": 1481,
+      "line": 7176,
+      "source": "Upscaler",
+      "target": "超分辨率"
+    },
+    {
+      "index": 1485,
+      "line": 7210,
+      "source": "Auto",
+      "target": "自动"
+    },
+    {
+      "index": 1486,
+      "line": 7210,
+      "source": "Auto (%3.1f)",
+      "target": "自动 (%3.1f)"
+    },
+    {
+      "index": 1503,
+      "line": 7218,
+      "source": "Menu Scale",
+      "target": "菜单缩放"
+    },
+    {
+      "index": 1504,
+      "line": 7240,
+      "source": "Save Settings",
+      "target": "保存设置"
+    },
+    {
+      "index": 1505,
+      "line": 7245,
+      "source": "Close",
+      "target": "关闭"
+    },
+    {
+      "index": 1506,
+      "line": 7268,
+      "source": "Open Wiki (?)",
+      "target": "打开 Wiki (?)"
+    },
+    {
+      "index": 1507,
+      "line": 7277,
+      "source": "Open Wiki",
+      "target": "打开 Wiki"
+    },
+    {
+      "index": 1509,
+      "line": 7283,
+      "source": "Click to open the OptiScaler Wiki page\\nin your default browser\\n\\n",
+      "target": "点击在默认浏览器中打开\\nOptiScaler Wiki 页面\\n\\n"
+    },
+    {
+      "index": 1510,
+      "line": 7284,
+      "source": "Compatibility list with known game issues\\nand workarounds, FG options explained\\n",
+      "target": "包含已知游戏问题与解决方法的兼容性列表、\\nFG 选项说明，\\n"
+    },
+    {
+      "index": 1511,
+      "line": 7285,
+      "source": "and other useful info",
+      "target": "以及其他实用信息"
+    },
+    {
+      "index": 1512,
+      "line": 7295,
+      "source": "nvngx.ini detected, please move over to using OptiScaler.ini and delete the old config",
+      "target": "检测到 nvngx.ini，请改用 OptiScaler.ini 并删除旧配置"
+    },
+    {
+      "index": 1513,
+      "line": 7355,
+      "source": "Mipmap Bias",
+      "target": "Mipmap 偏置"
+    },
+    {
+      "index": 1514,
+      "line": 7360,
+      "source": "Display Width",
+      "target": "显示宽度"
+    },
+    {
+      "index": 1516,
+      "line": 7380,
+      "source": "Ultra Performance",
+      "target": "超级性能"
+    },
+    {
+      "index": 1517,
+      "line": 7380,
+      "source": "Performance",
+      "target": "性能"
+    },
+    {
+      "index": 1518,
+      "line": 7380,
+      "source": "Balanced",
+      "target": "平衡"
+    },
+    {
+      "index": 1519,
+      "line": 7381,
+      "source": "Quality",
+      "target": "质量"
+    },
+    {
+      "index": 1520,
+      "line": 7381,
+      "source": "Ultra Quality",
+      "target": "超高质量"
+    },
+    {
+      "index": 1522,
+      "line": 7389,
+      "source": "Upscaler Quality",
+      "target": "超分辨率质量"
+    },
+    {
+      "index": 1523,
+      "line": 7442,
+      "source": "Upscaler Ratio",
+      "target": "超分辨率倍率"
+    },
+    {
+      "index": 1525,
+      "line": 7448,
+      "source": "Render Width",
+      "target": "渲染宽度"
+    },
+    {
+      "index": 1527,
+      "line": 7451,
+      "source": "Mipmap Bias",
+      "target": "Mipmap 偏置"
+    },
+    {
+      "index": 1529,
+      "line": 7462,
+      "source": "Use Value",
+      "target": "使用此值"
+    },
+    {
+      "index": 1530,
+      "line": 7463,
+      "source": "Close",
+      "target": "关闭"
+    },
+    {
+      "index": 1531,
+      "line": 7469,
+      "source": "Use Value",
+      "target": "使用此值"
+    },
+    {
+      "index": 1532,
+      "line": 7477,
+      "source": "Close",
+      "target": "关闭"
+    },
+    {
+      "index": 1533,
+      "line": 7496,
+      "source": "HUDless Resources",
+      "target": "HUDless 资源"
+    },
+    {
+      "index": 1537,
+      "line": 7516,
+      "source": "%08x, %s->%s, Count: %llu, %s",
+      "target": "%08x, %s->%s, 次数: %llu, %s"
+    },
+    {
+      "index": 1538,
+      "line": 7519,
+      "source": "Active",
+      "target": "主动"
+    },
+    {
+      "index": 1539,
+      "line": 7519,
+      "source": "Passive",
+      "target": "被动"
+    },
+    {
+      "index": 1540,
+      "line": 7527,
+      "source": "Disable##%d",
+      "target": "禁用##%d"
+    },
+    {
+      "index": 1541,
+      "line": 7529,
+      "source": "Enable##%d",
+      "target": "启用##%d"
+    },
+    {
+      "index": 1545,
+      "line": 7542,
+      "source": "Clear##4",
+      "target": "清空##4"
+    },
+    {
+      "index": 1547,
+      "line": 7550,
+      "source": "Close##4",
+      "target": "关闭##4"
+    }
+  ],
+  "font_patches": [
+    {
+      "old": "#include \"font/Hack_Compressed.h\"",
+      "new": "#include \"font/Hack_Compressed.h\"\n#include \"font/zh_cn_font.h\""
+    },
+    {
+      "old": "    if (io.Fonts->Fonts.empty() && Config::Instance()->UseHQFont.value_or_default())\n    {\n        ImFontAtlas* atlas = io.Fonts;\n        atlas->Clear();\n\n        // This automatically becomes the next default font\n        ImFontConfig fontConfig;\n\n        if (Config::Instance()->FontSize.has_value())\n            fontSize = Config::Instance()->FontSize.value();\n\n        if (Config::Instance()->TTFFontPath.has_value())\n        {\n            io.FontDefault =\n                atlas->AddFontFromFileTTF(wstring_to_string(Config::Instance()->TTFFontPath.value()).c_str(), fontSize,\n                                          &fontConfig, io.Fonts->GetGlyphRangesDefault());\n        }\n        else\n        {\n            io.FontDefault = atlas->AddFontFromMemoryCompressedBase85TTF(hack_compressed_compressed_data_base85,\n                                                                         fontSize, &fontConfig);\n        }\n    }\n",
+      "new": "    if (io.Fonts->Fonts.empty())\n    {\n        ImFontAtlas* atlas = io.Fonts;\n        atlas->Clear();\n        ImFontConfig fontConfig;\n        const bool useHQFont = Config::Instance()->UseHQFont.value_or_default();\n\n        if (Config::Instance()->FontSize.has_value())\n            fontSize = Config::Instance()->FontSize.value();\n        if (!(fontSize > 0.0f))\n            fontSize = 14.0f;\n\n        io.FontDefault = nullptr;\n        if (useHQFont && Config::Instance()->TTFFontPath.has_value())\n            io.FontDefault = LoadZhCnFontFile(atlas, Config::Instance()->TTFFontPath.value(), fontSize, fontConfig);\n\n        // Keep a valid custom font, merging system glyphs for missing Chinese characters.\n        ImFontConfig chineseConfig = fontConfig;\n        chineseConfig.MergeMode = io.FontDefault != nullptr;\n        auto* chineseFont = LoadWindowsZhCnFont(atlas, fontSize, chineseConfig);\n        if (io.FontDefault == nullptr)\n            io.FontDefault = chineseFont;\n\n        // Missing/inaccessible/invalid fonts must not leave a null default font.\n        if (io.FontDefault == nullptr && useHQFont)\n            io.FontDefault = atlas->AddFontFromMemoryCompressedBase85TTF(hack_compressed_compressed_data_base85,\n                                                                         fontSize, &fontConfig);\n        if (io.FontDefault == nullptr)\n            io.FontDefault = atlas->AddFontDefault();\n    }\n"
+    },
+    {
+      "old": "\"默认\", \n",
+      "new": "\"默认\",\n"
+    }
+  ],
+  "support_hashes": {
+    "OptiScaler/menu/font/zh_cn_font.h": "509e08c7b16e76b990a4b321446a5077d80e0d1a6dda3d229639d4857152ad33"
+  }
+}
